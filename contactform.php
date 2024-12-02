@@ -13,8 +13,11 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $contactemail = $_POST['contactemail'] ?? '';
     $contactsubject = $_POST['contactsubject'] ?? '';
     $contactnumber = $_POST['contactnumber'] ?? '';
+    $contactproject = $_POST['contactproject'] ?? '';
 
     $contactmessage = $_POST['contactmessage'] ?? '';
+
+    
 
     // Create a new PHPMailer instance
     $mail = new PHPMailer(true);
@@ -24,14 +27,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'oncologyask@gmail.com'; // Your Gmail email address
-        $mail->Password = 'bixkgpnhcjyspthj'; // Your Gmail password
+        $mail->Username = 'ratnakarconstructions2007@gmail.com'; // Your Gmail email address
+        $mail->Password = 'fgvgcblsaamyguce'; // Your Gmail password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom('oncologyask@gmail.com', 'Ask-Oncologist.com'); // Your Gmail email and name
-        $mail->addAddress('oncologyask@gmail.com', 'Ask-Oncologist.com'); // Recipient's email and name
+        $mail->setFrom('ratnakarconstructions2007@gmail.com', 'ratnakar constructions'); // Your Gmail email and name
+        $mail->addAddress('ratnakarconstructions2007@gmail.com', 'ratnakar constructions'); // Recipient's email and name
 
         // Content
         $mail->isHTML(true);
@@ -43,6 +46,8 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <p><strong>Email:</strong> $contactemail</p>
             <p><strong>Subject:</strong> $contactsubject</p>
             <p><strong>Phone:</strong> $contactnumber</p>
+            <p><strong>Project:</strong> $contactproject</p>
+
             <p><strong>Message:</strong>$contactmessage</p>
         ";
 

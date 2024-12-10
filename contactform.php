@@ -27,14 +27,14 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'ratnakarconstructions2007@gmail.com'; // Your Gmail email address
-        $mail->Password = 'fgvgcblsaamyguce'; // Your Gmail password
+        $mail->Username = 'sairampenkey09@gmail.com'; // Your Gmail email address
+        $mail->Password = 'shvubaorkaeviigk'; // Your Gmail password
         $mail->SMTPSecure = 'tls';
         $mail->Port = 587;
 
         // Recipients
-        $mail->setFrom('ratnakarconstructions2007@gmail.com', 'ratnakar constructions'); // Your Gmail email and name
-        $mail->addAddress('ratnakarconstructions2007@gmail.com', 'ratnakar constructions'); // Recipient's email and name
+        $mail->setFrom('sairampenkey09@gmail.com', 'ratnakar constructions'); // Your Gmail email and name
+        $mail->addAddress('sairampenkey09@gmail.com', 'ratnakar constructions'); // Recipient's email and name
 
         // Content
         $mail->isHTML(true);
@@ -52,7 +52,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
         ";
 
         $mail->send();
-        echo '<script> window.alert("Message has been sent.\n\nPlease click OK."); window.location.href="index.php";</script>';
+        echo '<script> window.alert("Message has been sent.\n\nPlease click OK."); window.location.href="contact.html";</script>';
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }

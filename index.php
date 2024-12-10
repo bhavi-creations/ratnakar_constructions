@@ -1335,8 +1335,8 @@
                             <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Services</a>
                             <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> About Us</a>
                             <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Latest Projects</a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> testimonial</a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Our Team</a>
+                            <!-- <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> testimonial</a> -->
+                            <!-- <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Our Team</a> -->
                             <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Contact Us</a>
                         </div>
                     </div>
@@ -1401,7 +1401,7 @@
             </div>
         </div>
         <!-- Copyright End -->
-        <a href="https://api.whatsapp.com/send?phone=918406907980" style="color: #fff;" class="whatsapp-link" target="_blank">
+        <a href="https://api.whatsapp.com/send?phone=9848424956" style="color: #fff;" class="whatsapp-link" target="_blank">
                         <i class="fab fa-whatsapp"></i>
                     </a>
 

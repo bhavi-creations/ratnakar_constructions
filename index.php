@@ -3,7 +3,7 @@
 
     <head>
         <meta charset="utf-8">
-        <title>Ratnakar Constructions</title>
+        <title>RATNAKAR CONSTRUCTIONS</title>
         <meta content="width=device-width, initial-scale=1.0" name="viewport">
         <meta content="" name="keywords">
         <meta content="" name="description">
@@ -47,15 +47,15 @@
         <div class="container-fluid topbar d-none d-xl-block w-100">
             <div class="row gx-0 align-items-center" style="height: 45px;">
                 <div class="col-lg-6 text-center text-lg-start mb-lg-0">
-                    <div class="d-flex flex-wrap">
+                    <div class="d-flex flex-wrap  justify-content-start">
                         <a href="#" class=" me-4"><i class="fas fa-map-marker-alt fame me-2"></i>Find A Location</a>
-                        <a href="#" class=" me-4"><i class="fas fa-phone-alt fame me-2"></i>8999069990</a>
+                        <a href="#" class=" me-4"><i class="fas fa-phone-alt fame me-2"></i> 9848424956,8999069990</a>
                         <a href="#" class=" me-0"><i class="fas fa-envelope fame me-2"></i>ratnakarconstructions2007@gmail.com</a>
                     </div>
                 </div>
                 <div class="col-lg-6 text-center text-lg-end">
                     <div class="d-flex align-items-center justify-content-end">
-                        <a href="#" class=" me-3"><i class="fas fa-clock fame me-2"></i>Mon - Sat 8:00 - 17:30, Sunday - CLOSED</a>
+                        <!-- <a href="#" class=" me-3"><i class="fas fa-clock fame me-2"></i>Mon - Sat 8:00 - 17:30, Sunday - CLOSED</a> -->
                         <a href="https://www.facebook.com/ratnakarconstructionskkd/" class="btn btn-primary btn-square icon text-white me-3"><i class="fab fa-facebook-f"></i></a>
                         <!-- <a href="#" class="btn btn-primary btn-square icon text-white me-3"><i class="fab fa-twitter"></i></a> -->
                         <a href="https://www.instagram.com/ratnakarconstructionskkd/" class="btn btn-primary btn-square icon text-white me-3"><i class="fab fa-instagram"></i></a>
@@ -71,10 +71,10 @@
         <div class="container-fluid sticky-top px-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 px-4">
 
-                <a href="index.php" class="navbar-brand p-0">
+                <a href="images/Ratnakar Constructions (1).pdf" download id ="" class="navbar-brand p-0" >
                     <!-- <h1 class=" display-6"><i class="fas fa-city primary me-3"></i>Constra</h1> -->
                     <!-- <img src="img/logo.png" alt="Logo">  -->
-                    <img src="img/logo.jpg" class="image" alt="">
+                    <img src="img/logo.jpg" class="image" alt="" style="width:180px; height:100px" >
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -132,22 +132,39 @@
                     <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
                     <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
                     <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="fourth slide"></li>
+
+                    <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="fifth slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="5" aria-label="sixth slide"></li>
+
+
                 </ol>
                 <div class="carousel-inner" role="listbox">
-                    <div class="carousel-item active">
+                <div class="carousel-item active">
                         <!-- <img src="img/carousel-11.jpg" class="img-fluid w-100" alt="First slide"/> -->
-                        <img src="images/slab.jpg" class="img-fluid w-100" alt="First slide" />
+                        <img src="images/slide1.jpg" class="img-fluid w-100" alt="First slide" />
 
                         <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
-                            <h1 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h1>
+                            <p class="text-uppercase new_text fs-4 mb-0 fadeInUp animate__animated text-capitalize" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
+                            <h1 class="  text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h1>
+                            <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item ">
+                        <!-- <img src="img/carousel-11.jpg" class="img-fluid w-100" alt="First slide"/> -->
+                        <img src="images/step.jpg" class="img-fluid w-100" alt="second slide" />
+
+                        <div class="carousel-caption">
+                            <p class="text-uppercase new_text fs-4 mb-0 fadeInUp animate__animated text-capitalize" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
+                            <h1 class="  text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h1>
                             <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
                             </p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <!-- <img src="img/carousel-22.jpg" class="img-fluid w-100" alt="Second slide"/> -->
-                        <img src="images/step.jpg" class="img-fluid w-100" alt="Second slide" />
+                        <img src="images/ratnakart7.jpg" class="img-fluid w-100" alt="third slide" />
 
                         <div class="carousel-caption">
                             <p class="text-uppercase new_text fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions </p>
@@ -158,7 +175,7 @@
                     </div>
                     <div class="carousel-item">
                         <!-- <img src="img/carousel-3.jpg" class="img-fluid w-100" alt="Third slide"/> -->
-                        <img src="images/ratnakart7.jpg" class="img-fluid w-100" alt="Third slide" />
+                        <img src="images/slab.jpg" class="img-fluid w-100" alt="fourth slide" />
 
                         <div class="carousel-caption">
                             <p class="text-uppercase new_text fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
@@ -168,6 +185,28 @@
                         </div>
                     </div>
                 </div>
+                <div class="carousel-item">
+                        <!-- <img src="img/carousel-22.jpg" class="img-fluid w-100" alt="Second slide"/> -->
+                        <img src="images/3d-view.png" class="img-fluid w-100" alt="fifth slide" />
+
+                        <div class="carousel-caption">
+                            <p class="text-uppercase new_text fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions </p>
+                            <h1 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h1>
+                            <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <!-- <img src="img/carousel-22.jpg" class="img-fluid w-100" alt="Second slide"/> -->
+                        <img src="images/ratnakart7.jpg" class="img-fluid w-100" alt="sixth slide" />
+
+                        <div class="carousel-caption">
+                            <p class="text-uppercase new_text fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions </p>
+                            <h1 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h1>
+                            <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                            </p>
+                        </div>
+                    </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon btn-lg-square fadeInLeft animate__animated" aria-hidden="true" data-animation="fadeInLeft" data-delay="1.1s" style="animation-delay: 1.3s;"><i class="fas fa-chevron-left fa-2x"></i></span>
                     <span class="visually-hidden">Previous</span>
@@ -181,7 +220,7 @@
         <!-- Carousel End -->
 
         <!-- About Start -->
-        <section id="about">
+        <!-- <section id="about">
             <div class="container-fluid about py-5">
 
                 <p class="text-uppercase text-secondary fs-5 text-center ">About us</p>
@@ -189,10 +228,12 @@
                     <div class="row g-5 align-items-center">
                         <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.1s">
                             <div class="about-item-image d-flex">
-                                <img src="images/ratnakart9.jpg" class="img-1 img-fluid w-50" alt="">
-                                <img src="images/ratnakart7.jpg" class="img-2 img-fluid w-50" alt="">
+                                 <img src="images/ratnakart9.jpg" class="img-1 img-fluid w-50" alt=""> 
+                                 <img src="images/ratnakart7.jpg" class="img-2 img-fluid w-50" alt=""> 
+                              
                                 <div class="about-item-image-content">
-                                    <img src="img/about-1.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt="">
+                                    <img src="img/about-1.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt=""> 
+                                  
                                 </div>
                             </div>
                         </div>
@@ -200,15 +241,16 @@
                             <div class="about-item-content">
 
                                 <p class="text-uppercase text-secondary fs-5 mb-0">WE ARE CONSTRUCTION COMPANY</p>
-                                <!-- <h2 class="display-4 text-capitalize mb-3">Making your vision come true at the basics.</h2> -->
+                                <h2 class="display-4 text-capitalize mb-3">Making your vision come true at the basics.</h2>
                                 <p class="mb-4 fs-5">We specialize in the Effective Planning, Management and Delivery of Commercial and Residential Builiding Projects. in particular, We have developed Over the years to become the specialist partner of choice for individual and Duplex Houses. But No matter the project, we work meticulously from concept through the completion of delivering a comprehensive forward thinking service.
                                 </p>
                                 <div class="pb-4 mb-4 border-bottom">
                                     <div class="row g-4">
                                         <div class="col-lg-4">
                                             <div class="about-item-content-img">
-                                                <!-- <img src="img/about-2.jpg" class="img-fluid w-100" alt=""> -->
+                                                <img src="img/about-2.jpg" class="img-fluid w-100" alt=""> 
                                                 <img src="images/ratnakart3.jpg" class="img-fluid w-100" alt="">
+                                               
 
                                             </div>
                                         </div>
@@ -219,17 +261,38 @@
                                                 </div>
                                                 <h4 class="ms-3 contact_text">Building quality standards</h4>
                                             </div>
-                                            <div class="d-flex">
+                                            <div class="d-flex mb-4">
+                                                <div class="">
+                                                    <i class="fas fa-users-cog fa-3x new_icon"></i>
+                                                </div>
+                                                <h4 class="ms-3 contact_text">Vasthu Plan</h4>
+
+                                            </div>
+                                            <div class="d-flex mb-4">
+                                                <div class="">
+                                                    <i class="fas fa-users-cog fa-3x new_icon"></i>
+                                                </div>
+                                                <h4 class="ms-3 contact_text">Transparency</h4>
+                                            </div>
+                                            <div class="d-flex mb-4">
+                                                <div class="">
+                                                    <i class="fas fa-users-cog fa-3x new_icon"></i>
+                                                </div>
+                                                <h4 class="ms-3 contact_text">Trustworthy</h4>
+                                            </div>
+                                            <div class="d-flex mb-4">
                                                 <div class="">
                                                     <i class="fas fa-users-cog fa-3x new_icon"></i>
                                                 </div>
                                                 <h4 class="ms-3 contact_text">Certified engineer’s team</h4>
+
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                                <div class="row gy-0 gx-4 justify-content-between pb-4">
-                                    <div class="col-lg-6">
+
+                                 <div class="row gy-0 gx-4 justify-content-between pb-4">
+                                    <div class="col-lg-6`">
                                         <p class="text-dark"><i class="fas fa-check  me-1"></i> 100% Satisfaction</p>
                                         <p class="text-dark"><i class="fas fa-check  me-1"></i> Trained Emploies</p>
                                     </div>
@@ -237,14 +300,113 @@
                                         <p class="text-dark"><i class="fas fa-check  me-1"></i> Annual Pass Programs</p>
                                         <p class="text-dark mb-0"><i class="fas fa-check  me-1"></i> Flexible and cost effective</p>
                                     </div>
-                                </div>
-                                <!-- <a class="btn btn-secondary d-inline-block py-3 px-5 me-2 flex-shrink-0 wow fadeInUp" data-wow-delay="0.1s" href="#">Discover More</a> -->
+                                </div> 
+                                 < <a class="btn btn-secondary d-inline-block py-3 px-5 me-2 flex-shrink-0 wow fadeInUp" data-wow-delay="0.1s" href="#">Discover More</a> 
+
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </section>
+        </section>-->
+
+
+
+        <section id="about">
+        <div class="container-fluid about py-5">
+
+        <p class="text-uppercase text-secondary fs-5 text-center ">About us</p>
+
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 col-md-6">
+                    <video id="video" poster="poster.jpg " controls repeat class="w-100 ">
+                        <source src="images/WhatsApp Video 2024-12-17 at 10.16.44.mp4" type="video/mp4" >
+              
+                 </video>
+                 <p class="text-uppercase text-secondary fs-5">Building Walk through video of House.</p>
+    
+                  
+                </div>
+                <div class="col-12 col-md-6">
+                    <p class="text-uppercase text-secondary fs-5 mb-0">WE ARE CONSTRUCTION COMPANY</p>
+                              <!-- <h2 class="display-4 text-capitalize mb-3">Making your vision come true at the basics.</h2> -->
+                              <p class="mb-4 fs-5">
+                                We specialize in the Effective Planning, Management and Delivery of Commercial and Residential Builiding Projects. in particular, We have developed Over the years to become the specialist partner of choice for individual and Duplex Houses. But No matter the project, we work meticulously from concept through the completion of delivering a comprehensive forward thinking service.
+                             </p>
+            
+                <div class="pb-4 mb-4 ">
+                    <div class="row g-4">
+                       <div class="col-lg-4">
+                         <div class="about-item-content-img">
+                           <!-- <img src="img/about-2.jpg" class="img-fluid w-100" alt=""> -->
+                         <img src="images/ratnakart3.jpg" class="img-fluid " alt="" style="width:200px;height:350px">
+                        </div>
+                     </div>
+                     <div class="col-lg-8">
+                        <div class="d-flex mb-4">
+                            <div class="">
+                                <i class="fas fa-user-shield fa-3x new_icon"></i>
+                            </div>
+                            <h4 class="ms-3 contact_text">Building quality standards</h4>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div class="">
+                                <i class="fas fa-users-cog fa-3x new_icon"></i>
+                            </div>
+                            <h4 class="ms-3 contact_text">Vasthu Plan</h4>
+
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div class="">
+                                <i class="fas fa-users-cog fa-3x new_icon"></i>
+                            </div>
+                            <h4 class="ms-3 contact_text">Transparency</h4>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div class="">
+                                <i class="fas fa-users-cog fa-3x new_icon"></i>
+                            </div>
+                            <h4 class="ms-3 contact_text">Trustworthy</h4>
+                        </div>
+                        <div class="d-flex mb-4">
+                            <div class="">
+                                <i class="fas fa-users-cog fa-3x new_icon"></i>
+                            </div>
+                            <h4 class="ms-3 contact_text">Certified engineer’s team</h4>
+
+                        </div>           
+                   </div>
+              </div>
+         </div>
+    </div>
+                           
+        <script src="script.js">
+            const video = document.getElementById('video');
+            const replayButton = document.getElementById('replay-button');
+  
+            // Add click event to video to restart it
+            video.addEventListener('click', () => {
+              if (video.paused) {
+                video.play();
+              }
+            });
+  
+            // Show replay button when video ends
+            video.addEventListener('ended', () => {
+              replayButton.style.display = 'show';
+            });
+  
+            // Replay video on button click
+            replayButton.addEventListener('click', () => {
+              video.currentTime = 0;
+              video.play();
+              replayButton.style.display = '';
+            });
+  
+  
+          </script>
+    </section>
         <!-- About End -->
 
         <!-- Features Start -->
@@ -255,7 +417,7 @@
                     <h2 class="text-capitalize mb-3 contact_text">Why Choose Us</h2>
                 </div>
                 <div class="row g-4">
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="feature-item text-center border p-5">
                             <div class="feature-img  d-inline-flex p-4">
                                 <i class="fas fa-city new_icon fa-5x"></i>
@@ -264,7 +426,7 @@
                             <p class="mb-0">Expert Engineers is a fast-growing, professionally managed engineering company engaged in the manufacturing of custom-built low-voltage Electrical Control Panels, switchboards, and control panels catering to the needs of the building, water, power, and industrial sectors through its products, aiming to empower and ...</p>
                         </div>
                     </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                    <!-- <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="feature-item text-center border p-5">
                             <div class="feature-img  d-inline-flex p-4">
                                 <i class="fas fa-funnel-dollar new_icon fa-5x"></i>
@@ -272,8 +434,8 @@
                             <a href="#" class="h4 d-block my-4 contact_text">Free Estimates</a>
                             <p class="mb-0"> Estimating is the process of assessing all the costs of a construction project during the preconstruction phase. These costs include direct costs, indirect costs, overhead costs and a profit margin for the general contractor.1</p>
                         </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                    </div> -->
+                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="feature-item text-center border p-5">
                             <div class="feature-img  d-inline-flex p-4">
                                 <i class="fas fa-tools  new_icon fa-5x"></i>
@@ -297,7 +459,7 @@
                         <h2 class=" text-capitalize mb-3 contact_text">our service is creative, & decent</h2>
                     </div>
                     <div class="row g-4">
-                        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
                             <div class="service-item">
                                 <div class="service-img">
                                     <!-- <img src="img/service-1.jpg" class="img-fluid w-100" alt="Image"> -->
@@ -309,7 +471,7 @@
 
                                 </div>
                                 <div class="service-content text-center p-4 ">
-                                    <div class="bg-white btn-xl-square mx-auto" style="width: 120px; height: 120px;">
+                                    <div class="bg-white btn-xl-square mx-auto" style="width: 100px; height: 100px;">
                                         <i class="fas fa-home new_icon fa-4x"></i>
                                     </div>
                                     <a href="" class="d-block fs-4 my-4">Designing plans for the Commercial and Residential Properties </a>
@@ -326,7 +488,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
                             <div class="service-item">
                                 <div class="service-img">
                                     <img src="images/ratnakar39.jpeg" class="img-fluid w-100" alt="Image">
@@ -349,7 +511,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                        <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
                             <div class="service-item">
                                 <div class="service-img">
                                     <img src="images/duplex.jpeg" class="img-fluid w-100" alt="Image">
@@ -365,6 +527,29 @@
                                 <div class="service-tytle">
                                     <div class="d-flex align-items-center justify-content-start ps-4 w-100">
                                         <h4 class="font contact_text">Construction of Sophisticated Duplex Houses</h4>
+                                    </div>
+                                    <div class="btn-xl-square  p-4" style="width: 80px; height: 80px;">
+                                        <i class="fas fa-hospital-user new_icon fa-2x"></i>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="service-item">
+                                <div class="service-img">
+                                    <img src="images/3d-view.png" class="img-fluid w-100" alt="Image">
+                                </div>
+                                <div class="service-content text-center p-4">
+                                    <div class="bg-white mx-auto" style="width: 120px; height: 120px;">
+                                        <i class="fas fa-hospital-user new_icon fa-4x"></i>
+                                    </div>
+                                    <a href="" class="d-block fs-4 my-4">Construction of 3D view of Houses</a>
+                                    <p class="text-white mb-4"></p>
+                                    <!-- <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
+                                </div>
+                                <div class="service-tytle">
+                                    <div class="d-flex align-items-center justify-content-start ps-4 w-100">
+                                        <h4 class="font contact_text">Construction of 3D view of Houses</h4>
                                     </div>
                                     <div class="btn-xl-square  p-4" style="width: 80px; height: 80px;">
                                         <i class="fas fa-hospital-user new_icon fa-2x"></i>
@@ -787,7 +972,7 @@
         <!-- Fact Counter -->
 
         <!-- Projects Start -->
-        <section id="project">
+        <!-- <section id="project">
             <div class="container-fluid project py-5">
                 <div class="container py-5">
                     <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
@@ -811,7 +996,7 @@
 
                                                 Architecture is the art and technique of designing and building, as distinguished from the skills associated with construction. It is both the process and the product of sketching, conceiving, planning, designing, and constructing buildings or other structures.</p>
                                         </div>
-                                        <!-- <a class="btn btn-primary py-2 px-4" href="#">Read More</a> -->
+                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a> 
                                     </div>
                                 </div>
                             </div>
@@ -821,7 +1006,7 @@
                                 <div class="row g-4">
                                     <div class="col-md-4">
                                         <div class="project-img">
-                                            <!-- <img src="images/ratnakart3.jpg" class="img-fluid w-100 pt-3 ps-3" alt=""> -->
+                                            <img src="images/ratnakart3.jpg" class="img-fluid w-100 pt-3 ps-3" alt=""> 
                                             <img src="images/interior1.jpeg" class="img-fluid w-100 pt-3 ps-3" alt="">
 
                                         </div>
@@ -831,7 +1016,7 @@
                                             <p class="fs-5 text-secondary mb-2">Interior Design</p>
                                             <p class="mb-0 mt-3">Interior design plays a crucial role in the construction of any space, whether it's a home, an office, or a commercial establishment. It goes beyond mere aesthetics as it aims to create functional and appealing environments that cater to the needs and preferences of the occupants.</p>
                                         </div>
-                                        <!-- <a class="btn btn-primary py-2 px-4" href="#">Read More</a> -->
+                                     <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
                                     </div>
                                 </div>
                             </div>
@@ -849,7 +1034,7 @@
                                             <p class="fs-5 text-secondary mb-2">House & Exterior</p>
                                             <p class="mb-0 mt-3">The exterior home design plays a crucial role in making guests and neighbours stop in their tracks and gawk in awe. Hence, planning the exterior design of a home is a daunting process of colour choices, materials and balancing shape.</p>
                                         </div>
-                                        <!-- <a class="btn btn-primary py-2 px-4" href="#">Read More</a> -->
+                                         <a class="btn btn-primary py-2 px-4" href="#">Read More</a> 
                                     </div>
                                 </div>
                             </div>
@@ -869,19 +1054,107 @@
                                                 Composition
                                                 Granite is an igneous rock that's formed when magma from deep within the Earth cools on the surface. Tiles can be made from a variety of materials, including ceramic, porcelain, and vitrified substances. </p>
                                         </div>
-                                        <!-- <a class="btn btn-primary py-2 px-4" href="#">Read More</a> -->
+                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a> 
                                     </div>
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
+                         <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
                         <a class="btn btn-secondary py-3 px-5" href="#">More Projects</a>
-                    </div> -->
+                    </div> 
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!-- Projects End -->
+
+<section id="project">
+<div class="container-fluid project py-5">
+
+  <div class="container py-5">
+  <p class="text-uppercase text-secondary fs-5 mb-0 text-center">Our Projects</p>
+   <h2 class=" text-capitalize mb-5 contact_text text-center">Recent Completed Projects</h2>
+
+    <div class="row g-4">
+      <!-- Image Card 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/1.png" class=" " alt="Image 2" style="height:300px;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Image Title 2</h5>
+            <p class="card-text">Short description for Image 2.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Image Card 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/3.png" class="img-fluid" alt="Image 2"  style="height:300px;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Image Title 2</h5>
+            <p class="card-text">Short description for Image 2.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Image Card 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/2.png" class="img-fluid" alt="Image 3"  style="height:300px">
+          <div class="card-body text-center">
+            <h5 class="card-title">Image Title 3</h5>
+            <p class="card-text">Short description for Image 3.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container py-5">
+
+   <h2 class=" text-capitalize mb-5 contact_text text-center mt-5">Progressive Projects</h2>
+
+    <div class="row g-4">
+      <!-- Image Card 1 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/111.png" class=" " alt="Image 2" style="height:300px;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Image Title 2</h5>
+            <p class="card-text">Short description for Image 2.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Image Card 2 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/222.png" class="img-fluid" alt="Image 2"  style="height:300px;">
+          <div class="card-body text-center">
+            <h5 class="card-title">Image Title 2</h5>
+            <p class="card-text">Short description for Image 2.</p>
+          </div>
+        </div>
+      </div>
+      <!-- Image Card 3 -->
+      <div class="col-md-4">
+        <div class="card">
+          <img src="images/333.png" class="img-fluid" alt="Image 3"  style="height:300px">
+          <div class="card-body text-center">
+            <h5 class="card-title">Image Title 3</h5>
+            <p class="card-text">Short description for Image 3.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+
+  </div>
+</div>
+
+
+  </section>
 
         <!-- Team Start -->
         <!-- 
@@ -1063,17 +1336,17 @@
                                             style="border-radius: 23px; " placeholder="Your Name" required>
                                     </div>
                                     <div class="col-md-6 form-group mt-4 mt-md-0">
+                                        <input type="tel" class="form-control  " name="phone" id="phone"
+                                            style="border-radius: 23px;" placeholder="Your phone" required>
+                                    </div>
+                                    <div class="col-12 form-group mt-5 mt-md-0">
                                         <input type="email" class="form-control  " name="email" id="email"
                                             style="border-radius: 23px;" placeholder="Your Email" required>
                                     </div>
-                                    <div class="col-md-6 form-group mt-5 mt-md-0">
-                                        <input type="tel" class="form-control  " name="phone" id="phone"
-                                            style="border-radius: 23px;" placeholder="Your Phone" required>
-                                    </div>
-                                    <div class="col-md-6 form-group mt-4  mt-md-0">
+                                    <!-- <div class="col-md-6 form-group mt-4  mt-md-0">
                                         <input type="date" name="date" class="form-control datepicker  "
                                             style="border-radius: 23px;" id="date" placeholder="Appointment Date" required>
-                                    </div>
+                                    </div> -->
                                 </div>
 
 
@@ -1232,26 +1505,26 @@
                                     </div>
                                     <div class="col-lg-12 col-xl-6">
                                         <div class="form-floating">
-                                            <input type="email" class="form-control" name="contactemail" id="email" placeholder="Your Email">
-                                            <label for="email">Your Email</label>
+                                            <input type="phone" class="form-control" name="contactnumber" id="email" placeholder="Your Phone">
+                                            <label for="phone">Your Phone</label>
                                         </div>
                                     </div>
-                                    <div class="col-lg-12 col-xl-6">
+                                    <!-- <div class="col-lg-12 col-xl-6">
                                         <div class="form-floating ">
                                             <input type="phone" class="form-control" name="contactnumber" id="phone" placeholder="Phone">
                                             <label for="phone">Your Phone</label>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-12 col-xl-6">
+                                    </div> -->
+                                    <!-- <div class="col-lg-12 col-xl-6">
                                         <div class="form-floating ">
                                             <input type="text" class="form-control" name="contactproject" id="project" placeholder="Project">
                                             <label for="project">Your Project</label>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <div class="col-12">
                                         <div class="form-floating ">
-                                            <input type="text" class="form-control" name="contactsubject" id="subject" placeholder="Subject">
-                                            <label for="subject">Subject</label>
+                                            <input type="email" class="form-control" name="contactemail" id="subject" placeholder="email">
+                                            <label for="email">Your Email</label>
                                         </div>
                                     </div>
                                     <div class="col-12">
@@ -1314,6 +1587,49 @@
         </section>
 
         <!---Contact End------>
+
+
+        <section class="package">
+        <h2 class="text-center mt-5">Our Packages</h2>
+        <div class="container mt-3">
+            <div class="row ">
+                <div class="col-12 col-md-6 col-lg-4 text-center content">
+                    <h2>Starter</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsa debitis beatae quam repudiandae assumenda distinctio quo. Provident, aliquam quam.</p>
+                    <button class=" btn btn-primary">Enquire Now</button>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center content">
+                    <h2>Professional</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsa debitis beatae quam repudiandae assumenda distinctio quo. Provident, aliquam quam.</p>
+                    <button class=" btn btn-primary">Enquire Now</button>
+                </div>
+                <div class="col-12 col-md-6 col-lg-4 text-center content">
+                    <h2>Premium</h2>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsa debitis beatae quam repudiandae assumenda distinctio quo. Provident, aliquam quam.</p>
+                    <button class=" btn btn-primary">Enquire Now</button>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="banking">
+        <div class="container-fluid py-4"></div>
+        <h2 class="text-center text_center">Our Banking Partners</h2>
+
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-12 pics">
+                <img src="images/11.png" alt="" class="img-fluid">
+                <img src="images/22.png" alt=""  class="img-fluid">
+                <img src="images/partner1.svg" alt=""  class="img-fluid">
+                <img src="images/partner2.svg" alt=""  class="img-fluid">
+                <img src="images/partner3.svg" alt=""  class="img-fluid">
+                <!-- <img src="images/partner5.svg" alt=""  class="img-fluid"> -->
+
+            </div>
+            </div>
+        </div>
+    </section> 
 
         <!-- Footer Start -->
         <div class="container-fluid footer py-3 wow fadeIn" data-wow-delay="0.2s">

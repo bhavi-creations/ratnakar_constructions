@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 body{
     font-family: 'poppins',sans-serif;
+    background: ('');
 }
 /*** Spinner Start ***/
 /*** Spinner ***/
@@ -107,7 +108,8 @@ h1{
 .topbar {
     padding: 2px 10px 2px 20px;
      /* background: var(--bs-primary);  */
-     background:#DAB05E ;
+     background:#ae8d48
+     ;
 }
 .fame{
     color: white;
@@ -116,8 +118,8 @@ h1{
 
 /*** Navbar ***/
 .image{
-    width: 80px;
-    height: 80px;
+    
+    height: 100px;
     border-radius: 10px;
 }
 .sticky-top {
@@ -457,6 +459,7 @@ h1{
 }
 .new_icon{
     color: #DAB05E;
+   
 }
 
 .about .about-item-image .img-1 {
@@ -622,7 +625,7 @@ h1{
     margin-top: 20px;
 }
 .font{
-    font-size: 18px;
+    font-size: 16px;
 }
 .new_font{
   font-size: 17px;
@@ -715,6 +718,17 @@ h1{
 .project .project-item:hover .project-content a.h4:hover {
     color: var(--bs-secondary);
 }
+
+.card  {
+    transition: transform 0.3s ease, box-shadow 0.8s ease;
+  }
+  .card img{
+  
+  }
+  .card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+  }
 /*** Projects End ***/
 
 
@@ -946,6 +960,27 @@ h1{
 }
 /*** testimonial End ***/
 
+
+
+
+.content{
+    box-shadow: 10px 10px 15px 5px rgb(215, 214, 214); 
+    padding: 20px 15px;
+    border-radius: 10px;
+    background-color: #ffff;
+    margin: 10px;
+    width: 360px;
+  
+}
+.package{
+    margin-bottom: 50px;
+}
+.pics img{
+    margin: 10px;
+  }
+.banking{
+    margin-bottom: 40px;
+}
 /*** Contact Start ***/
 .form-control{
     border-radius: 8px;
@@ -990,7 +1025,7 @@ h1{
 /*** Footer Start ***/
 .footer {
     /* background: linear-gradient(rgba(0, 18, 72, 0.9), rgba(0, 18, 72, 1)),*/
-    background: #375356;
+    background: #27383a;
     background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;

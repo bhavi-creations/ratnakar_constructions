@@ -30,6 +30,11 @@
 
         <!-- Template Stylesheet -->
         <link href="css/style.css" rel="stylesheet">
+
+        <!-- imageslider -->
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
     </head>
 
     <body>
@@ -46,14 +51,14 @@
         <!-- Topbar Start -->
         <div class="container-fluid topbar d-none d-xl-block w-100">
             <div class="row gx-0 align-items-center" style="height: 45px;">
-                <div class="col-lg-6 text-center text-lg-start mb-lg-0">
+                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
                     <div class="d-flex flex-wrap  justify-content-start">
                         <a href="#" class=" me-4"><i class="fas fa-map-marker-alt fame me-2"></i>Find A Location</a>
                         <a href="#" class=" me-4"><i class="fas fa-phone-alt fame me-2"></i> 9848424956,8999069990</a>
                         <a href="#" class=" me-0"><i class="fas fa-envelope fame me-2"></i>ratnakarconstructions2007@gmail.com</a>
                     </div>
                 </div>
-                <div class="col-lg-6 text-center text-lg-end">
+                <div class="col-lg-4 text-center text-lg-end">
                     <div class="d-flex align-items-center justify-content-end">
                         <!-- <a href="#" class=" me-3"><i class="fas fa-clock fame me-2"></i>Mon - Sat 8:00 - 17:30, Sunday - CLOSED</a> -->
                         <a href="https://www.facebook.com/ratnakarconstructionskkd/" class="btn btn-primary btn-square icon text-white me-3"><i class="fab fa-facebook-f"></i></a>
@@ -71,10 +76,10 @@
         <div class="container-fluid sticky-top px-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 px-4">
 
-                <a href="images/Ratnakar Constructions (1).pdf" download id ="" class="navbar-brand p-0" >
+                <a href="images/Ratnakar Constructions (1).pdf" download id="" class="navbar-brand p-0">
                     <!-- <h1 class=" display-6"><i class="fas fa-city primary me-3"></i>Constra</h1> -->
                     <!-- <img src="img/logo.png" alt="Logo">  -->
-                    <img src="img/logo.jpg" class="image" alt="" style="width:180px; height:100px" >
+                    <img src="img/logo.jpg" class="image" alt="" style="width:180px; height:100px">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
@@ -140,7 +145,7 @@
 
                 </ol>
                 <div class="carousel-inner" role="listbox">
-                <div class="carousel-item active">
+                    <div class="carousel-item active">
                         <!-- <img src="img/carousel-11.jpg" class="img-fluid w-100" alt="First slide"/> -->
                         <img src="images/slide1.jpg" class="img-fluid w-100" alt="First slide" />
 
@@ -186,27 +191,27 @@
                     </div>
                 </div>
                 <div class="carousel-item">
-                        <!-- <img src="img/carousel-22.jpg" class="img-fluid w-100" alt="Second slide"/> -->
-                        <img src="images/3d-view.png" class="img-fluid w-100" alt="fifth slide" />
+                    <!-- <img src="img/carousel-22.jpg" class="img-fluid w-100" alt="Second slide"/> -->
+                    <img src="images/3d-view.png" class="img-fluid w-100" alt="fifth slide" />
 
-                        <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions </p>
-                            <h1 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h1>
-                            <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
-                            </p>
-                        </div>
+                    <div class="carousel-caption">
+                        <p class="text-uppercase new_text fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions </p>
+                        <h1 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h1>
+                        <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                        </p>
                     </div>
-                    <div class="carousel-item">
-                        <!-- <img src="img/carousel-22.jpg" class="img-fluid w-100" alt="Second slide"/> -->
-                        <img src="images/ratnakart7.jpg" class="img-fluid w-100" alt="sixth slide" />
+                </div>
+                <div class="carousel-item">
+                    <!-- <img src="img/carousel-22.jpg" class="img-fluid w-100" alt="Second slide"/> -->
+                    <img src="images/ratnakart7.jpg" class="img-fluid w-100" alt="sixth slide" />
 
-                        <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions </p>
-                            <h1 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h1>
-                            <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
-                            </p>
-                        </div>
+                    <div class="carousel-caption">
+                        <p class="text-uppercase new_text fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions </p>
+                        <h1 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h1>
+                        <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                        </p>
                     </div>
+                </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon btn-lg-square fadeInLeft animate__animated" aria-hidden="true" data-animation="fadeInLeft" data-delay="1.1s" style="animation-delay: 1.3s;"><i class="fas fa-chevron-left fa-2x"></i></span>
                     <span class="visually-hidden">Previous</span>
@@ -313,101 +318,106 @@
 
 
         <section id="about">
-        <div class="container-fluid about py-5">
+            <div class="container-fluid about py-5">
 
-        <p class="text-uppercase text-secondary fs-5 text-center ">About us</p>
+                <p class="text-uppercase text-secondary fs-1 text-center  about">About us</p>
 
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-12 col-md-6">
-                    <video id="video" poster="poster.jpg " controls repeat class="w-100 ">
-                        <source src="images/WhatsApp Video 2024-12-17 at 10.16.44.mp4" type="video/mp4" >
-              
-                 </video>
-                 <p class="text-uppercase text-secondary fs-5">Building Walk through video of House.</p>
-    
-                  
-                </div>
-                <div class="col-12 col-md-6">
-                    <p class="text-uppercase text-secondary fs-5 mb-0">WE ARE CONSTRUCTION COMPANY</p>
-                              <!-- <h2 class="display-4 text-capitalize mb-3">Making your vision come true at the basics.</h2> -->
-                              <p class="mb-4 fs-5">
+                <div class="container py-5">
+                    <div class="row">
+                        <div class="col-12 col-md-6">
+                            <video id="video" poster="poster.jpg " controls repeat class="w-100 ">
+                                <source src="images/WhatsApp Video 2024-12-17 at 10.16.44.mp4" type="video/mp4">
+
+                            </video>
+                            <p class="text-uppercase  fs-5 walk">Building Walk through video of House.</p>
+
+
+                        </div>
+                        <div class="col-12 col-md-6">
+                            <p class="text-uppercase text-secondary fs-5 mb-0">WE ARE CONSTRUCTION COMPANY</p>
+                            <!-- <h2 class="display-4 text-capitalize mb-3">Making your vision come true at the basics.</h2> -->
+                            <p class="mb-4 fs-5">
                                 We specialize in the Effective Planning, Management and Delivery of Commercial and Residential Builiding Projects. in particular, We have developed Over the years to become the specialist partner of choice for individual and Duplex Houses. But No matter the project, we work meticulously from concept through the completion of delivering a comprehensive forward thinking service.
-                             </p>
-            
+                            </p>
+
+
+                        </div>
+
+                        <script src="script.js">
+                            const video = document.getElementById('video');
+                            const replayButton = document.getElementById('replay-button');
+
+                            // Add click event to video to restart it
+                            video.addEventListener('click', () => {
+                                if (video.paused) {
+                                    video.play();
+                                }
+                            });
+
+                            // Show replay button when video ends
+                            video.addEventListener('ended', () => {
+                                replayButton.style.display = 'show';
+                            });
+
+                            // Replay video on button click
+                            replayButton.addEventListener('click', () => {
+                                video.currentTime = 0;
+                                video.play();
+                                replayButton.style.display = '';
+                            });
+                        </script>
+        </section>
+        <!-- About End -->
+
+        <section>
+            <div class="container">
                 <div class="pb-4 mb-4 ">
                     <div class="row g-4">
-                       <div class="col-lg-4">
-                         <div class="about-item-content-img">
-                           <!-- <img src="img/about-2.jpg" class="img-fluid w-100" alt=""> -->
-                         <img src="images/ratnakart3.jpg" class="img-fluid " alt="" style="width:200px;height:350px">
-                        </div>
-                     </div>
-                     <div class="col-lg-8">
-                        <div class="d-flex mb-4">
-                            <div class="">
-                                <i class="fas fa-user-shield fa-3x new_icon"></i>
+                        <div class="col-lg-6">
+                            <div class="d-flex mb-4">
+                                <div class="">
+                                    <i class="fas fa-user-shield fa-3x new_icon"></i>
+                                </div>
+                                <h4 class="ms-3 contact_text">Building quality standards</h4>
                             </div>
-                            <h4 class="ms-3 contact_text">Building quality standards</h4>
-                        </div>
-                        <div class="d-flex mb-4">
-                            <div class="">
-                                <i class="fas fa-users-cog fa-3x new_icon"></i>
-                            </div>
-                            <h4 class="ms-3 contact_text">Vasthu Plan</h4>
+                            <div class="d-flex mb-4">
+                                <div class="">
+                                    <i class="fas fa-users-cog fa-3x new_icon"></i>
+                                </div>
+                                <h4 class="ms-3 contact_text">  Vasthu Plan</h4>
 
-                        </div>
-                        <div class="d-flex mb-4">
-                            <div class="">
-                                <i class="fas fa-users-cog fa-3x new_icon"></i>
                             </div>
-                            <h4 class="ms-3 contact_text">Transparency</h4>
-                        </div>
-                        <div class="d-flex mb-4">
-                            <div class="">
-                                <i class="fas fa-users-cog fa-3x new_icon"></i>
+                            <div class="d-flex mb-4">
+                                <div class="">
+                                    <i class="fas fa-users-cog fa-3x new_icon"></i>
+                                </div>
+                                <h4 class="ms-3 contact_text">Transparency</h4>
                             </div>
-                            <h4 class="ms-3 contact_text">Trustworthy</h4>
-                        </div>
-                        <div class="d-flex mb-4">
-                            <div class="">
-                                <i class="fas fa-users-cog fa-3x new_icon"></i>
+                            <div class="d-flex mb-4">
+                                <div class="">
+                                    <i class="fas fa-users-cog fa-3x new_icon"></i>
+                                </div>
+                                <h4 class="ms-3 contact_text"> Trustworthy</h4>
                             </div>
-                            <h4 class="ms-3 contact_text">Certified engineer’s team</h4>
+                            <div class="d-flex mb-4">
+                                <div class="">
+                                    <i class="fas fa-users-cog fa-3x new_icon"></i>
+                                </div>
+                                <h4 class="ms-3 contact_text">Certified engineer’s team</h4>
 
-                        </div>           
-                   </div>
-              </div>
-         </div>
-    </div>
-                           
-        <script src="script.js">
-            const video = document.getElementById('video');
-            const replayButton = document.getElementById('replay-button');
-  
-            // Add click event to video to restart it
-            video.addEventListener('click', () => {
-              if (video.paused) {
-                video.play();
-              }
-            });
-  
-            // Show replay button when video ends
-            video.addEventListener('ended', () => {
-              replayButton.style.display = 'show';
-            });
-  
-            // Replay video on button click
-            replayButton.addEventListener('click', () => {
-              video.currentTime = 0;
-              video.play();
-              replayButton.style.display = '';
-            });
-  
-  
-          </script>
-    </section>
-        <!-- About End -->
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="about-item-content-img">
+                                <!-- <img src="img/about-2.jpg" class="img-fluid w-100" alt=""> -->
+                                <img src="images/ratnakart4.jpg" class="img-fluid w-100 " alt="" style="width:200px;height:350px">
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- Features Start -->
         <div class="container-fluid feature bg-light py-5 ">
@@ -664,7 +674,7 @@
         <div class="container-fluid blog pb-5">
             <div class="container pb-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <p class="text-uppercase text-secondary fs-5 mb-0 pt-5">Gallery</p>
+                    <p class="text-uppercase text-secondary fs-1 mb-0 pt-5 about">Gallery</p>
                     <!-- <h2 class="display-4 text-capitalize mb-3">Our latest news post and articles?</h2> -->
                 </div>
                 <div class="row g-4">
@@ -1068,93 +1078,93 @@
         </section> -->
         <!-- Projects End -->
 
-<section id="project">
-<div class="container-fluid project py-5">
+        <section id="project">
+            <div class="container-fluid project py-5">
 
-  <div class="container py-5">
-  <p class="text-uppercase text-secondary fs-5 mb-0 text-center">Our Projects</p>
-   <h2 class=" text-capitalize mb-5 contact_text text-center">Recent Completed Projects</h2>
+                <div class="container py-5">
+                    <p class="text-uppercase text-secondary fs-5 mb-0 text-center">Our Projects</p>
+                    <h2 class=" text-capitalize mb-5 contact_text text-center">Recent Completed Projects</h2>
 
-    <div class="row g-4">
-      <!-- Image Card 1 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="images/1.png" class=" " alt="Image 2" style="height:300px;">
-          <div class="card-body text-center">
-            <h5 class="card-title">Image Title 2</h5>
-            <p class="card-text">Short description for Image 2.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Image Card 2 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="images/3.png" class="img-fluid" alt="Image 2"  style="height:300px;">
-          <div class="card-body text-center">
-            <h5 class="card-title">Image Title 2</h5>
-            <p class="card-text">Short description for Image 2.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Image Card 3 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="images/2.png" class="img-fluid" alt="Image 3"  style="height:300px">
-          <div class="card-body text-center">
-            <h5 class="card-title">Image Title 3</h5>
-            <p class="card-text">Short description for Image 3.</p>
-          </div>
-        </div>
-      </div>
-    </div>
+                    <div class="row g-4">
+                        <!-- Image Card 1 -->
+                        <div class="col-md-6 col-lg-4 ">
+                            <div class="card ">
+                                <img src="images/1.png" class=" " alt="Image 2" style="height:300px;">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Image Title 2</h5>
+                                    <p class="card-text">Short description for Image 2.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Image Card 2 -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card">
+                                <img src="images/3.png" class="img-fluid" alt="Image 2" style="height:300px;">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Image Title 2</h5>
+                                    <p class="card-text">Short description for Image 2.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Image Card 3 -->
+                        <div class="col-md-6 col-lg-4">
+                            <div class="card">
+                                <img src="images/2.png" class="img-fluid" alt="Image 3" style="height:300px">
+                                <div class="card-body text-center">
+                                    <h5 class="card-title">Image Title 3</h5>
+                                    <p class="card-text">Short description for Image 3.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
 
-    <div class="container py-5">
+                    <div class="container py-5">
 
-   <h2 class=" text-capitalize mb-5 contact_text text-center mt-5">Progressive Projects</h2>
+                        <h2 class=" text-capitalize mb-5 contact_text text-center mt-5">Progressive Projects</h2>
 
-    <div class="row g-4">
-      <!-- Image Card 1 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="images/111.png" class=" " alt="Image 2" style="height:300px;">
-          <div class="card-body text-center">
-            <h5 class="card-title">Image Title 2</h5>
-            <p class="card-text">Short description for Image 2.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Image Card 2 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="images/222.png" class="img-fluid" alt="Image 2"  style="height:300px;">
-          <div class="card-body text-center">
-            <h5 class="card-title">Image Title 2</h5>
-            <p class="card-text">Short description for Image 2.</p>
-          </div>
-        </div>
-      </div>
-      <!-- Image Card 3 -->
-      <div class="col-md-4">
-        <div class="card">
-          <img src="images/333.png" class="img-fluid" alt="Image 3"  style="height:300px">
-          <div class="card-body text-center">
-            <h5 class="card-title">Image Title 3</h5>
-            <p class="card-text">Short description for Image 3.</p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-
+                        <div class="row g-4">
+                            <!-- Image Card 1 -->
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="images/111.png" class=" " alt="Image 2" style="height:300px;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Image Title 2</h5>
+                                        <p class="card-text">Short description for Image 2.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Image Card 2 -->
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="images/222.png" class="img-fluid" alt="Image 2" style="height:300px;">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Image Title 2</h5>
+                                        <p class="card-text card-title">Short description for Image 2.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Image Card 3 -->
+                            <div class="col-md-6 col-lg-4">
+                                <div class="card">
+                                    <img src="images/333.png" class="img-fluid" alt="Image 3" style="height:300px">
+                                    <div class="card-body text-center">
+                                        <h5 class="card-title">Image Title 3</h5>
+                                        <p class="card-text">Short description for Image 3.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 
 
 
-  </div>
-</div>
 
 
-  </section>
+                    </div>
+                </div>
+
+
+        </section>
 
         <!-- Team Start -->
         <!-- 
@@ -1311,63 +1321,7 @@
         </div>  -->
         <!-- Blog End -->
 
-        <main id="main">
 
-            <section class="sectionForm my-5 pt-5 container-fluid bg-light " id="make_app">
-                <div class="container appointment_bg  ">
-
-                    <div class="section-title text-center">
-                        <h2 class=" pt-5 mb-4 contact_text">Make an Appointment</h2>
-                    </div>
-
-
-                    <div class="row">
-                        <div class="col-md-6 d-none d-md-block mt-5">
-                            <img src="images/app.webp" class="img-fluid w-100">
-                        </div>
-
-
-                        <div class="col-md-6 mt-5">
-                            <form action="appointmentform.php" method="post" role="form" class="php-email-form"
-                                data-aos-delay="100">
-                                <div class="row">
-                                    <div class="col-md-6 form-group mt-4 mt-md-0 mb-4">
-                                        <input type="text" name="name" class="form-control  " id="name"
-                                            style="border-radius: 23px; " placeholder="Your Name" required>
-                                    </div>
-                                    <div class="col-md-6 form-group mt-4 mt-md-0">
-                                        <input type="tel" class="form-control  " name="phone" id="phone"
-                                            style="border-radius: 23px;" placeholder="Your phone" required>
-                                    </div>
-                                    <div class="col-12 form-group mt-5 mt-md-0">
-                                        <input type="email" class="form-control  " name="email" id="email"
-                                            style="border-radius: 23px;" placeholder="Your Email" required>
-                                    </div>
-                                    <!-- <div class="col-md-6 form-group mt-4  mt-md-0">
-                                        <input type="date" name="date" class="form-control datepicker  "
-                                            style="border-radius: 23px;" id="date" placeholder="Appointment Date" required>
-                                    </div> -->
-                                </div>
-
-
-                                <div class="form-group mt-4 mb-5">
-                                    <textarea class="form-control" name="message" style="border-radius: 23px;" rows="5"
-                                        placeholder="Message (Optional)"></textarea>
-                                </div>
-
-                                <div class="text-center maker mb-5"><button type="submit" class="btn">Make an
-                                        Appointment</button></div>
-                            </form>
-                        </div>
-
-
-
-                    </div>
-                </div>
-            </section>
-
-
-        </main>
 
         <!-- Testimonial Start -->
         <div class="container-fluid testimonial pb-5">
@@ -1490,7 +1444,7 @@
                     <div class="row g-5 mb-5">
                         <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
                             <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-                                <p class="text-uppercase text-secondary fs-5 mb-0">Contact us</p>
+                                <p class="text-uppercase text-secondary fs-3 mb-0">Contact us</p>
                                 <!-- <h2 class="display-4 text-capitalize mb-3">Send Your Message</h2> -->
                                 <!-- <p class="mb-0">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
                             </div>
@@ -1590,46 +1544,123 @@
 
 
         <section class="package">
-        <h2 class="text-center mt-5">Our Packages</h2>
-        <div class="container mt-3">
-            <div class="row ">
-                <div class="col-12 col-md-6 col-lg-4 text-center content">
-                    <h2>Starter</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsa debitis beatae quam repudiandae assumenda distinctio quo. Provident, aliquam quam.</p>
-                    <button class=" btn btn-primary">Enquire Now</button>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 text-center content">
-                    <h2>Professional</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsa debitis beatae quam repudiandae assumenda distinctio quo. Provident, aliquam quam.</p>
-                    <button class=" btn btn-primary">Enquire Now</button>
-                </div>
-                <div class="col-12 col-md-6 col-lg-4 text-center content">
-                    <h2>Premium</h2>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsa debitis beatae quam repudiandae assumenda distinctio quo. Provident, aliquam quam.</p>
-                    <button class=" btn btn-primary">Enquire Now</button>
+            <h2 class="text-center mt-5">Our Packages</h2>
+            <div class="container mt-5">
+                <div class="row Packages ">
+                    <div class="col-12 col-md-6 col-lg-4 text-center content">
+                        <h2>Starter</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsa debitis beatae quam repudiandae assumenda distinctio quo. Provident, aliquam quam.</p>
+                        <button class=" btn btn-primary">Enquire Now</button>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 text-center content">
+                        <h2>Professional</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsa debitis beatae quam repudiandae assumenda distinctio quo. Provident, aliquam quam.</p>
+                        <button class=" btn btn-primary">Enquire Now</button>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-4 text-center content">
+                        <h2>Premium</h2>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsa debitis beatae quam repudiandae assumenda distinctio quo. Provident, aliquam quam.</p>
+                        <button class=" btn btn-primary">Enquire Now</button>
+                    </div>
                 </div>
             </div>
-        </div>
-    </section> 
+        </section>
 
-    <section class="banking">
-        <div class="container-fluid py-4"></div>
-        <h2 class="text-center text_center">Our Banking Partners</h2>
+        <!-- <section class="banking">
+            <div class="container-fluid py-4"></div>
+            <h2 class="text-center text_center">Our Banking Partners</h2>
 
-        <div class="container py-5">
-            <div class="row">
-                <div class="col-12 pics">
-                <img src="images/11.png" alt="" class="img-fluid">
-                <img src="images/22.png" alt=""  class="img-fluid">
-                <img src="images/partner1.svg" alt=""  class="img-fluid">
-                <img src="images/partner2.svg" alt=""  class="img-fluid">
-                <img src="images/partner3.svg" alt=""  class="img-fluid">
-                <!-- <img src="images/partner5.svg" alt=""  class="img-fluid"> -->
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-12 pics">
+                        <img src="images/11.png" alt="" class="img-fluid">
+                        <img src="images/22.png" alt="" class="img-fluid">
+                        <img src="images/partner1.svg" alt="" class="img-fluid">
+                        <img src="images/partner2.svg" alt="" class="img-fluid">
+                        <img src="images/partner3.svg" alt="" class="img-fluid">
+                        <img src="images/partner5.svg" alt=""  class="img-fluid">
 
+                    </div>
+                </div>
             </div>
-            </div>
-        </div>
-    </section> 
+        </section> -->
+        <section>
+            <div class="container ">
+            <div class="container-fluid py-5"></div>
+            <h2 class="text-center  partner">Our Banking Partners</h2>
+                <div class="custom-slide-container swiper">
+                    <div class="custom-slide-content">
+                        <div class="custom-card-wrapper swiper-wrapper py-5 sliders">
+
+                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
+                            <img src="images/icici.jpg" alt="" class="img-fluid text-center border 2px solid ">
+                            </div>
+
+                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
+                            <img src="images/22.png" alt="" class="img-fluid">
+                            </div>
+
+                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
+                            <img src="images/partner1.svg" alt="" class="img-fluid">
+                            </div>
+
+                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
+                            <img src="images/partner2.svg" alt="" class="img-fluid">
+                            </div>
+
+                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
+                            <img src="images/partner3.svg" alt="" class="img-fluid">
+                            </div>
+
+                            
+
+
+                            <!-- <div class="swiper-button-next custom-swiper-navBtn"></div>
+        <div class="swiper-button-prev custom-swiper-navBtn"></div> -->
+
+
+                            <script>
+                                var swiper = new Swiper(".custom-slide-content", {
+                                    slidesPerView: 3,
+                                    spaceBetween: 25,
+                                    loop: true,
+                                    centerSlide: 'true',
+                                    fade: 'true',
+                                    grabCursor: 'true',
+                                    pagination: {
+                                        el: ".custom-swiper-pagination",
+                                        clickable: true,
+                                        dynamicBullets: true,
+                                    },
+                                    autoplay: {
+                                        delay: 3000, // Time in milliseconds between automatic slides (3 seconds here)
+                                        disableOnInteraction: false, // Keeps autoplay active even after manual swiping
+                                    },
+                                    navigation: {
+                                        nextEl: ".swiper-button-next.custom-swiper-navBtn",
+                                        prevEl: ".swiper-button-prev.custom-swiper-navBtn",
+                                    },
+
+                                    breakpoints: {
+                                        0: {
+                                            slidesPerView: 1,
+                                        },
+                                        520: {
+                                            slidesPerView: 2,
+                                        },
+                                        950: {
+                                            slidesPerView: 3,
+                                        },
+                                    },
+                                });
+                            </script>
+
+                        </div>
+        </section>
+
+
+
+
 
         <!-- Footer Start -->
         <div class="container-fluid footer py-3 wow fadeIn" data-wow-delay="0.2s">
@@ -1690,7 +1721,7 @@
                             </div>
                         </div>
                     </div>
-                   
+
 
                 </div>
             </div>
@@ -1718,8 +1749,8 @@
         </div>
         <!-- Copyright End -->
         <a href="https://api.whatsapp.com/send?phone=9848424956" style="color: #fff;" class="whatsapp-link" target="_blank">
-                        <i class="fab fa-whatsapp"></i>
-                    </a>
+            <i class="fab fa-whatsapp"></i>
+        </a>
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-secondary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>

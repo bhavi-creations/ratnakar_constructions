@@ -39,6 +39,7 @@ h1{
     background-color:#375356;
     color: white;
     border-radius: 8px;
+
 }
 .btn:hover{
     background:grey;
@@ -81,6 +82,7 @@ h1{
     align-items: center;
     justify-content: center;
     font-weight: normal;
+    z-index: 9999;
 }
 
 .btn.btn-primary {
@@ -974,6 +976,7 @@ h1{
 }
 .package{
     margin-bottom: 50px;
+ 
 }
 .pics img{
     margin: 10px;
@@ -1094,6 +1097,10 @@ border-radius: 20px;
     height: 50px;
   
 }
+.card-title{
+    font-family:"poppins,";
+    font-weight: 500;
+}
 /*** copyright end ***/
 
  .whatsapp-link {
@@ -1109,5 +1116,47 @@ border-radius: 20px;
     text-decoration: none;
     font-size: 29px;
     text-align: center;
+    z-index: 9999;
+   }
 
- }
+.walk{
+    font-weight: 900;
+    text-align: center;
+    padding-top:10px ;
+    color: darkorange;
+}
+
+
+.Packages{
+    /* margin-left: 100px ; */
+    display: flex;
+    flex-direction: row;
+    /* text-align: center; */
+    justify-content: center;
+}
+/* .sliders{
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+} */
+.custom-slide-container {
+    max-width: 1120px;
+    width: 100%;
+    padding: 40px 0;
+  }
+
+ 
+  .custom_card_bg_two{
+    text-align: center;
+    width: 200px;
+    height: 200px;
+  }
+  .partner{
+    /* font-weight: 900px; */
+    font-size: 40px;
+  }
+  .about{
+    /* font-size: 70px; */
+    font-weight: 600;
+  }

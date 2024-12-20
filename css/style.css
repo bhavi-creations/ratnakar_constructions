@@ -320,6 +320,7 @@ h1{
 }
 .new_text{
     color: #e7c160;
+    font-weight: 900;
 }
 
 .carousel .carousel-inner .carousel-item img {
@@ -1160,3 +1161,54 @@ border-radius: 20px;
     /* font-size: 70px; */
     font-weight: 600;
   }
+
+.branding img {
+    
+  /* position: fixed; */
+
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  flex-direction: column;
+  /* background-color: #474444; */
+  /* background-color: #b4b3b9; */
+  padding: 5px;
+  border-radius: 10px 0 0 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  /* padding-right: 100px; */
+}
+   
+    
+   .img_float{
+
+ margin-bottom: -100px;
+
+   }
+   .img_float img{
+ position: absolute;
+ z-index: 99 !important; 
+   }
+   @media (min-width:1600px){
+    .company{
+       display: flex;
+       flex-direction: column;
+       /* text-align: center; */
+       justify-content: center;
+    }
+}
+   @media(min-width:1400px) and (max-width:1600px){
+ .company{
+    display: flex;
+    flex-direction: column;
+    /* text-align: center; */
+    justify-content: center;
+ }
+   }
+   @media(min-width:1200px) and (max-width:1400px){
+    .company{
+       display: flex;
+       flex-direction: column;
+       /* text-align: center; */
+       justify-content: center;
+    }
+      }

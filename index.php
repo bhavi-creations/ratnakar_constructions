@@ -132,108 +132,110 @@
 
             <!-- Carousel Start -->
 
-            <div class="img_float d-flex flex-row justify-content-end">
-                <img src="images/brand.png" alt=" " class="img-fluid">
-            </div>
-            <div class="container-fluid overflow-hidden px-0">
-
-                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-                    <ol class="carousel-indicators fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">
-                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="fourth slide"></li>
-
-                        <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="fifth slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="5" aria-label="sixth slide"></li>
+           
 
 
-                    </ol>
-                    <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <!-- <img src="img/carousel-11.jpg" class="img-fluid w-100" alt="First slide"/> -->
-                            <img src="images/slide1.jpg" class="img-fluid w-100" alt="First slide" />
 
-                            <div class="carousel-caption">
-                                <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated text-capitalize" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
-                                <h3 class="  text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
-                                <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="carousel-item ">
-                            <!-- <img src="img/carousel-11.jpg" class="img-fluid w-100" alt="First slide"/> -->
-                            <img src="images/step.jpg" class="img-fluid w-100" alt="second slide" />
 
-                            <div class="carousel-caption">
-                                <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated text-capitalize" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
-                                <h3 class="  text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
-                                <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <!-- <img src="img/carousel-22.jpg" class="img-fluid w-100" alt="Second slide"/> -->
-                            <img src="images/ratnakart7.jpg" class="img-fluid w-100" alt="third slide" />
-
-                            <div class="carousel-caption">
-                                <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions </p>
-                                <h3 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
-                                <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <!-- <img src="img/carousel-3.jpg" class="img-fluid w-100" alt="Third slide"/> -->
-                            <img src="images/slab.jpg" class="img-fluid w-100" alt="fourth slide" />
-
-                            <div class="carousel-caption">
-                                <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
-                                <h3 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
-                                <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <!-- <img src="img/carousel-22.jpg" class="img-fluid w-100" alt="Second slide"/> -->
-                        <img src="images/3d-view.png" class="img-fluid w-100" alt="fifth slide" />
-
-                        <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions </p>
-                            <h3 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
-                            <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <!-- <img src="img/carousel-22.jpg" class="img-fluid w-100" alt="Second slide"/> -->
-                        <img src="images/.jpg" class="img-fluid w-100" alt="sixth slide" />
-
-                        <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions </p>
-                            <h3 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
-                            <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
-                            </p>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon btn-lg-square fadeInLeft animate__animated" aria-hidden="true" data-animation="fadeInLeft" data-delay="1.1s" style="animation-delay: 1.3s;"><i class="fas fa-chevron-left fa-2x"></i></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-                        <span class="carousel-control-next-icon btn-lg-square fadeInRight animate__animated" aria-hidden="true" data-animation="fadeInRight" data-delay="1.1s" style="animation-delay: 1.3s;"><i class="fas fa-chevron-right fa-2x"></i></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-
-            </div>
 
 
 
             <!-- Carousel End -->
 
+            <!-- Carousel -->
+            <div class="container-fluid overflow-hidden px-0">
+
+<div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+
+    <ol class="carousel-indicators fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">
+        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+        <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="fourth slide"></li>
+
+        <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="fifth slide"></li>
+        <li data-bs-target="#carouselId" data-bs-slide-to="5" aria-label="sixth slide"></li>
+        <li data-bs-target="#carouselId" data-bs-slide-to="6" aria-label="seventh slide"></li>
+
+
+    </ol>
+    <div class="carousel-inner">
+
+        <div class="carousel-item">
+            <img src="images/slide1.jpg" class="d-block w-100" alt="Slide 2">
+            <div class="carousel-caption">
+                <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated text-capitalize" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
+                <h3 class="  text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
+                <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                </p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/step.jpg" class="d-block w-100" alt="Slide 3">
+            <div class="carousel-caption">
+                <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated text-capitalize" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
+                <h3 class="  text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
+                <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                </p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/ratnakart7.jpg" class="d-block w-100" alt="Slide 4">
+            <div class="carousel-caption">
+                <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated text-capitalize" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
+                <h3 class="  text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
+                <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                </p>
+            </div>
+        </div>
+        <div class="carousel-item active">
+            <img src="images/slab.jpg" class="d-block w-100" alt="Slide 1">
+            <div class="carousel-caption">
+                <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated text-capitalize" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
+                <h3 class="  text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
+                <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                </p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/ratnakar.jpg" class="d-block w-100" alt="Slide 5">
+            <div class="carousel-caption">
+                <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated text-capitalize" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
+                <h3 class="  text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
+                <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                </p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/3d house.png" class="d-block w-100" alt="Slide 6">
+            <div class="carousel-caption">
+                <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated text-capitalize" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
+                <h3 class="  text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
+                <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                </p>
+            </div>
+        </div>
+        <div class="carousel-item">
+            <img src="images/2.png" class="d-block w-100" alt="Slide 6">
+            <div class="carousel-caption">
+                <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated text-capitalize" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
+                <h3 class="  text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
+                <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon btn-lg-square fadeInLeft animate__animated" aria-hidden="true" data-animation="fadeInLeft" data-delay="1.1s" style="animation-delay: 1.3s;"><i class="fas fa-chevron-left fa-2x"></i></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+        <span class="carousel-control-next-icon btn-lg-square fadeInRight animate__animated" aria-hidden="true" data-animation="fadeInRight" data-delay="1.1s" style="animation-delay: 1.3s;"><i class="fas fa-chevron-right fa-2x"></i></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+</div>
             <!-- About Start -->
             <!-- <section id="about">
             <div class="container-fluid about py-5">
@@ -1180,284 +1182,134 @@
 
 
             </section>
+           
+
+
+
             <section>
+                <div class="container">
+                    <div class="row">
+                        <div class="ftco-departments">
+                            <div class="col-md-12  "
+                                style="background-color: rgb(236, 234, 234); padding-top: 10px; padding-bottom: 10px; border-radius: 8px; margin-bottom: 50px;">
+                                <div class="nav d-flex justify-content-between nav-pills" id="v-pills-tab" role="tablist"
+                                    aria-orientation="horizontal">
+                                    <div class="col-md-3  text_center">
 
-                <!-- addingsection -->
-                <section>
-                    <div class="container">
-                        <div class="row">
-                            <div class="ftco-departments">
-                                <div class="col-md-12  "
-                                    style="background-color: rgb(236, 234, 234); padding-top: 10px; padding-bottom: 10px; border-radius: 8px; margin-bottom: 50px;">
-                                    <div class="nav d-flex justify-content-between nav-pills" id="v-pills-tab" role="tablist"
-                                        aria-orientation="horizontal">
-                                        <div class="col-md-3 ">
+                                        <a class="    nav-link ftco-animate active " id="v-pills-a-tab" data-bs-toggle="pill"
+                                            href="#v-pills-a1" role="tab" aria-controls="v-pills-1" aria-selected="true">
+                                            3d modular of house
+                                        </a>
 
-                                            <a class="    nav-link ftco-animate active " id="v-pills-a-tab" data-bs-toggle="pill"
-                                                href="#v-pills-a1" role="tab" aria-controls="v-pills-1" aria-selected="true">
-                                           3d modular of house
-                                            </a>
+                                    </div>
+
+                                    <div class="col-md-3  text_center">
+
+                                        <a class=" box_text_color nav-link ftco-animate" id="v-pills-b-tab" data-bs-toggle="pill"
+                                            href="#v-pills-b1" role="tab" aria-controls="v-pills-b" aria-selected="false">
+                                            project managing
+                                        </a>
+                                    </div>
+
+                                    <div class="col-md-3  text_center">
+
+                                        <a class=" box_text_color nav-link ftco-animate" id="v-pills-c-tab" data-bs-toggle="pill"
+                                            href="#v-pills-c1" role="tab" aria-controls="v-pills-c" aria-selected="false">
+                                            construction
+                                        </a>
+                                    </div>
+                                  
+                                </div>
+                            </div>
+
+
+                            <div class=" tab-wrap">
+                                <div class="tab-content ftco-animate" id="v-pills-tabContent">
+                                    <div class="tab-pane fade show active" id="v-pills-a1" role="tabpanel" aria-labelledby="v-pills-a-tab">
+
+                                        <div class="row">
+                                            <h3 class=" my-3 text-center mb-5">Experience Your Dream Home in 3D
+                                            </h3>
+
+                                            <div class=" col-md-6">
+
+
+                                                <p>
+
+
+                                                    Experience Your Dream Home in 3D
+                                                    Step into the future of home design with our immersive 3D house view. Whether you're exploring the layout of your dream home or visualizing a renovation, our interactive 3D model brings every detail to life. Here's what you can expect:
+
+                                                    Full 360° Views: Rotate, zoom, and navigate through every room and corner. Experience the true scale and layout of your home from every angle.
+                                                    Detailed Interiors: View furniture placements, wall textures, lighting designs, and flooring options for an accurate feel of your space.
+                                                    Customizable Features: Experiment with different finishes, color schemes, and furniture arrangements to make the space uniquely yours.
+                                                    Seamless Navigation: Explore both the exterior and interior with intuitive controls that make navigation effortless.
+                                                </p>
+
+                                            </div>
+                                            <div class="col-md-6">
+                                                <section autoplay muted loop class="only_first mt-3  ">
+                                                    <video id="myVideo" width="100%" autoplay controls muted loop>
+                                                        <source src="images/3d video.mp4" type="video/mp4">
+                                                        Your browser does not support the video tag.
+                                                    </video>
+                                            </div>
                                         </div>
-
-                                        <div class="col-md-3">
-
-                                            <a class=" box_text_color nav-link ftco-animate" id="v-pills-b-tab" data-bs-toggle="pill"
-                                                href="#v-pills-b1" role="tab" aria-controls="v-pills-b" aria-selected="false">
-                                              project managing
-                                            </a>
-                                        </div>
-
-                                        <div class="col-md-3">
-
-                                            <a class=" box_text_color nav-link ftco-animate" id="v-pills-c-tab" data-bs-toggle="pill"
-                                                href="#v-pills-c1" role="tab" aria-controls="v-pills-c" aria-selected="false">
-                                                construction
-                                            </a>
-                                        </div>
-                                        <!-- <div class="col-md-3">
-
-                                            <a class=" box_text_color nav-link ftco-animate" id="v-pills-d-tab" data-bs-toggle="pill"
-                                                href="#v-pills-d1" role="tab" aria-controls="v-pills-d" aria-selected="false">
-                                                Monthly 5 Days Bible Training
-                                            </a>
-                                            </a>
-
-                                        </div> -->
                                     </div>
                                 </div>
 
 
-                                <div class="col-md-12 tab-wrap">
-                                    <div class="tab-content ftco-animate" id="v-pills-tabContent">
+                                <div class="tab-pane fade  " id="v-pills-b1" role="tabpanel" aria-labelledby="v-pills-a-tab">
+                                    <div class="row col-lg-12">
 
-                                        <div class="tab-pane fade show active" id="v-pills-a1" role="tabpanel" aria-labelledby="v-pills-a-tab">
-                                            <div class="row col-lg-12">
 
-                                                <h3 class="my-5 text-center">FOR BACHELOR IN BIBLICAL STUDIES (BBS) 3 YEARS AND ONE YEAR DIPLOMA
-                                                    COURSE</h3>
-                                                <div class="container">
-                                                    <div class="row  ">
-                                                        <div class="col-4 mt-2">
-                                                            <p>
-                                                                1.Admissions
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-8 mt-2">
-                                                            <p>
-                                                                : January & Augest of Every year 1st week
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row  ">
-                                                        <div class="col-4 mt-2">
-                                                            <p>
-                                                                2.Medium of Instructions
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-8 mt-2">
-                                                            <p>
-                                                                : English
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row  ">
-                                                        <div class="col-4 mt-2">
-                                                            <p>
-                                                                3.Qualifications
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-8 mt-2">
-                                                            <p>
-                                                                : For Telugu 10th Class & For English Intermediate or above
-                                                            </p>
-                                                            <p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row  ">
-                                                        <div class="col-4 mt-2">
-                                                            <p>
-                                                                4.Duration of Course
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-8 mt-2">
-                                                            <p>
-                                                                : Three Years (From August to December and Januanry to May)
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row  ">
-                                                        <div class="col-4 mt-2">
-                                                            <p>
-                                                                5.Age Limit
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-8 mt-2">
-                                                            <p>
-                                                                : NO AGE LIMIT
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <a href="courses.html">Read More....</a>
-                                            </div>
-                                        </div>
+                                        <div class="container">
+                                            <div class="row  ">
+                                                <h3 class="my-5 text-center">
 
-                                        <div class="tab-pane fade  " id="v-pills-b1" role="tabpanel" aria-labelledby="v-pills-a-tab">
-                                            <div class="row col-lg-12">
 
-                                                <h3 class="my-5 text-center">తెలుగు మీడియం 2 సం.లు, 1 సం. ము మరియు 6 నెలలు</h3>
-                                                <div class="container">
-                                                    <div class="row  ">
-                                                        <div class="col-4 mt-2">
-                                                            <p>
-                                                                1. స్కూల్ యందు ప్రవేశము
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-8 mt-2">
-                                                            <p>
-                                                                : సంవత్సరమునకు రెండు పర్యాయములు ప్రతి ఆగష్టు మరియు ప్రతి జనవరి మొదటి వారములో
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row  ">
-                                                        <div class="col-4 mt-2">
-                                                            <p>
-                                                                2. బోధన
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-8 mt-2">
-                                                            <p>
-                                                                : తెలుగు
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row  ">
-                                                        <div class="col-4 mt-2">
-                                                            <p>
-                                                                3. విద్యార్థి అర్హతలు
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-8 mt-2">
-                                                            <p>
-                                                                : 10వ తరగతి - ఆ పైన
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row  ">
-                                                        <div class="col-4 mt-2">
-                                                            <p>
-                                                                4. బోధన సమయము
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-8 mt-2">
-                                                            <p>
-                                                                : రెండు సంవత్సరములు (ఆగష్టు నుండి డిశంబర్ మరియు జనవరి నుండి మే)
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row  ">
-                                                        <div class="col-4 mt-2">
-                                                            <p>
-                                                                5.వయస్సు
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-8 mt-2">
-                                                            <p>
-                                                                : 18 సం.లు - ....
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <a href="courses.html">Read More....</a>
+                                                    Efficient Project Management Turning Plans into Reality
+                                                </h3>
+                                                <p>
+                                                Project management is the cornerstone of achieving organizational goals and delivering success. By blending strategic planning, effective communication, and resource optimization, we ensure that every project reaches its potential. Key aspects of our approach include:
+
+Strategic Planning: Clear goal setting, task prioritization, and timeline development to ensure every step aligns with the project's objectives.
+Resource Management: Optimal allocation of personnel, tools, and budgets to maximize efficiency without compromising quality.
+Collaborative Leadership: Encouraging teamwork and open communication to resolve challenges swiftly and foster innovation.
+Risk Mitigation: Proactively identifying and addressing potential obstacles to keep projects on track.
+Performance Monitoring: Using key metrics and regular updates to ensure milestones are met and adjustments are made when necessary.
+Our project management expertise spans various domains, including construction, IT, product development, and event planning. From inception to completion, we focus on delivering projects that exceed expectations, on time, and within budget.
+
+  
+                                                </p>
+
+
+
 
                                             </div>
                                         </div>
+                                    </div>
+                                </div>
 
                                         <div class="tab-pane fade " id="v-pills-c1" role="tabpanel" aria-labelledby="v-pills-a-tab">
-                                            <div class="row col-lg-12">
+                                        <div class="container"> 
+                                        <div class="row  ">
+                                        <h3 class="my-5 text-center"> 
+                                                Building the Future with Excellence
+                                            </h3>
+                                         <div class="col-md-6">
+                                          
 
-                                                <h3 class="my-5 text-center">క్రీస్తు సంఘము - స్త్రీ ఉపదేశకులకు బోధన </h3>
-                                                <div class="container">
-                                                    <div class="row  ">
-                                                        <div class="col-4 mt-2">
-                                                            <p>
-                                                                1. స్కూల్ యందు ప్రవేశము
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-8 mt-2">
-                                                            <p>
-                                                                : ప్రతీ జనవరి మరియు ప్రతీ ఆగష్టు మొదటి వారములో
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row  ">
-                                                        <div class="col-4 mt-2">
-                                                            <p>
-                                                                2. బోధన
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-8 mt-2">
-                                                            <p>
-                                                                : తెలుగు
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row  ">
-                                                        <div class="col-4 mt-2">
-                                                            <p>
-                                                                3. విద్యార్థి అర్హతలు
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-8 mt-2">
-                                                            <p>
-                                                                : 10వ తరగతి - ఆ పైన
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row  ">
-                                                        <div class="col-4 mt-2">
-                                                            <p>
-                                                                4. బోధన సమయము (సం.ము కోర్సు)
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-8 mt-2">
-                                                            <p>
-                                                                : రెండు సంవత్సరములు (ఆగష్టు నుండి డిశంబర్ మరియు జనవరి నుండి మే)
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                    <div class="row  ">
-                                                        <div class="col-4 mt-2">
-                                                            <p>
-                                                                5.బోధన సమయము (2 సం.ముల కోర్సు)
-                                                            </p>
-                                                        </div>
-                                                        <div class="col-8 mt-2">
-                                                            <p>
-                                                                : నాలుగు సెమిస్టర్స్ (అనగా ఆగష్టు నుండి డిశంబర్ మరియు జనవరి నుండి మే, క్రమముగా)
-                                                            </p>
-                                                        </div>
-                                                    </div>
-                                                </div>
-                                                <a href="courses.html">Read More....</a>
-                                            </div>
-                                        </div>
-                                        <div class="tab-pane fade " id="v-pills-d1" role="tabpanel" aria-labelledby="v-pills-a-tab">
-                                            <div class="row col-lg-12">
+                                             
+                                         </div>       
+                                                      
+                                   
 
-                                                <h3 class="mt-3  text-center">
-                                                    నెలకు '5' రోజుల ప్రత్యేక బైబిలు ట్రైవింగ్
-                                                </h3>
-                                                <p
-                                                    class="text-center mt-4">ప్రీచర్స్ ట్రైనింగ్ స్కూలువారు 2002 సం॥న ఈ ట్రైనింగ్ కోర్సును ప్రారంభించడమైనది. మా ఉద్దేశము మతశాఖలలో పనిచేయుచున్న పాస్టర్సును వారి భార్యలకు క్రీస్తు సంఘ సత్యమును నేర్పి వారిని క్రీస్తు సంమములవారుగా తయారుచేయుటకు ఇది మీకు ఒక మంచి అవకాశము. ఇందు కులముగాని, మతశాఖ భేదముగాని, వయస్సుగాని మేము పాటించము, అందరికి సమానముగా నెలకు రూ.600..
-                                                </p>
-                                                <a href="courses.html">Read More....</a>
+                                           
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                </section>
-
             </section>
 
             <!-- Team Start -->

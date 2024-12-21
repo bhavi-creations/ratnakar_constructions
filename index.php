@@ -37,61 +37,61 @@
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
         </head>
 
+        <>
 
-
-        <!-- Spinner Start -->
-        <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
-            <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
-                <span class="sr-only">Loading...</span>
-            </div>
-        </div>
-        <!-- Spinner End -->
-
-
-        <!-- Topbar Start -->
-        <div class="container-fluid topbar d-none d-xl-block w-100">
-            <div class="row gx-0 align-items-center" style="height: 45px;">
-                <div class="col-lg-8 text-center text-lg-start mb-lg-0">
-                    <div class="d-flex flex-wrap  justify-content-start">
-                        <a href="#contact" class=" me-4"><i class="fas fa-map-marker-alt fame me-2"> </i>Find A Location</a>
-                        <a href="#" class=" me-4"><i class="fas fa-phone-alt fame me-2"></i> 9848424956,8999069990</a>
-                        <a href="#" class=" me-0"><i class="fas fa-envelope fame me-2"></i>ratnakarconstructions2007@gmail.com</a>
-                    </div>
-                </div>
-                <div class="col-lg-4 text-center text-lg-end">
-                    <div class="d-flex align-items-center justify-content-end">
-                        <!-- <a href="#" class=" me-3"><i class="fas fa-clock fame me-2"></i>Mon - Sat 8:00 - 17:30, Sunday - CLOSED</a> -->
-                        <a href="https://www.facebook.com/ratnakarconstructionskkd/" class="btn btn-primary btn-square icon text-white me-3"><i class="fab fa-facebook-f"></i></a>
-                        <!-- <a href="#" class="btn btn-primary btn-square icon text-white me-3"><i class="fab fa-twitter"></i></a> -->
-                        <a href="https://www.instagram.com/ratnakarconstructionskkd/" class="btn btn-primary btn-square icon text-white me-3"><i class="fab fa-instagram"></i></a>
-                        <!-- <a href="#" class="btn btn-primary btn-square icon text-white me-3"><i class="fab fa-linkedin-in"></i></a> -->
-                    </div>
+            <!-- Spinner Start -->
+            <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+                <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
+                    <span class="sr-only">Loading...</span>
                 </div>
             </div>
-        </div>
-        <!-- Topbar End -->
+            <!-- Spinner End -->
 
 
-        <!-- Navbar & Hero Start -->
-        <div class="container-fluid sticky-top px-0">
-            <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 px-4">
+            <!-- Topbar Start -->
+            <div class="container-fluid topbar d-none d-xl-block w-100">
+                <div class="row gx-0 align-items-center" style="height: 45px;">
+                    <div class="col-lg-8 text-center text-lg-start mb-lg-0">
+                        <div class="d-flex flex-wrap  justify-content-start">
+                            <a href="#contact" class=" me-4"><i class="fas fa-map-marker-alt fame me-2"> </i>Find A Location</a>
+                            <a href="#" class=" me-4"><i class="fas fa-phone-alt fame me-2"></i> 9848424956,8999069990</a>
+                            <a href="#" class=" me-0"><i class="fas fa-envelope fame me-2"></i>ratnakarconstructions2007@gmail.com</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 text-center text-lg-end">
+                        <div class="d-flex align-items-center justify-content-end">
+                            <!-- <a href="#" class=" me-3"><i class="fas fa-clock fame me-2"></i>Mon - Sat 8:00 - 17:30, Sunday - CLOSED</a> -->
+                            <a href="https://www.facebook.com/ratnakarconstructionskkd/" class="btn btn-primary btn-square icon text-white me-3"><i class="fab fa-facebook-f"></i></a>
+                            <!-- <a href="#" class="btn btn-primary btn-square icon text-white me-3"><i class="fab fa-twitter"></i></a> -->
+                            <a href="https://www.instagram.com/ratnakarconstructionskkd/" class="btn btn-primary btn-square icon text-white me-3"><i class="fab fa-instagram"></i></a>
+                            <!-- <a href="#" class="btn btn-primary btn-square icon text-white me-3"><i class="fab fa-linkedin-in"></i></a> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Topbar End -->
 
-                <a href="images/Ratnakar Constructions (1).pdf" download id="" class="navbar-brand p-0">
-                    <!-- <h1 class=" display-6"><i class="fas fa-city primary me-3"></i>Constra</h1> -->
-                    <!-- <img src="img/logo.png" alt="Logo">  -->
-                    <img src="img/logo.jpg" class="image" alt="" style="width:180px; height:100px">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto pt-2 pt-lg-0">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="#about" class="nav-item nav-link">About</a>
-                        <a href="#service" class="nav-item nav-link">Services</a>
-                        <a href="#project" class="nav-item nav-link">Projects</a>
 
-                        <!--<a href="#" class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown">Pages</a>
+            <!-- Navbar & Hero Start -->
+            <div class="container-fluid sticky-top px-0">
+                <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 px-4">
+
+                    <a href="images/Ratnakar Constructions (1).pdf" download id="" class="navbar-brand p-0">
+                        <!-- <h1 class=" display-6"><i class="fas fa-city primary me-3"></i>Constra</h1> -->
+                        <!-- <img src="img/logo.png" alt="Logo">  -->
+                        <img src="img/logo.jpg" class="image" alt="" style="width:180px; height:100px">
+                    </a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                        <span class="fa fa-bars"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarCollapse">
+                        <div class="navbar-nav ms-auto pt-2 pt-lg-0">
+                            <a href="index.html" class="nav-item nav-link active">Home</a>
+                            <a href="#about" class="nav-item nav-link">About</a>
+                            <a href="#service" class="nav-item nav-link">Services</a>
+                            <a href="#project" class="nav-item nav-link">Projects</a>
+
+                            <!--<a href="#" class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown">Pages</a>
                             <div class="dropdown-menu m-lg-0">
                                 <a href="feature.html" class="dropdown-item">Our Features</a>
                                 <a href="blog.html" class="dropdown-item">Our Blog</a>
@@ -100,37 +100,38 @@
                                 <a href="404.html" class="dropdown-item">404 Page</a>
                             </div>
                         </div> -->
-                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                            <a href="#contact" class="nav-item nav-link">Contact</a>
+                        </div>
+                        <div class="d-flex align-items-center flex-nowrap pt-3  pt-lg-0 ms-lg-2">
+                            <!-- <button class="btn btn-primary py-2 px-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button> -->
+                            <a href="#make_app" class="btn  py-2 px-4 ms-3 flex-wrap flex-sm-shrink-0">Book an Appointment</a>
+                        </div>
                     </div>
-                    <div class="d-flex align-items-center flex-nowrap pt-3  pt-lg-0 ms-lg-2">
-                        <!-- <button class="btn btn-primary py-2 px-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button> -->
-                        <a href="#make_app" class="btn  py-2 px-4 ms-3 flex-wrap flex-sm-shrink-0">Book an Appointment</a>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <!-- Navbar & Hero End -->
+                </nav>
+            </div>
+            <!-- Navbar & Hero End -->
 
-        <!-- Modal Search Start -->
-        <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog modal-fullscreen">
-                <div class="modal-content rounded-0">
-                    <div class="modal-header">
-                        <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body d-flex align-items-center">
-                        <div class="input-group w-75 mx-auto d-flex">
-                            <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
-                            <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+            <!-- Modal Search Start -->
+            <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                <div class="modal-dialog modal-fullscreen">
+                    <div class="modal-content rounded-0">
+                        <div class="modal-header">
+                            <h4 class="modal-title mb-0" id="exampleModalLabel">Search by keyword</h4>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body d-flex align-items-center">
+                            <div class="input-group w-75 mx-auto d-flex">
+                                <input type="search" class="form-control p-3" placeholder="keywords" aria-describedby="search-icon-1">
+                                <span id="search-icon-1" class="input-group-text p-3"><i class="fa fa-search"></i></span>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Modal Search End -->
+            <!-- Modal Search End -->
 
-<<<<<<< HEAD
+            <!-- Carousel Start -->
+
            
 
 
@@ -237,155 +238,6 @@
 </div>
             <!-- About Start -->
             <!-- <section id="about">
-=======
-        <!-- Carousel Start -->
-        <!-- 
-            <div class="img_float d-flex flex-row justify-content-end">
-                <img src="images/brand.png" alt=" " class="img-fluid">
-            </div>
-            <div class="container-fluid overflow-hidden px-0">
-
-                <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-                    <ol class="carousel-indicators fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">
-                        <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li> 
-                        <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="fourth slide"></li>
-
-                        <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="fifth slide"></li>
-                        <li data-bs-target="#carouselId" data-bs-slide-to="5" aria-label="sixth slide"></li>
-
-
-                    </ol>
-                     <div class="carousel-inner" role="listbox">
-                        <div class="carousel-item active">
-                            <img src="images/slide1.jpg" class="img-fluid w-100" alt="First slide" />
-
-                            <div class="carousel-caption">
-                                <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated text-capitalize" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
-                                <h3 class="  text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
-                                <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="carousel-item ">
-                            <img src="images/step.jpg" class="img-fluid w-100" alt="second slide" />
-
-                            <div class="carousel-caption">
-                                <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated text-capitalize" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
-                                <h3 class="  text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
-                                <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
-                                </p>
-                            </div>
-                        </div> 
-
-                        <div class="carousel-item">
-                            <img src="images/ratnakart7.jpg" class="img-fluid w-100" alt="third slide" />
-
-                            <div class="carousel-caption">
-                                <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions </p>
-                                <h3 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
-                                <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
-                                </p>
-                            </div>
-                        </div>
-                        <div class="carousel-item">
-                            <img src="images/slab.jpg" class="img-fluid w-100" alt="fourth slide" />
-
-                            <div class="carousel-caption">
-                                <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
-                                <h3 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
-                                <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/3d.png" class="img-fluid w-100" alt="fifth slide" />
-
-                        <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions </p>
-                            <h3 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
-                            <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <img src="images/.jpg" class="img-fluid w-100" alt="sixth slide" />
-
-                        <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions </p>
-                            <h3 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
-                            <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
-                            </p>
-                        </div>
-                    </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-                        <span class="carousel-control-prev-icon btn-lg-square fadeInLeft animate__animated" aria-hidden="true" data-animation="fadeInLeft" data-delay="1.1s" style="animation-delay: 1.3s;"><i class="fas fa-chevron-left fa-2x"></i></span>
-                        <span class="visually-hidden">Previous</span>
-                    </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-                        <span class="carousel-control-next-icon btn-lg-square fadeInRight animate__animated" aria-hidden="true" data-animation="fadeInRight" data-delay="1.1s" style="animation-delay: 1.3s;"><i class="fas fa-chevron-right fa-2x"></i></span>
-                        <span class="visually-hidden">Next</span>
-                    </button>
-                </div>
-
-            </div> -->
-
-
-
-        <!-- Carousel End -->
-
-
-
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
-
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="images/3d.png" class="d-block w-100" alt="Slide 1">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/slide1.jpg" class="d-block w-100" alt="Slide 2">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/slide2.jpg" class="d-block w-100" alt="Slide 3">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/slide3.jpg" class="d-block w-100" alt="Slide 4">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/step.jpg" class="d-block w-100" alt="Slide 5">
-                </div>
-                <div class="carousel-item">
-                    <img src="images/3d.png" class="d-block w-100" alt="Slide 6">
-                </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
-        </div>
-
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
-
-
-
-        <!-- About Start -->
-        <!-- <section id="about">
->>>>>>> a8a5cde6f9b480a7902804dae87722bb598781d6
             <div class="container-fluid about py-5">
 
                 <p class="text-uppercase text-secondary fs-5 text-center ">About us</p>
@@ -477,131 +329,131 @@
 
 
 
-        <section id="about">
-            <div class="container-fluid about py-5">
+            <section id="about">
+                <div class="container-fluid about py-5">
 
-                <p class="text-uppercase text-secondary fs-1 text-center  about">About us</p>
+                    <p class="text-uppercase text-secondary fs-1 text-center  about">About us</p>
 
-                <div class="container py-5">
-                    <div class="row">
-                        <div class="col-12 col-md-6">
-                            <!-- <video id="video" poster="poster.jpg " class="w-100 " autoplay controls  loop>
+                    <div class="container py-5">
+                        <div class="row">
+                            <div class="col-12 col-md-6">
+                                <!-- <video id="video" poster="poster.jpg " class="w-100 " autoplay controls  loop>
                                 <source src="images/WhatsApp Video 2024-12-17 at 10.16.44.mp4" type="video/mp4">
 
                             </video> -->
-                            <section autoplay muted loop class="only_first mt-3  ">
-                                <video id="myVideo" width="100%" autoplay controls muted loop>
-                                    <source src="images/WhatsApp Video 2024-12-17 at 10.16.44.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                                <p class="text-uppercase  fs-5 walk">Building Walk through video of House.</p>
+                                <section autoplay muted loop class="only_first mt-3  ">
+                                    <video id="myVideo" width="100%" autoplay controls muted loop>
+                                        <source src="images/WhatsApp Video 2024-12-17 at 10.16.44.mp4" type="video/mp4">
+                                        Your browser does not support the video tag.
+                                    </video>
+                                    <p class="text-uppercase  fs-5 walk">Building Walk through video of House.</p>
 
 
-                        </div>
-                        <div class="col-12 col-md-6 company">
-                            <p class="text-uppercase text-secondary fs-5 mb-0">WE ARE CONSTRUCTION COMPANY</p>
-                            <!-- <h2 class="display-4 text-capitalize mb-3">Making your vision come true at the basics.</h2> -->
-                            <p class="mb-4 fs-5">
-                                We specialize in the Effective Planning, Management and Delivery of Commercial and Residential Builiding Projects. in particular, We have developed Over the years to become the specialist partner of choice for individual and Duplex Houses. But No matter the project, we work meticulously from concept through the completion of delivering a comprehensive forward thinking service.
-                            </p>
+                            </div>
+                            <div class="col-12 col-md-6 company">
+                                <p class="text-uppercase text-secondary fs-5 mb-0">WE ARE CONSTRUCTION COMPANY</p>
+                                <!-- <h2 class="display-4 text-capitalize mb-3">Making your vision come true at the basics.</h2> -->
+                                <p class="mb-4 fs-5">
+                                    We specialize in the Effective Planning, Management and Delivery of Commercial and Residential Builiding Projects. in particular, We have developed Over the years to become the specialist partner of choice for individual and Duplex Houses. But No matter the project, we work meticulously from concept through the completion of delivering a comprehensive forward thinking service.
+                                </p>
 
 
-                        </div>
+                            </div>
 
-                        <script src="script.js">
-                            const video = document.getElementById('video');
-                            const replayButton = document.getElementById('replay-button');
+                            <script src="script.js">
+                                const video = document.getElementById('video');
+                                const replayButton = document.getElementById('replay-button');
 
-                            // Add click event to video to restart it
-                            video.addEventListener('click', () => {
-                                if (video.paused) {
+                                // Add click event to video to restart it
+                                video.addEventListener('click', () => {
+                                    if (video.paused) {
+                                        video.play();
+                                    }
+                                });
+
+                                // Show replay button when video ends
+                                video.addEventListener('ended', () => {
+                                    replayButton.style.display = 'show';
+                                });
+
+                                // Replay video on button click
+                                replayButton.addEventListener('click', () => {
+                                    video.currentTime = 0;
                                     video.play();
-                                }
-                            });
+                                    replayButton.style.display = '';
+                                });
+                            </script>
+            </section>
+            <!-- About End -->
 
-                            // Show replay button when video ends
-                            video.addEventListener('ended', () => {
-                                replayButton.style.display = 'show';
-                            });
+            <section>
+                <div class="container">
+                    <div class="pb-4 mb-4 ">
+                        <div class="row g-4">
+                            <div class="col-lg-6">
+                                <div class="d-flex mb-4">
+                                    <div class="">
+                                        <i class="fas fa-user-shield fa-3x new_icon"></i>
+                                    </div>
+                                    <h4 class="ms-3 contact_text">Building quality standards</h4>
+                                </div>
+                                <div class="d-flex mb-4">
+                                    <div class="">
+                                        <i class="fas fa-users-cog fa-3x new_icon"></i>
+                                    </div>
+                                    <h4 class="ms-3 contact_text"> Vasthu Plan</h4>
 
-                            // Replay video on button click
-                            replayButton.addEventListener('click', () => {
-                                video.currentTime = 0;
-                                video.play();
-                                replayButton.style.display = '';
-                            });
-                        </script>
-        </section>
-        <!-- About End -->
+                                </div>
+                                <div class="d-flex mb-4">
+                                    <div class="">
+                                        <i class="fas fa-users-cog fa-3x new_icon"></i>
+                                    </div>
+                                    <h4 class="ms-3 contact_text">Transparency</h4>
+                                </div>
+                                <div class="d-flex mb-4">
+                                    <div class="">
+                                        <i class="fas fa-users-cog fa-3x new_icon"></i>
+                                    </div>
+                                    <h4 class="ms-3 contact_text"> Trustworthy</h4>
+                                </div>
+                                <div class="d-flex mb-4">
+                                    <div class="">
+                                        <i class="fas fa-users-cog fa-3x new_icon"></i>
+                                    </div>
+                                    <h4 class="ms-3 contact_text">Certified engineer’s team</h4>
 
-        <section>
-            <div class="container">
-                <div class="pb-4 mb-4 ">
+                                </div>
+                            </div>
+                            <div class="col-lg-6">
+                                <div class="about-item-content-img">
+                                    <!-- <img src="img/about-2.jpg" class="img-fluid w-100" alt=""> -->
+                                    <img src="images/ratnakart4.jpg" class="img-fluid w-100 " alt="" style="width:200px;height:350px">
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Features Start -->
+            <div class="container-fluid feature bg-light py-5 ">
+                <div class="container py-5 ">
+                    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                        <p class="text-uppercase text-secondary fs-5 mb-0">WHy US</p>
+                        <h2 class="text-capitalize mb-3 contact_text">Why Choose Us</h2>
+                    </div>
                     <div class="row g-4">
-                        <div class="col-lg-6">
-                            <div class="d-flex mb-4">
-                                <div class="">
-                                    <i class="fas fa-user-shield fa-3x new_icon"></i>
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="feature-item text-center border p-5">
+                                <div class="feature-img  d-inline-flex p-4">
+                                    <i class="fas fa-city new_icon fa-5x"></i>
                                 </div>
-                                <h4 class="ms-3 contact_text">Building quality standards</h4>
-                            </div>
-                            <div class="d-flex mb-4">
-                                <div class="">
-                                    <i class="fas fa-users-cog fa-3x new_icon"></i>
-                                </div>
-                                <h4 class="ms-3 contact_text"> Vasthu Plan</h4>
-
-                            </div>
-                            <div class="d-flex mb-4">
-                                <div class="">
-                                    <i class="fas fa-users-cog fa-3x new_icon"></i>
-                                </div>
-                                <h4 class="ms-3 contact_text">Transparency</h4>
-                            </div>
-                            <div class="d-flex mb-4">
-                                <div class="">
-                                    <i class="fas fa-users-cog fa-3x new_icon"></i>
-                                </div>
-                                <h4 class="ms-3 contact_text"> Trustworthy</h4>
-                            </div>
-                            <div class="d-flex mb-4">
-                                <div class="">
-                                    <i class="fas fa-users-cog fa-3x new_icon"></i>
-                                </div>
-                                <h4 class="ms-3 contact_text">Certified engineer’s team</h4>
-
+                                <a href="#" class="h4 d-block my-4 contact_text">Expert Engineer</a>
+                                <p class="mb-0">Expert Engineers is a fast-growing, professionally managed engineering company engaged in the manufacturing of custom-built low-voltage Electrical Control Panels, switchboards, and control panels catering to the needs of the building, water, power, and industrial sectors through its products, aiming to empower and ...</p>
                             </div>
                         </div>
-                        <div class="col-lg-6">
-                            <div class="about-item-content-img">
-                                <!-- <img src="img/about-2.jpg" class="img-fluid w-100" alt=""> -->
-                                <img src="images/ratnakart4.jpg" class="img-fluid w-100 " alt="" style="width:200px;height:350px">
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- Features Start -->
-        <div class="container-fluid feature bg-light py-5 ">
-            <div class="container py-5 ">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <p class="text-uppercase text-secondary fs-5 mb-0">WHy US</p>
-                    <h2 class="text-capitalize mb-3 contact_text">Why Choose Us</h2>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="feature-item text-center border p-5">
-                            <div class="feature-img  d-inline-flex p-4">
-                                <i class="fas fa-city new_icon fa-5x"></i>
-                            </div>
-                            <a href="#" class="h4 d-block my-4 contact_text">Expert Engineer</a>
-                            <p class="mb-0">Expert Engineers is a fast-growing, professionally managed engineering company engaged in the manufacturing of custom-built low-voltage Electrical Control Panels, switchboards, and control panels catering to the needs of the building, water, power, and industrial sectors through its products, aiming to empower and ...</p>
-                        </div>
-                    </div>
-                    <!-- <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                        <!-- <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="feature-item text-center border p-5">
                             <div class="feature-img  d-inline-flex p-4">
                                 <i class="fas fa-funnel-dollar new_icon fa-5x"></i>
@@ -610,336 +462,336 @@
                             <p class="mb-0"> Estimating is the process of assessing all the costs of a construction project during the preconstruction phase. These costs include direct costs, indirect costs, overhead costs and a profit margin for the general contractor.1</p>
                         </div>
                     </div> -->
-                    <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="feature-item text-center border p-5">
-                            <div class="feature-img  d-inline-flex p-4">
-                                <i class="fas fa-tools  new_icon fa-5x"></i>
+                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="feature-item text-center border p-5">
+                                <div class="feature-img  d-inline-flex p-4">
+                                    <i class="fas fa-tools  new_icon fa-5x"></i>
+                                </div>
+                                <a href="#" class="h4 d-block my-4 contact_text">Quality Materials</a>
+                                <p class="mb-0">Quality materials are essential for construction projects as they offer several benefits. Using high-quality materials ensures the durability and longevity of the structure, reducing the need for frequent repairs and maintenance. Quality materials also enhance the overall appearance and aesthetic appeal of the construction,</p>
                             </div>
-                            <a href="#" class="h4 d-block my-4 contact_text">Quality Materials</a>
-                            <p class="mb-0">Quality materials are essential for construction projects as they offer several benefits. Using high-quality materials ensures the durability and longevity of the structure, reducing the need for frequent repairs and maintenance. Quality materials also enhance the overall appearance and aesthetic appeal of the construction,</p>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Features End -->
+            <!-- Features End -->
 
 
-        <!-- Services Start -->
-        <section id="service">
-            <div class="container-fluid service bg-light pb-5">
-                <div class="container pb-5">
-                    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                        <p class="text-uppercase text-secondary fs-5 mb-0">Our Services</p>
-                        <h2 class=" text-capitalize mb-3 contact_text">our service is creative, & decent</h2>
-                    </div>
-                    <div class="row g-4">
-                        <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <!-- <img src="img/service-1.jpg" class="img-fluid w-100" alt="Image"> -->
-                                    <!-- <img src="images/ratnakart25.jpg" class="img-fluid w-100" alt="Image"> -->
-                                    <img src="images/ratnakar38.jpeg" class="img-fluid w-100" alt="Image">
+            <!-- Services Start -->
+            <section id="service">
+                <div class="container-fluid service bg-light pb-5">
+                    <div class="container pb-5">
+                        <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                            <p class="text-uppercase text-secondary fs-5 mb-0">Our Services</p>
+                            <h2 class=" text-capitalize mb-3 contact_text">our service is creative, & decent</h2>
+                        </div>
+                        <div class="row g-4">
+                            <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="service-item">
+                                    <div class="service-img">
+                                        <!-- <img src="img/service-1.jpg" class="img-fluid w-100" alt="Image"> -->
+                                        <!-- <img src="images/ratnakart25.jpg" class="img-fluid w-100" alt="Image"> -->
+                                        <img src="images/ratnakar38.jpeg" class="img-fluid w-100" alt="Image">
 
 
 
 
-                                </div>
-                                <div class="service-content text-center p-4 ">
-                                    <div class="bg-white btn-xl-square mx-auto" style="width: 100px; height: 100px;">
-                                        <i class="fas fa-home new_icon fa-4x"></i>
                                     </div>
-                                    <a href="" class="d-block fs-4 my-4">Designing plans for the Commercial and Residential Properties </a>
-                                    <p class="text-white mb-4"></p>
-                                    <!-- <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
-                                </div>
-                                <div class="service-tytle">
-                                    <div class="d-flex align-items-center ps-4 w-100">
-                                        <h4 class="font contact_text">Designing plans for the Commercial and Residential Properties</h4>
+                                    <div class="service-content text-center p-4 ">
+                                        <div class="bg-white btn-xl-square mx-auto" style="width: 100px; height: 100px;">
+                                            <i class="fas fa-home new_icon fa-4x"></i>
+                                        </div>
+                                        <a href="" class="d-block fs-4 my-4">Designing plans for the Commercial and Residential Properties </a>
+                                        <p class="text-white mb-4"></p>
+                                        <!-- <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
                                     </div>
-                                    <div class="btn-xl-square bg p-4" style="width: 80px; height: 80px;">
-                                        <i class="fas fa-home new_icon fa-2x"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="images/ratnakar39.jpeg" class="img-fluid w-100" alt="Image">
-                                </div>
-                                <div class="service-content text-center p-4">
-                                    <div class="bg-white btn-xl-square mx-auto" style="width: 120px; height: 120px;">
-                                        <i class="fas fa-users-cog new_icon fa-4x"></i>
-                                    </div>
-                                    <a href="" class="d-block fs-4 my-4"> Construction of Futurstic individual Houses</a>
-                                    <p class="text-white mb-4"></p>
-                                    <!-- <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
-                                </div>
-                                <div class="service-tytle">
-                                    <div class="d-flex align-items-center justify-content-start ps-4 w-100">
-                                        <h4 class="font contact_text"> Construction of Futurstic individual Houses</h4>
-                                    </div>
-                                    <div class="btn-xl-square  p-4" style="width: 80px; height: 80px;">
-                                        <i class="fas fa-users-cog new_icon fa-2x"></i>
+                                    <div class="service-tytle">
+                                        <div class="d-flex align-items-center ps-4 w-100">
+                                            <h4 class="font contact_text">Designing plans for the Commercial and Residential Properties</h4>
+                                        </div>
+                                        <div class="btn-xl-square bg p-4" style="width: 80px; height: 80px;">
+                                            <i class="fas fa-home new_icon fa-2x"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="images/duplex.jpeg" class="img-fluid w-100" alt="Image">
-                                </div>
-                                <div class="service-content text-center p-4">
-                                    <div class="bg-white mx-auto" style="width: 120px; height: 120px;">
-                                        <i class="fas fa-hospital-user new_icon fa-4x"></i>
+                            <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="service-item">
+                                    <div class="service-img">
+                                        <img src="images/ratnakar39.jpeg" class="img-fluid w-100" alt="Image">
                                     </div>
-                                    <a href="" class="d-block fs-4 my-4">Construction of Sophisticated Duplex Houses</a>
-                                    <p class="text-white mb-4"></p>
-                                    <!-- <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
-                                </div>
-                                <div class="service-tytle">
-                                    <div class="d-flex align-items-center justify-content-start ps-4 w-100">
-                                        <h4 class="font contact_text">Construction of Sophisticated Duplex Houses</h4>
+                                    <div class="service-content text-center p-4">
+                                        <div class="bg-white btn-xl-square mx-auto" style="width: 120px; height: 120px;">
+                                            <i class="fas fa-users-cog new_icon fa-4x"></i>
+                                        </div>
+                                        <a href="" class="d-block fs-4 my-4"> Construction of Futurstic individual Houses</a>
+                                        <p class="text-white mb-4"></p>
+                                        <!-- <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
                                     </div>
-                                    <div class="btn-xl-square  p-4" style="width: 80px; height: 80px;">
-                                        <i class="fas fa-hospital-user new_icon fa-2x"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="images/3d-view.png" class="img-fluid w-100" alt="Image">
-                                </div>
-                                <div class="service-content text-center p-4">
-                                    <div class="bg-white mx-auto" style="width: 120px; height: 120px;">
-                                        <i class="fas fa-hospital-user new_icon fa-4x"></i>
-                                    </div>
-                                    <a href="" class="d-block fs-4 my-4">Construction of 3D view of Houses</a>
-                                    <p class="text-white mb-4"></p>
-                                    <!-- <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
-                                </div>
-                                <div class="service-tytle">
-                                    <div class="d-flex align-items-center justify-content-start ps-4 w-100">
-                                        <h4 class="font contact_text">Construction of 3D view of Houses</h4>
-                                    </div>
-                                    <div class="btn-xl-square  p-4" style="width: 80px; height: 80px;">
-                                        <i class="fas fa-hospital-user new_icon fa-2x"></i>
+                                    <div class="service-tytle">
+                                        <div class="d-flex align-items-center justify-content-start ps-4 w-100">
+                                            <h4 class="font contact_text"> Construction of Futurstic individual Houses</h4>
+                                        </div>
+                                        <div class="btn-xl-square  p-4" style="width: 80px; height: 80px;">
+                                            <i class="fas fa-users-cog new_icon fa-2x"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="images/villas.jpeg" class="img-fluid w-100" alt="Image">
-                                </div>
-                                <div class="service-content text-center p-4">
-                                    <div class="bg-white btn-xl-square mx-auto" style="width: 100px; height: 100px;">
-                                        <i class="fas fa-file-invoice-dollar new_icon fa-4x"></i>
+                            <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="service-item">
+                                    <div class="service-img">
+                                        <img src="images/duplex.jpeg" class="img-fluid w-100" alt="Image">
                                     </div>
-                                    <a href="" class="d-block fs-4 my-4">Building of Avant Garde Apartments and Villas</a>
-                                    <p class="text-white mb-4"></p>
-                                    <!-- <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
-                                </div>
-                                <div class="service-tytle">
-                                    <div class="d-flex align-items-center justify-content-start ps-4 w-100">
-                                        <h4 class="font new_font contact_text">Building of Avant Garde Apartments and Villas</h4>
+                                    <div class="service-content text-center p-4">
+                                        <div class="bg-white mx-auto" style="width: 120px; height: 120px;">
+                                            <i class="fas fa-hospital-user new_icon fa-4x"></i>
+                                        </div>
+                                        <a href="" class="d-block fs-4 my-4">Construction of Sophisticated Duplex Houses</a>
+                                        <p class="text-white mb-4"></p>
+                                        <!-- <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
                                     </div>
-                                    <div class="btn-xl-square  p-4" style="width: 80px; height: 80px;">
-                                        <i class="fas fa-file-invoice-dollar new_icon fa-2x"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="images/interior.jpeg" class="img-fluid w-100" alt="Image">
-                                </div>
-                                <div class="service-content text-center p-4">
-                                    <div class="bg-white btn-xl-square mx-auto" style="width: 100px; height: 100px;">
-                                        <i class="fas fa-cogs new_icon fa-4x"></i>
-                                    </div>
-                                    <a href="" class="d-block fs-4 my-4">Interior and Exterior Works</a>
-                                    <p class="text-white mb-4"></p>
-                                    <!-- <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
-                                </div>
-                                <div class="service-tytle">
-                                    <div class="d-flex align-items-center justify-content-start ps-4 w-100">
-                                        <h4 class="font contact_text">Interior and Exterior Works</h4>
-                                    </div>
-                                    <div class="btn-xl-square p-4" style="width: 80px; height: 80px;">
-                                        <i class="fas fa-cogs new_icon fa-2x"></i>
+                                    <div class="service-tytle">
+                                        <div class="d-flex align-items-center justify-content-start ps-4 w-100">
+                                            <h4 class="font contact_text">Construction of Sophisticated Duplex Houses</h4>
+                                        </div>
+                                        <div class="btn-xl-square  p-4" style="width: 80px; height: 80px;">
+                                            <i class="fas fa-hospital-user new_icon fa-2x"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="images/supervisor.jpeg" class="img-fluid w-100" alt="Image">
-                                </div>
-                                <div class="service-content text-center p-4">
-                                    <div class="bg-white btn-xl-square mx-auto" style="width: 100px; height: 100px;">
-                                        <i class="fas fa-sitemap new_icon fa-4x"></i>
+                            <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="service-item">
+                                    <div class="service-img">
+                                        <img src="images/3d-view.png" class="img-fluid w-100" alt="Image">
                                     </div>
-                                    <a href="" class="d-block fs-4 my-4">Construction Supervision</a>
-                                    <p class="text-white mb-4"></p>
-                                    <!-- <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
-                                </div>
-                                <div class="service-tytle">
-                                    <div class="d-flex align-items-center justify-content-start ps-4 w-100">
-                                        <h4 class="font contact_text">Construction Supervision</h4>
+                                    <div class="service-content text-center p-4">
+                                        <div class="bg-white mx-auto" style="width: 120px; height: 120px;">
+                                            <i class="fas fa-hospital-user new_icon fa-4x"></i>
+                                        </div>
+                                        <a href="" class="d-block fs-4 my-4">Construction of 3D view of Houses</a>
+                                        <p class="text-white mb-4"></p>
+                                        <!-- <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
                                     </div>
-                                    <div class="btn-xl-square  p-4" style="width: 80px; height: 80px;">
-                                        <i class="fas fa-sitemap new_icon fa-2x"></i>
+                                    <div class="service-tytle">
+                                        <div class="d-flex align-items-center justify-content-start ps-4 w-100">
+                                            <h4 class="font contact_text">Construction of 3D view of Houses</h4>
+                                        </div>
+                                        <div class="btn-xl-square  p-4" style="width: 80px; height: 80px;">
+                                            <i class="fas fa-hospital-user new_icon fa-2x"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                            <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="service-item">
+                                    <div class="service-img">
+                                        <img src="images/villas.jpeg" class="img-fluid w-100" alt="Image">
+                                    </div>
+                                    <div class="service-content text-center p-4">
+                                        <div class="bg-white btn-xl-square mx-auto" style="width: 100px; height: 100px;">
+                                            <i class="fas fa-file-invoice-dollar new_icon fa-4x"></i>
+                                        </div>
+                                        <a href="" class="d-block fs-4 my-4">Building of Avant Garde Apartments and Villas</a>
+                                        <p class="text-white mb-4"></p>
+                                        <!-- <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
+                                    </div>
+                                    <div class="service-tytle">
+                                        <div class="d-flex align-items-center justify-content-start ps-4 w-100">
+                                            <h4 class="font new_font contact_text">Building of Avant Garde Apartments and Villas</h4>
+                                        </div>
+                                        <div class="btn-xl-square  p-4" style="width: 80px; height: 80px;">
+                                            <i class="fas fa-file-invoice-dollar new_icon fa-2x"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="service-item">
+                                    <div class="service-img">
+                                        <img src="images/interior.jpeg" class="img-fluid w-100" alt="Image">
+                                    </div>
+                                    <div class="service-content text-center p-4">
+                                        <div class="bg-white btn-xl-square mx-auto" style="width: 100px; height: 100px;">
+                                            <i class="fas fa-cogs new_icon fa-4x"></i>
+                                        </div>
+                                        <a href="" class="d-block fs-4 my-4">Interior and Exterior Works</a>
+                                        <p class="text-white mb-4"></p>
+                                        <!-- <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
+                                    </div>
+                                    <div class="service-tytle">
+                                        <div class="d-flex align-items-center justify-content-start ps-4 w-100">
+                                            <h4 class="font contact_text">Interior and Exterior Works</h4>
+                                        </div>
+                                        <div class="btn-xl-square p-4" style="width: 80px; height: 80px;">
+                                            <i class="fas fa-cogs new_icon fa-2x"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="service-item">
+                                    <div class="service-img">
+                                        <img src="images/supervisor.jpeg" class="img-fluid w-100" alt="Image">
+                                    </div>
+                                    <div class="service-content text-center p-4">
+                                        <div class="bg-white btn-xl-square mx-auto" style="width: 100px; height: 100px;">
+                                            <i class="fas fa-sitemap new_icon fa-4x"></i>
+                                        </div>
+                                        <a href="" class="d-block fs-4 my-4">Construction Supervision</a>
+                                        <p class="text-white mb-4"></p>
+                                        <!-- <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
+                                    </div>
+                                    <div class="service-tytle">
+                                        <div class="d-flex align-items-center justify-content-start ps-4 w-100">
+                                            <h4 class="font contact_text">Construction Supervision</h4>
+                                        </div>
+                                        <div class="btn-xl-square  p-4" style="width: 80px; height: 80px;">
+                                            <i class="fas fa-sitemap new_icon fa-2x"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
-                        <div class="col-lg-3 new_service wow fadeInUp align-items-center g-4" data-wow-delay="0.4s">
-                            <div class="service-item">
-                                <div class="service-img">
-                                    <img src="images/contractor.jpeg" class="img-fluid w-100" alt="Image">
-                                </div>
-                                <div class="service-content text-center p-4">
-                                    <div class="bg-white btn-xl-square mx-auto" style="width: 120px; height: 120px;">
-                                        <i class="fas fa-users-cog new_icon fa-4x"></i>
+                            <div class="col-lg-3 new_service wow fadeInUp align-items-center g-4" data-wow-delay="0.4s">
+                                <div class="service-item">
+                                    <div class="service-img">
+                                        <img src="images/contractor.jpeg" class="img-fluid w-100" alt="Image">
                                     </div>
-                                    <a href="" class="d-block fs-4 my-4"> Building Contractors</a>
-                                    <p class="text-white mb-4"></p>
-                                    <!-- <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
-                                </div>
-                                <div class="service-tytle">
-                                    <div class="d-flex align-items-center justify-content-start ps-4 w-100">
-                                        <h4 class="font contact_text"> Building Contractors</h4>
+                                    <div class="service-content text-center p-4">
+                                        <div class="bg-white btn-xl-square mx-auto" style="width: 120px; height: 120px;">
+                                            <i class="fas fa-users-cog new_icon fa-4x"></i>
+                                        </div>
+                                        <a href="" class="d-block fs-4 my-4"> Building Contractors</a>
+                                        <p class="text-white mb-4"></p>
+                                        <!-- <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
                                     </div>
-                                    <div class="btn-xl-square  p-4" style="width: 80px; height: 80px;">
-                                        <i class="fas fa-users-cog new_icon fa-2x"></i>
+                                    <div class="service-tytle">
+                                        <div class="d-flex align-items-center justify-content-start ps-4 w-100">
+                                            <h4 class="font contact_text"> Building Contractors</h4>
+                                        </div>
+                                        <div class="btn-xl-square  p-4" style="width: 80px; height: 80px;">
+                                            <i class="fas fa-users-cog new_icon fa-2x"></i>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
-                        </div>
-                        <!-- <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
+                            <!-- <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
                         <a class="btn btn-secondary py-3 px-5 mt-4" href="#">More Services</a>
                     </div> -->
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- Services End -->
+
+            <!-- Gallery Start -->
+
+            <div class="container-fluid blog pb-5">
+                <div class="container pb-5">
+                    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                        <p class="text-uppercase text-secondary fs-1 mb-0 pt-5 about">Gallery</p>
+                        <!-- <h2 class="display-4 text-capitalize mb-3">Our latest news post and articles?</h2> -->
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="blog-item h-100">
+                                <div class="blog-img">
+                                    <img src="images/ratnakar.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="blog-content">
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
+                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
+                                    </div>
+                                    <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
+                                <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="blog-item h-100">
+                                <div class="blog-img">
+                                    <!-- <img src="images/ratnakar38.jpeg" class="img-fluid w-100" alt=""> -->
+                                    <img src="images/ratnakart7.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="blog-content">
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
+                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
+                                    </div>
+                                    <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
+                                <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="blog-item h-100">
+                                <div class="blog-img">
+                                    <img src="images/ratnakart28.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="blog-content">
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
+                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
+                                    </div>
+                                    <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
+                                <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="blog-item h-100">
+                                <div class="blog-img">
+                                    <img src="images/ratnakart25.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="blog-content">
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
+                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
+                                    </div>
+                                    <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
+                                <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="blog-item h-100">
+                                <div class="blog-img">
+                                    <img src="images/ratnakart26.jpg" class="img-fluid " alt="">
+                                </div>
+                                <div class="blog-content">
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
+                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
+                                    </div>
+                                    <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
+                                <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="blog-item h-100">
+                                <div class="blog-img">
+                                    <img src="images/ratnakart27.jpg" class="img-fluid" alt="">
+                                </div>
+                                <div class="blog-content">
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
+                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
+                                    </div>
+                                    <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
+                                <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
-        </section>
-        <!-- Services End -->
 
-        <!-- Gallery Start -->
-
-        <div class="container-fluid blog pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <p class="text-uppercase text-secondary fs-1 mb-0 pt-5 about">Gallery</p>
-                    <!-- <h2 class="display-4 text-capitalize mb-3">Our latest news post and articles?</h2> -->
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="blog-item h-100">
-                            <div class="blog-img">
-                                <img src="images/ratnakar.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
-                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
-                                </div>
-                                <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
-                                <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="blog-item h-100">
-                            <div class="blog-img">
-                                <!-- <img src="images/ratnakar38.jpeg" class="img-fluid w-100" alt=""> -->
-                                <img src="images/ratnakart7.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
-                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
-                                </div>
-                                <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
-                                <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="blog-item h-100">
-                            <div class="blog-img">
-                                <img src="images/ratnakart28.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
-                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
-                                </div>
-                                <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
-                                <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="blog-item h-100">
-                            <div class="blog-img">
-                                <img src="images/ratnakart25.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
-                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
-                                </div>
-                                <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
-                                <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="blog-item h-100">
-                            <div class="blog-img">
-                                <img src="images/ratnakart26.jpg" class="img-fluid " alt="">
-                            </div>
-                            <div class="blog-content">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
-                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
-                                </div>
-                                <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
-                                <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="blog-item h-100">
-                            <div class="blog-img">
-                                <img src="images/ratnakart27.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
-                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
-                                </div>
-                                <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
-                                <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Gallery End-->
-        <!-- <div class="desktop_2" unique-script-id="w-w-dm-id">
+            <!-- Gallery End-->
+            <!-- <div class="desktop_2" unique-script-id="w-w-dm-id">
         <div class="Container">
           <div class="portfolio">
             <div class="above">
@@ -1074,80 +926,80 @@
 
 
 
-        <!-- Fact Counter -->
-        <div class="container-fluid counter py-5">
-            <div class="container py-5">
-                <div class="row g-4">
-                    <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="counter-box">
-                            <div class="counter-item">
-                                <div class="counter-item-style"></div>
-                                <div class="counter-item-inner p-5">
-                                    <i class="fas fa-thumbs-up fa-4x new_color"></i>
-                                    <h4 class="text-dark my-4 contact_text">Completed Projects</h4>
-                                    <div class="counter-counting">
-                                        <span class="text-white fs-2 fw-bold" data-toggle="counter-up">800</span>
-                                        <span class="h1 fw-bold text-white">+</span>
+            <!-- Fact Counter -->
+            <div class="container-fluid counter py-5">
+                <div class="container py-5">
+                    <div class="row g-4">
+                        <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="counter-box">
+                                <div class="counter-item">
+                                    <div class="counter-item-style"></div>
+                                    <div class="counter-item-inner p-5">
+                                        <i class="fas fa-thumbs-up fa-4x new_color"></i>
+                                        <h4 class="text-dark my-4 contact_text">Completed Projects</h4>
+                                        <div class="counter-counting">
+                                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">800</span>
+                                            <span class="h1 fw-bold text-white">+</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="counter-box">
-                            <div class="counter-item">
-                                <div class="counter-item-style"></div>
-                                <div class="counter-item-inner p-5">
-                                    <i class="fas fa-users fa-4x new_color"></i>
-                                    <h4 class="text-dark my-4 contact_text">Happy Customers</h4>
-                                    <div class="counter-counting">
-                                        <span class="text-white fs-2 fw-bold" data-toggle="counter-up">800</span>
-                                        <span class="h1 fw-bold text-white">+</span>
+                        <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="counter-box">
+                                <div class="counter-item">
+                                    <div class="counter-item-style"></div>
+                                    <div class="counter-item-inner p-5">
+                                        <i class="fas fa-users fa-4x new_color"></i>
+                                        <h4 class="text-dark my-4 contact_text">Happy Customers</h4>
+                                        <div class="counter-counting">
+                                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">800</span>
+                                            <span class="h1 fw-bold text-white">+</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="counter-box">
-                            <div class="counter-item">
-                                <div class="counter-item-style"></div>
-                                <div class="counter-item-inner p-5">
-                                    <i class="fas fa-user fa-4x new_color"></i>
-                                    <h4 class="text-dark my-4 contact_text">Qualified Engineers</h4>
-                                    <div class="counter-counting">
-                                        <span class="text-white fs-2 fw-bold" data-toggle="counter-up">53</span>
-                                        <span class="h1 fw-bold text-white">+</span>
+                        <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="counter-box">
+                                <div class="counter-item">
+                                    <div class="counter-item-style"></div>
+                                    <div class="counter-item-inner p-5">
+                                        <i class="fas fa-user fa-4x new_color"></i>
+                                        <h4 class="text-dark my-4 contact_text">Qualified Engineers</h4>
+                                        <div class="counter-counting">
+                                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">53</span>
+                                            <span class="h1 fw-bold text-white">+</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="counter-box">
-                            <div class="counter-item">
-                                <div class="counter-item-style"></div>
-                                <div class="counter-item-inner p-5">
-                                    <i class="fas fa-heart fa-4x new_color"></i>
-                                    <h4 class="text-dark my-4 contact_text">Years Experiance</h4>
-                                    <div class="counter-counting">
-                                        <span class="text-white fs-2 fw-bold" data-toggle="counter-up">17</span>
-                                        <span class="h1 fw-bold text-white">+</span>
+                        <div class="col-lg-6 col-xl-3 wow fadeInUp" data-wow-delay="0.8s">
+                            <div class="counter-box">
+                                <div class="counter-item">
+                                    <div class="counter-item-style"></div>
+                                    <div class="counter-item-inner p-5">
+                                        <i class="fas fa-heart fa-4x new_color"></i>
+                                        <h4 class="text-dark my-4 contact_text">Years Experiance</h4>
+                                        <div class="counter-counting">
+                                            <span class="text-white fs-2 fw-bold" data-toggle="counter-up">17</span>
+                                            <span class="h1 fw-bold text-white">+</span>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <!-- <div class="col-12 text-center pt-4 wow fadeInUp" data-wow-delay="0.9s">
+                        <!-- <div class="col-12 text-center pt-4 wow fadeInUp" data-wow-delay="0.9s">
                         <a class="counter-btn btn btn-secondary py-3 px-5" href="#">Join With Us</a>
                     </div> -->
+                    </div>
                 </div>
             </div>
-        </div>
-        <!-- Fact Counter -->
+            <!-- Fact Counter -->
 
-        <!-- Projects Start -->
-        <!-- <section id="project">
+            <!-- Projects Start -->
+            <!-- <section id="project">
             <div class="container-fluid project py-5">
                 <div class="container py-5">
                     <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
@@ -1241,57 +1093,20 @@
                 </div>
             </div>
         </section> -->
-        <!-- Projects End -->
+            <!-- Projects End -->
 
-        <section id="project">
-            <div class="container-fluid project py-5">
-
-                <div class="container py-5">
-                    <p class="text-uppercase text-secondary fs-5 mb-0 text-center">Our Projects</p>
-                    <h2 class=" text-capitalize mb-5 contact_text text-center">Recent Completed Projects</h2>
-
-                    <div class="row g-4">
-                        <!-- Image Card 1 -->
-                        <div class="col-md-6 col-lg-4 ">
-                            <div class="card ">
-                                <img src="images/1.png" class=" " alt="Image 2" style="height:300px;">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">Image Title 2</h5>
-                                    <p class="card-text">Short description for Image 2.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Image Card 2 -->
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card">
-                                <img src="images/3.png" class="img-fluid" alt="Image 2" style="height:300px;">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">Image Title 2</h5>
-                                    <p class="card-text">Short description for Image 2.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <!-- Image Card 3 -->
-                        <div class="col-md-6 col-lg-4">
-                            <div class="card">
-                                <img src="images/2.png" class="img-fluid" alt="Image 3" style="height:300px">
-                                <div class="card-body text-center">
-                                    <h5 class="card-title">Image Title 3</h5>
-                                    <p class="card-text">Short description for Image 3.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+            <section id="project">
+                <div class="container-fluid project py-5">
 
                     <div class="container py-5">
-
-                        <h2 class=" text-capitalize mb-5 contact_text text-center mt-5">Progressive Projects</h2>
+                        <p class="text-uppercase text-secondary fs-5 mb-0 text-center">Our Projects</p>
+                        <h2 class=" text-capitalize mb-5 contact_text text-center">Recent Completed Projects</h2>
 
                         <div class="row g-4">
                             <!-- Image Card 1 -->
-                            <div class="col-md-6 col-lg-4">
-                                <div class="card">
-                                    <img src="images/111.png" class=" " alt="Image 2" style="height:300px;">
+                            <div class="col-md-6 col-lg-4 ">
+                                <div class="card ">
+                                    <img src="images/1.png" class=" " alt="Image 2" style="height:300px;">
                                     <div class="card-body text-center">
                                         <h5 class="card-title">Image Title 2</h5>
                                         <p class="card-text">Short description for Image 2.</p>
@@ -1301,17 +1116,17 @@
                             <!-- Image Card 2 -->
                             <div class="col-md-6 col-lg-4">
                                 <div class="card">
-                                    <img src="images/222.png" class="img-fluid" alt="Image 2" style="height:300px;">
+                                    <img src="images/3.png" class="img-fluid" alt="Image 2" style="height:300px;">
                                     <div class="card-body text-center">
                                         <h5 class="card-title">Image Title 2</h5>
-                                        <p class="card-text card-title">Short description for Image 2.</p>
+                                        <p class="card-text">Short description for Image 2.</p>
                                     </div>
                                 </div>
                             </div>
                             <!-- Image Card 3 -->
                             <div class="col-md-6 col-lg-4">
                                 <div class="card">
-                                    <img src="images/333.png" class="img-fluid" alt="Image 3" style="height:300px">
+                                    <img src="images/2.png" class="img-fluid" alt="Image 3" style="height:300px">
                                     <div class="card-body text-center">
                                         <h5 class="card-title">Image Title 3</h5>
                                         <p class="card-text">Short description for Image 3.</p>
@@ -1320,27 +1135,57 @@
                             </div>
                         </div>
 
+                        <div class="container py-5">
+
+                            <h2 class=" text-capitalize mb-5 contact_text text-center mt-5">Progressive Projects</h2>
+
+                            <div class="row g-4">
+                                <!-- Image Card 1 -->
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <img src="images/111.png" class=" " alt="Image 2" style="height:300px;">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Image Title 2</h5>
+                                            <p class="card-text">Short description for Image 2.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Image Card 2 -->
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <img src="images/222.png" class="img-fluid" alt="Image 2" style="height:300px;">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Image Title 2</h5>
+                                            <p class="card-text card-title">Short description for Image 2.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- Image Card 3 -->
+                                <div class="col-md-6 col-lg-4">
+                                    <div class="card">
+                                        <img src="images/333.png" class="img-fluid" alt="Image 3" style="height:300px">
+                                        <div class="card-body text-center">
+                                            <h5 class="card-title">Image Title 3</h5>
+                                            <p class="card-text">Short description for Image 3.</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
 
 
 
 
 
+
+                        </div>
                     </div>
-                </div>
 
 
-<<<<<<< HEAD
             </section>
            
 
 
 
-=======
-        </section>
-        <section>
-
-            <!-- addingsection -->
->>>>>>> a8a5cde6f9b480a7902804dae87722bb598781d6
             <section>
                 <div class="container">
                     <div class="row">
@@ -1373,19 +1218,7 @@
                                             construction
                                         </a>
                                     </div>
-<<<<<<< HEAD
                                   
-=======
-                                    <!-- <div class="col-md-3">
-
-                                            <a class=" box_text_color nav-link ftco-animate" id="v-pills-d-tab" data-bs-toggle="pill"
-                                                href="#v-pills-d1" role="tab" aria-controls="v-pills-d" aria-selected="false">
-                                                Monthly 5 Days Bible Training
-                                            </a>
-                                            </a>
-
-                                        </div> -->
->>>>>>> a8a5cde6f9b480a7902804dae87722bb598781d6
                                 </div>
                             </div>
 
@@ -1398,10 +1231,6 @@
                                             <h3 class=" my-3 text-center mb-5">Experience Your Dream Home in 3D
                                             </h3>
 
-<<<<<<< HEAD
-=======
-                                            <!-- <div class="tab-pane fade show active" id="v-pills-a1" role="tabpanel" aria-labelledby="v-pills-a-tab">  -->
->>>>>>> a8a5cde6f9b480a7902804dae87722bb598781d6
                                             <div class=" col-md-6">
 
 
@@ -1483,10 +1312,8 @@ Our project management expertise spans various domains, including construction, 
                                 </div>
             </section>
 
-        
-
-        <!-- Team Start -->
-        <!-- 
+            <!-- Team Start -->
+            <!-- 
             <div class="container pb-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <p class="text-uppercase text-secondary fs-5 mb-0">Our Team</p>
@@ -1579,11 +1406,11 @@ Our project management expertise spans various domains, including construction, 
                     </div>
                 </div>
             </div> -->
-        </div>
-        <!-- Team End -->
+            </div>
+            <!-- Team End -->
 
-        <!-- Blog Start -->
-        <!-- <div class="container-fluid blog pb-5">
+            <!-- Blog Start -->
+            <!-- <div class="container-fluid blog pb-5">
             <div class="container pb-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <p class="text-uppercase text-secondary fs-5 mb-0">News & Blog</p>
@@ -1638,254 +1465,254 @@ Our project management expertise spans various domains, including construction, 
                 </div>
             </div>
         </div>  -->
-        <!-- Blog End -->
+            <!-- Blog End -->
 
 
 
-        <!-- Testimonial Start -->
-        <div class="container-fluid testimonial pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <p class="text-uppercase text-secondary fs-5 mb-0">Testimonials</p>
-                    <h2 class=" text-capitalize mb-3 contact_text">Our clients reviews.</h2>
-                </div>
-                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="testimonial-item bg-light p-4">
-                        <div class="position-relative">
-                            <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
-                            <div class="mb-4 pb-4 border-bottom border-secondary">
-                                <p class="mb-0">He is a very friendly and helpful man,always cheerful and ready to understand the exact requirements of his clients whether is architectural excellence or convenience and comfort of the client about their house.I wish him the very best in all his ventures and i am sure,in future also,he will take up prestigeous projects and come out with flying colours in his profession as a sound and efficient architect.I wish him him and his family all the best and blessings of almighty.
-                                </p>
-                            </div>
-                            <div class="d-flex align-items-center flex-nowrap">
-                                <div class="me-4">
-                                    <img src="img/client2.jpg" class="img-fluid w-100" style="width: 100px; height: 100px;" alt="">
+            <!-- Testimonial Start -->
+            <div class="container-fluid testimonial pb-5">
+                <div class="container pb-5">
+                    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                        <p class="text-uppercase text-secondary fs-5 mb-0">Testimonials</p>
+                        <h2 class=" text-capitalize mb-3 contact_text">Our clients reviews.</h2>
+                    </div>
+                    <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.4s">
+                        <div class="testimonial-item bg-light p-4">
+                            <div class="position-relative">
+                                <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
+                                <div class="mb-4 pb-4 border-bottom border-secondary">
+                                    <p class="mb-0">He is a very friendly and helpful man,always cheerful and ready to understand the exact requirements of his clients whether is architectural excellence or convenience and comfort of the client about their house.I wish him the very best in all his ventures and i am sure,in future also,he will take up prestigeous projects and come out with flying colours in his profession as a sound and efficient architect.I wish him him and his family all the best and blessings of almighty.
+                                    </p>
                                 </div>
-                                <div class="d-block">
-                                    <h4 class="text-dark contact_text">GROUP CAPTAIN M S BOSE</h4>
-                                    <p class="m-0 pb-3">Ramanayya peta, Kakinada.</p>
+                                <div class="d-flex align-items-center flex-nowrap">
+                                    <div class="me-4">
+                                        <img src="img/client2.jpg" class="img-fluid w-100" style="width: 100px; height: 100px;" alt="">
+                                    </div>
+                                    <div class="d-block">
+                                        <h4 class="text-dark contact_text">GROUP CAPTAIN M S BOSE</h4>
+                                        <p class="m-0 pb-3">Ramanayya peta, Kakinada.</p>
 
-                                    <!-- <div class="d-flex text-secondary pe-5">
+                                        <!-- <div class="d-flex text-secondary pe-5">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star text-muted"></i>
                                     </div> -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="testimonial-item bg-light p-4">
-                        <div class="position-relative">
-                            <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
-                            <div class="mb-4 pb-4 border-bottom border-secondary">
-                                <p class="mb-0">I wish to thank you for the great job you did on my home.The team was professional,they kept to the schedule,and the overall cost was very reasonable.Your work really made the place look more alive than ever. Thank you for putting your passion and hard work into it and giving us a very beautiful and spacious home.Your time and efforts are appreciated.
-                                </p>
-                            </div>
-                            <div class="d-flex align-items-center flex-nowrap">
-                                <div class="me-4">
-                                    <img src="img/client2.jpg" class="img-fluid w-100" style="width: 100px; height: 100px;" alt="">
+                        <div class="testimonial-item bg-light p-4">
+                            <div class="position-relative">
+                                <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
+                                <div class="mb-4 pb-4 border-bottom border-secondary">
+                                    <p class="mb-0">I wish to thank you for the great job you did on my home.The team was professional,they kept to the schedule,and the overall cost was very reasonable.Your work really made the place look more alive than ever. Thank you for putting your passion and hard work into it and giving us a very beautiful and spacious home.Your time and efforts are appreciated.
+                                    </p>
                                 </div>
-                                <div class="d-block">
-                                    <h4 class="text-dark contact_text">TADIMETI SAI KUMAR</h4>
-                                    <p class="m-0 pb-3">Madhavapatnam,Kakinada.</p>
-                                    <!-- <div class="d-flex text-secondary pe-5">
+                                <div class="d-flex align-items-center flex-nowrap">
+                                    <div class="me-4">
+                                        <img src="img/client2.jpg" class="img-fluid w-100" style="width: 100px; height: 100px;" alt="">
+                                    </div>
+                                    <div class="d-block">
+                                        <h4 class="text-dark contact_text">TADIMETI SAI KUMAR</h4>
+                                        <p class="m-0 pb-3">Madhavapatnam,Kakinada.</p>
+                                        <!-- <div class="d-flex text-secondary pe-5">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star text-muted"></i>
                                         <i class="fas fa-star text-muted"></i>
                                     </div> -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="testimonial-item bg-light p-4">
-                        <div class="position-relative">
-                            <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
-                            <div class="mb-4 pb-4 border-bottom border-secondary">
-                                <p class="mb-0">Our building engineer Mr.Buddhavarapu Ratnakar has prooved himself as the best committed engineer cum friend.He built our house with utmost good care and attended the job with full dedication and his approach is quite professional and gave his best to us. He gives top priority to the satisfication of his customers.He also takes care of any shortcomings even after the construction/execution of project is over. As a customer we are totally satisfied with his work.
-                                </p>
-                            </div>
-                            <div class="d-flex align-items-center flex-nowrap">
-                                <div class="me-4">
-                                    <img src="img/client2.jpg" class="img-fluid w-100" style="width: 100px; height: 100px;" alt="">
+                        <div class="testimonial-item bg-light p-4">
+                            <div class="position-relative">
+                                <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
+                                <div class="mb-4 pb-4 border-bottom border-secondary">
+                                    <p class="mb-0">Our building engineer Mr.Buddhavarapu Ratnakar has prooved himself as the best committed engineer cum friend.He built our house with utmost good care and attended the job with full dedication and his approach is quite professional and gave his best to us. He gives top priority to the satisfication of his customers.He also takes care of any shortcomings even after the construction/execution of project is over. As a customer we are totally satisfied with his work.
+                                    </p>
                                 </div>
-                                <div class="d-block">
-                                    <h4 class="text-dark contact_text">ASV RAMANAMURTHY</h4>
-                                    <p class="m-0 pb-3">Main Road,Kakinada.</p>
-                                    <!-- <div class="d-flex text-secondary pe-5">
+                                <div class="d-flex align-items-center flex-nowrap">
+                                    <div class="me-4">
+                                        <img src="img/client2.jpg" class="img-fluid w-100" style="width: 100px; height: 100px;" alt="">
+                                    </div>
+                                    <div class="d-block">
+                                        <h4 class="text-dark contact_text">ASV RAMANAMURTHY</h4>
+                                        <p class="m-0 pb-3">Main Road,Kakinada.</p>
+                                        <!-- <div class="d-flex text-secondary pe-5">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star text-muted"></i>
                                         <i class="fas fa-star text-muted"></i>
                                     </div> -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="testimonial-item bg-light p-4">
-                        <div class="position-relative">
-                            <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
-                            <div class="mb-4 pb-4 border-bottom border-secondary">
-                                <p class="mb-0">Despite being a lorry owner who transports building Materials,I choose Ratnakar Constructions to construct my home along with my daughter's home because of their commitment towards delivering our dream house.
-                                </p>
-                            </div>
-                            <div class="d-flex align-items-center flex-nowrap">
-                                <div class="me-4">
-                                    <img src="img/client2.jpg" class="img-fluid w-100" style="width: 100px; height: 100px;" alt="">
+                        <div class="testimonial-item bg-light p-4">
+                            <div class="position-relative">
+                                <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
+                                <div class="mb-4 pb-4 border-bottom border-secondary">
+                                    <p class="mb-0">Despite being a lorry owner who transports building Materials,I choose Ratnakar Constructions to construct my home along with my daughter's home because of their commitment towards delivering our dream house.
+                                    </p>
                                 </div>
-                                <div class="d-block">
-                                    <h4 class="text-dark contact_text">VIGNESWARA RAO BODDU</h4>
-                                    <p class="m-0 pb-3">Auto Nagar, Kakinada.</p>
-                                    <!-- <div class="d-flex text-secondary pe-5">
+                                <div class="d-flex align-items-center flex-nowrap">
+                                    <div class="me-4">
+                                        <img src="img/client2.jpg" class="img-fluid w-100" style="width: 100px; height: 100px;" alt="">
+                                    </div>
+                                    <div class="d-block">
+                                        <h4 class="text-dark contact_text">VIGNESWARA RAO BODDU</h4>
+                                        <p class="m-0 pb-3">Auto Nagar, Kakinada.</p>
+                                        <!-- <div class="d-flex text-secondary pe-5">
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                         <i class="fas fa-star"></i>
                                     </div> -->
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Testimonial End -->
+            <!-- Testimonial End -->
 
-        <!---Contact Start--------->
-        <section id="contact">
-            <div class="container-fluid contact bg-light py-5">
-                <div class="container py-5">
-                    <div class="row g-5 mb-5">
-                        <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
-                            <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-                                <p class="text-uppercase text-secondary fs-3 mb-0">Contact us</p>
-                                <!-- <h2 class="display-4 text-capitalize mb-3">Send Your Message</h2> -->
-                                <!-- <p class="mb-0">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
-                            </div>
-                            <form action="contactform.php" method="post" role="form" class="php-email-form">
+            <!---Contact Start--------->
+            <section id="contact">
+                <div class="container-fluid contact bg-light py-5">
+                    <div class="container py-5">
+                        <div class="row g-5 mb-5">
+                            <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
+                                <div class="text-center mx-auto pb-5" style="max-width: 800px;">
+                                    <p class="text-uppercase text-secondary fs-3 mb-0">Contact us</p>
+                                    <!-- <h2 class="display-4 text-capitalize mb-3">Send Your Message</h2> -->
+                                    <!-- <p class="mb-0">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
+                                </div>
+                                <form action="contactform.php" method="post" role="form" class="php-email-form">
 
-                                <div class="row g-3">
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="text" name="contactname" class="form-control" id="name" placeholder="Your Name">
-                                            <label for="name">Your Name</label>
+                                    <div class="row g-3">
+                                        <div class="col-lg-12 col-xl-6">
+                                            <div class="form-floating">
+                                                <input type="text" name="contactname" class="form-control" id="name" placeholder="Your Name">
+                                                <label for="name">Your Name</label>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-12 col-xl-6">
-                                        <div class="form-floating">
-                                            <input type="phone" class="form-control" name="contactnumber" id="email" placeholder="Your Phone">
-                                            <label for="phone">Your Phone</label>
+                                        <div class="col-lg-12 col-xl-6">
+                                            <div class="form-floating">
+                                                <input type="phone" class="form-control" name="contactnumber" id="email" placeholder="Your Phone">
+                                                <label for="phone">Your Phone</label>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <!-- <div class="col-lg-12 col-xl-6">
+                                        <!-- <div class="col-lg-12 col-xl-6">
                                         <div class="form-floating ">
                                             <input type="phone" class="form-control" name="contactnumber" id="phone" placeholder="Phone">
                                             <label for="phone">Your Phone</label>
                                         </div>
                                     </div> -->
-                                    <!-- <div class="col-lg-12 col-xl-6">
+                                        <!-- <div class="col-lg-12 col-xl-6">
                                         <div class="form-floating ">
                                             <input type="text" class="form-control" name="contactproject" id="project" placeholder="Project">
                                             <label for="project">Your Project</label>
                                         </div>
                                     </div> -->
-                                    <div class="col-12">
-                                        <div class="form-floating ">
-                                            <input type="email" class="form-control" name="contactemail" id="subject" placeholder="email">
-                                            <label for="email">Your Email</label>
+                                        <div class="col-12">
+                                            <div class="form-floating ">
+                                                <input type="email" class="form-control" name="contactemail" id="subject" placeholder="email">
+                                                <label for="email">Your Email</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <div class="form-floating ">
+                                                <textarea class="form-control" name="contactmessage" placeholder="Leave a message here" id="message" style="height: 160px"></textarea>
+                                                <label for="message">Message</label>
+                                            </div>
+                                        </div>
+                                        <div class="col-12">
+                                            <button class="btn btn-primary w-100 py-3">Send Message</button>
                                         </div>
                                     </div>
-                                    <div class="col-12">
-                                        <div class="form-floating ">
-                                            <textarea class="form-control" name="contactmessage" placeholder="Leave a message here" id="message" style="height: 160px"></textarea>
-                                            <label for="message">Message</label>
-                                        </div>
-                                    </div>
-                                    <div class="col-12">
-                                        <button class="btn btn-primary w-100 py-3">Send Message</button>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
-                            <div class="contact-map h-100 w-100 my-5">
-                                <!-- <iframe class="h-100 w-100" 
+                                </form>
+                            </div>
+                            <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
+                                <div class="contact-map h-100 w-100 my-5">
+                                    <!-- <iframe class="h-100 w-100" 
                                 style="height: 500px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd" 
                                 loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
-                                <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d61063.794535250905!2d82.19210405663631!3d16.950571173303814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3a3827716b4dde65%3A0x67d7e63524de062b!2sRatnakar%20Constructions%2C%20Kakinada.!3m2!1d16.9504932!2d82.23330399999999!5e0!3m2!1sen!2sin!4v1732260331482!5m2!1sen!2sin"
-                                    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="row g-5">
-                        <div class="col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="d-inline-flex bg-white w-100 p-4">
-                                <i class="fas fa-map-marker-alt fa-2x icon me-4"></i>
-                                <div>
-                                    <h4 class="contact_text">Address</h4>
-                                    <p class="mb-0">27-5-24,Buddavarapu Street and Buildings,kakinada</p>
+                                    <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d61063.794535250905!2d82.19210405663631!3d16.950571173303814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3a3827716b4dde65%3A0x67d7e63524de062b!2sRatnakar%20Constructions%2C%20Kakinada.!3m2!1d16.9504932!2d82.23330399999999!5e0!3m2!1sen!2sin!4v1732260331482!5m2!1sen!2sin"
+                                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                                 </div>
                             </div>
                         </div>
-                        <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="d-inline-flex bg-white w-100  p-4">
-                                <i class="fas fa-envelope fa-2x icon  me-4"></i>
-                                <div>
-                                    <h4 class="contact_text">Mail Us</h4>
-                                    <p class="mb-0">ratnakarconstructions2007
-                                        @gmail
-                                        .com</p>
+                        <div class="row g-5">
+                            <div class="col-xl-4 wow fadeInUp" data-wow-delay="0.2s">
+                                <div class="d-inline-flex bg-white w-100 p-4">
+                                    <i class="fas fa-map-marker-alt fa-2x icon me-4"></i>
+                                    <div>
+                                        <h4 class="contact_text">Address</h4>
+                                        <p class="mb-0">27-5-24,Buddavarapu Street and Buildings,kakinada</p>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
-                        <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
-                            <div class="d-inline-flex bg-white w-100  p-4">
-                                <i class="fa fa-phone-alt fa-2x icon me-4"></i>
-                                <div>
-                                    <h4 class="contact_text">Telephone</h4>
-                                    <p class="mb-0">8999069990,9848424956
-                                        9381457864
-                                    </p>
+                            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.4s">
+                                <div class="d-inline-flex bg-white w-100  p-4">
+                                    <i class="fas fa-envelope fa-2x icon  me-4"></i>
+                                    <div>
+                                        <h4 class="contact_text">Mail Us</h4>
+                                        <p class="mb-0">ratnakarconstructions2007
+                                            @gmail
+                                            .com</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-6 col-xl-4 wow fadeInUp" data-wow-delay="0.6s">
+                                <div class="d-inline-flex bg-white w-100  p-4">
+                                    <i class="fa fa-phone-alt fa-2x icon me-4"></i>
+                                    <div>
+                                        <h4 class="contact_text">Telephone</h4>
+                                        <p class="mb-0">8999069990,9848424956
+                                            9381457864
+                                        </p>
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!---Contact End------>
+            <!---Contact End------>
 
 
-        <section class="package">
-            <h2 class="text-center mt-5">Our Packages</h2>
-            <div class="container mt-5">
-                <div class="row Packages ">
-                    <div class="col-12 col-md-6 col-lg-4 text-center content">
-                        <h2>Starter</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsa debitis beatae quam repudiandae assumenda distinctio quo. Provident, aliquam quam.</p>
-                        <button class=" btn btn-primary">Enquire Now</button>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 text-center content">
-                        <h2>Professional</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsa debitis beatae quam repudiandae assumenda distinctio quo. Provident, aliquam quam.</p>
-                        <button class=" btn btn-primary">Enquire Now</button>
-                    </div>
-                    <div class="col-12 col-md-6 col-lg-4 text-center content">
-                        <h2>Premium</h2>
-                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsa debitis beatae quam repudiandae assumenda distinctio quo. Provident, aliquam quam.</p>
-                        <button class=" btn btn-primary">Enquire Now</button>
+            <section class="package">
+                <h2 class="text-center mt-5">Our Packages</h2>
+                <div class="container mt-5">
+                    <div class="row Packages ">
+                        <div class="col-12 col-md-6 col-lg-4 text-center content">
+                            <h2>Starter</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsa debitis beatae quam repudiandae assumenda distinctio quo. Provident, aliquam quam.</p>
+                            <button class=" btn btn-primary">Enquire Now</button>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 text-center content">
+                            <h2>Professional</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsa debitis beatae quam repudiandae assumenda distinctio quo. Provident, aliquam quam.</p>
+                            <button class=" btn btn-primary">Enquire Now</button>
+                        </div>
+                        <div class="col-12 col-md-6 col-lg-4 text-center content">
+                            <h2>Premium</h2>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsa debitis beatae quam repudiandae assumenda distinctio quo. Provident, aliquam quam.</p>
+                            <button class=" btn btn-primary">Enquire Now</button>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
+            </section>
 
-        <!-- <section class="banking">
+            <!-- <section class="banking">
             <div class="container-fluid py-4"></div>
             <h2 class="text-center text_center">Our Banking Partners</h2>
 
@@ -1903,214 +1730,214 @@ Our project management expertise spans various domains, including construction, 
                 </div>
             </div>
         </section> -->
-        <section>
-            <div class="container ">
-                <div class="container-fluid py-5"></div>
-                <h2 class="text-center  partner">Our Banking Partners</h2>
-                <div class="custom-slide-container swiper">
-                    <div class="custom-slide-content">
-                        <div class="custom-card-wrapper swiper-wrapper py-5 sliders">
+            <section>
+                <div class="container ">
+                    <div class="container-fluid py-5"></div>
+                    <h2 class="text-center  partner">Our Banking Partners</h2>
+                    <div class="custom-slide-container swiper">
+                        <div class="custom-slide-content">
+                            <div class="custom-card-wrapper swiper-wrapper py-5 sliders">
 
-                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
-                                <img src="images/icici.jpg" alt="" class="img-fluid text-center border 2px solid ">
-                            </div>
+                                <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
+                                    <img src="images/icici.jpg" alt="" class="img-fluid text-center border 2px solid ">
+                                </div>
 
-                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
-                                <img src="images/22.png" alt="" class="img-fluid">
-                            </div>
+                                <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
+                                    <img src="images/22.png" alt="" class="img-fluid">
+                                </div>
 
-                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
-                                <img src="images/partner1.svg" alt="" class="img-fluid">
-                            </div>
+                                <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
+                                    <img src="images/partner1.svg" alt="" class="img-fluid">
+                                </div>
 
-                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
-                                <img src="images/partner2.svg" alt="" class="img-fluid">
-                            </div>
+                                <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
+                                    <img src="images/partner2.svg" alt="" class="img-fluid">
+                                </div>
 
-                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
-                                <img src="images/partner3.svg" alt="" class="img-fluid">
-                            </div>
-
-
+                                <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
+                                    <img src="images/partner3.svg" alt="" class="img-fluid">
+                                </div>
 
 
-                            <!-- <div class="swiper-button-next custom-swiper-navBtn"></div>
+
+
+                                <!-- <div class="swiper-button-next custom-swiper-navBtn"></div>
         <div class="swiper-button-prev custom-swiper-navBtn"></div> -->
 
 
-                            <script>
-                                var swiper = new Swiper(".custom-slide-content", {
-                                    slidesPerView: 3,
-                                    spaceBetween: 25,
-                                    loop: true,
-                                    centerSlide: 'true',
-                                    fade: 'true',
-                                    grabCursor: 'true',
-                                    pagination: {
-                                        el: ".custom-swiper-pagination",
-                                        clickable: true,
-                                        dynamicBullets: true,
-                                    },
-                                    autoplay: {
-                                        delay: 3000, // Time in milliseconds between automatic slides (3 seconds here)
-                                        disableOnInteraction: false, // Keeps autoplay active even after manual swiping
-                                    },
-                                    navigation: {
-                                        nextEl: ".swiper-button-next.custom-swiper-navBtn",
-                                        prevEl: ".swiper-button-prev.custom-swiper-navBtn",
-                                    },
-
-                                    breakpoints: {
-                                        0: {
-                                            slidesPerView: 1,
+                                <script>
+                                    var swiper = new Swiper(".custom-slide-content", {
+                                        slidesPerView: 3,
+                                        spaceBetween: 25,
+                                        loop: true,
+                                        centerSlide: 'true',
+                                        fade: 'true',
+                                        grabCursor: 'true',
+                                        pagination: {
+                                            el: ".custom-swiper-pagination",
+                                            clickable: true,
+                                            dynamicBullets: true,
                                         },
-                                        520: {
-                                            slidesPerView: 2,
+                                        autoplay: {
+                                            delay: 3000, // Time in milliseconds between automatic slides (3 seconds here)
+                                            disableOnInteraction: false, // Keeps autoplay active even after manual swiping
                                         },
-                                        950: {
-                                            slidesPerView: 3,
+                                        navigation: {
+                                            nextEl: ".swiper-button-next.custom-swiper-navBtn",
+                                            prevEl: ".swiper-button-prev.custom-swiper-navBtn",
                                         },
-                                    },
-                                });
-                            </script>
 
-                        </div>
-        </section>
+                                        breakpoints: {
+                                            0: {
+                                                slidesPerView: 1,
+                                            },
+                                            520: {
+                                                slidesPerView: 2,
+                                            },
+                                            950: {
+                                                slidesPerView: 3,
+                                            },
+                                        },
+                                    });
+                                </script>
+
+                            </div>
+            </section>
 
 
 
 
 
-        <!-- Footer Start -->
-        <div class="container-fluid footer py-3 wow fadeIn" data-wow-delay="0.2s">
-            <div class="container py-2">
-                <div class="row g-5">
-                    <div class="col-md-6 col-lg-6 col-xl-2 col-xxl-3 d-flex flex-column justify-content-center">
-                        <div class="footer-item">
+            <!-- Footer Start -->
+            <div class="container-fluid footer py-3 wow fadeIn" data-wow-delay="0.2s">
+                <div class="container py-2">
+                    <div class="row g-5">
+                        <div class="col-md-6 col-lg-6 col-xl-2 col-xxl-3 d-flex flex-column justify-content-center">
                             <div class="footer-item">
-                                <div class="position-relative mx-auto">
-                                    <a href="index.php"> <img src="img/logo.jpg" alt="" class="img-fluid"></a>
+                                <div class="footer-item">
+                                    <div class="position-relative mx-auto">
+                                        <a href="index.php"> <img src="img/logo.jpg" alt="" class="img-fluid"></a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-2 col-xxl-2">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="text mb-4 contact_text">Explore</h4>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Home</a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Services</a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> About Us</a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Latest Projects</a>
-                            <!-- <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> testimonial</a> -->
-                            <!-- <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Our Team</a> -->
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Contact Us</a>
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-5 col-xxl-4">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="text mb-4 contact_text">Our Services</h4>
-
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i>Designing plans</a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Construction of Futurstic individual Houses</a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Construction of Sophisticated Duplex Houses</a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Building of Avant Garde Apartments </a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Interior and Exterior Works</a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Construction Supervision</a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Building Contractors</a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> 3d view of house</a>
-
-
-                        </div>
-                    </div>
-                    <div class="col-md-6 col-lg-6 col-xl-3 col-xxl-3">
-                        <div class="footer-item d-flex flex-column">
-                            <h4 class="text mb-4 contact_text">Contact Info</h4>
-                            <a href=""><i class="fa fa-map-marker-alt me-2 new_space"></i> 27-5-24,Buddavarapu street and Buildings,Kakinada.</a>
-
-                            <a href=""><i class="fas fa-phone me-2 new_space    "></i> 8999069990,9848424956</a>
-                            <a href=""><i class="fas fa-phone me-2 new_space"></i> 9381457864</a>
-                            <a href=""><i class="fas fa-envelope me-2 new_space"></i>ratnakarconstructions</a>
-
-
-
-                            <div class="footer-btn d-flex align-items-center">
-                                <a class="btn btn-secondary btn-md-square me-2" href="https://www.facebook.com/ratnakarconstructionskkd/"><i class="fab fa-facebook-f text-white"></i></a>
-                                <!-- <a class="btn btn-secondary btn-md-square me-2" href=""><i class="fab fa-twitter text-white"></i></a> -->
-                                <a class="btn btn-secondary btn-md-square me-2" href="https://www.instagram.com/ratnakarconstructionskkd/"><i class="fab fa-instagram text-white"></i></a>
-                                <!-- <a class="btn btn-secondary btn-md-square me-0" href=""><i class="fab fa-whatsapp text-white"></i></a> -->
+                        <div class="col-md-6 col-lg-6 col-xl-2 col-xxl-2">
+                            <div class="footer-item d-flex flex-column">
+                                <h4 class="text mb-4 contact_text">Explore</h4>
+                                <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Home</a>
+                                <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Services</a>
+                                <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> About Us</a>
+                                <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Latest Projects</a>
+                                <!-- <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> testimonial</a> -->
+                                <!-- <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Our Team</a> -->
+                                <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Contact Us</a>
                             </div>
                         </div>
+                        <div class="col-md-6 col-lg-6 col-xl-5 col-xxl-4">
+                            <div class="footer-item d-flex flex-column">
+                                <h4 class="text mb-4 contact_text">Our Services</h4>
+
+                                <a href="#"><i class="fas fa-angle-right me-2 new_space"></i>Designing plans</a>
+                                <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Construction of Futurstic individual Houses</a>
+                                <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Construction of Sophisticated Duplex Houses</a>
+                                <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Building of Avant Garde Apartments </a>
+                                <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Interior and Exterior Works</a>
+                                <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Construction Supervision</a>
+                                <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Building Contractors</a>
+                                <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> 3d view of house</a>
+
+
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-lg-6 col-xl-3 col-xxl-3">
+                            <div class="footer-item d-flex flex-column">
+                                <h4 class="text mb-4 contact_text">Contact Info</h4>
+                                <a href=""><i class="fa fa-map-marker-alt me-2 new_space"></i> 27-5-24,Buddavarapu street and Buildings,Kakinada.</a>
+
+                                <a href=""><i class="fas fa-phone me-2 new_space    "></i> 8999069990,9848424956</a>
+                                <a href=""><i class="fas fa-phone me-2 new_space"></i> 9381457864</a>
+                                <a href=""><i class="fas fa-envelope me-2 new_space"></i>ratnakarconstructions</a>
+
+
+
+                                <div class="footer-btn d-flex align-items-center">
+                                    <a class="btn btn-secondary btn-md-square me-2" href="https://www.facebook.com/ratnakarconstructionskkd/"><i class="fab fa-facebook-f text-white"></i></a>
+                                    <!-- <a class="btn btn-secondary btn-md-square me-2" href=""><i class="fab fa-twitter text-white"></i></a> -->
+                                    <a class="btn btn-secondary btn-md-square me-2" href="https://www.instagram.com/ratnakarconstructionskkd/"><i class="fab fa-instagram text-white"></i></a>
+                                    <!-- <a class="btn btn-secondary btn-md-square me-0" href=""><i class="fab fa-whatsapp text-white"></i></a> -->
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>
-
-
                 </div>
             </div>
-        </div>
 
-        <!-- Footer End -->
+            <!-- Footer End -->
 
 
-        <!-- Copyright Start -->
-        <div class="container-fluid copyright py-2">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span class="text-body"><a href="terms.html" class=" text-white">Terms & conditions :</a><a href="privacy.html" class=" text-white"> Privacy & Policy</a></span>
-                    </div>
-                    <div class="col-md-6 text-center text-white text-md-end ">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
-                        Designed By
-                        <a class="" href=""> <img src="img/Bhavi_Branding_Stamp.png" class="brand" alt=""></a>
+            <!-- Copyright Start -->
+            <div class="container-fluid copyright py-2">
+                <div class="container">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-md-6 text-center text-md-start mb-md-0">
+                            <span class="text-body"><a href="terms.html" class=" text-white">Terms & conditions :</a><a href="privacy.html" class=" text-white"> Privacy & Policy</a></span>
+                        </div>
+                        <div class="col-md-6 text-center text-white text-md-end ">
+                            <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
+                            <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
+                            <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
+                            Designed By
+                            <a class="" href=""> <img src="img/Bhavi_Branding_Stamp.png" class="brand" alt=""></a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        <!-- Copyright End -->
-        <a href="https://api.whatsapp.com/send?phone=9848424956" style="color: #fff;" class="whatsapp-link" target="_blank">
-            <i class="fab fa-whatsapp"></i>
-        </a>
+            <!-- Copyright End -->
+            <a href="https://api.whatsapp.com/send?phone=9848424956" style="color: #fff;" class="whatsapp-link" target="_blank">
+                <i class="fab fa-whatsapp"></i>
+            </a>
 
-        <!-- Back to Top -->
-        <a href="#" class="btn btn-secondary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
+            <!-- Back to Top -->
+            <a href="#" class="btn btn-secondary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
 
-        <script>
-            $(document).ready(function() {
+            <script>
+                $(document).ready(function() {
 
-                $(`[unique-script-id="w-w-dm-id"] .btn-box`).click(function() {
-                    $(this).parent().children(".overlay").show();
+                    $(`[unique-script-id="w-w-dm-id"] .btn-box`).click(function() {
+                        $(this).parent().children(".overlay").show();
 
+                    });
+
+
+                    $(`[unique-script-id="w-w-dm-id"] .close`).click(function() {
+                        $(`[unique-script-id="w-w-dm-id"] .overlay`).hide();
+                    });
                 });
+            </script>
+
+            <!-- JavaScript Libraries -->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+            <script src="lib/wow/wow.min.js"></script>
+            <script src="lib/easing/easing.min.js"></script>
+            <script src="lib/waypoints/waypoints.min.js"></script>
+            <script src="lib/counterup/counterup.min.js"></script>
+            <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+            <script src="lib/lightbox/js/lightbox.min.js"></script>
 
 
-                $(`[unique-script-id="w-w-dm-id"] .close`).click(function() {
-                    $(`[unique-script-id="w-w-dm-id"] .overlay`).hide();
-                });
-            });
-        </script>
-
-        <!-- JavaScript Libraries -->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
-        <script src="lib/wow/wow.min.js"></script>
-        <script src="lib/easing/easing.min.js"></script>
-        <script src="lib/waypoints/waypoints.min.js"></script>
-        <script src="lib/counterup/counterup.min.js"></script>
-        <script src="lib/owlcarousel/owl.carousel.min.js"></script>
-        <script src="lib/lightbox/js/lightbox.min.js"></script>
-
-
-        <!-- Template Javascript -->
-        <script src="js/main.js"></script>
+            <!-- Template Javascript -->
+            <script src="js/main.js"></script>
 
 
 
 
-        <!-- <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank">
+            <!-- <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
     </a> -->
 
-        </body>
+            </body>
 
-        </html>
+            </html>

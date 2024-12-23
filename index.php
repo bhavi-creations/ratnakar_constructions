@@ -373,7 +373,7 @@
                                 <div class="">
                                     <i class="fas fa-user-shield fa-3x new_icon"></i>
                                 </div>
-                                <h4 class="ms-3 contact_text">Building quality standards</h4>
+                                <h4 class="ms-3 contact_text">Building quality standards.</h4>
                             </div>
                             <div class="d-flex mb-4">
                                 <div class="">

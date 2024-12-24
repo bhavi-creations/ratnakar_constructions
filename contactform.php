@@ -11,9 +11,9 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     // Assign POST data to variables
     $contactname = $_POST['contactname'] ?? '';
     $contactemail = $_POST['contactemail'] ?? '';
-    $contactsubject = $_POST['contactsubject'] ?? '';
+    // $contactsubject = $_POST['contactsubject'] ?? '';
     $contactnumber = $_POST['contactnumber'] ?? '';
-    $contactproject = $_POST['contactproject'] ?? '';
+    // $contactproject = $_POST['contactproject'] ?? '';
 
     $contactmessage = $_POST['contactmessage'] ?? '';
 
@@ -44,15 +44,15 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
             <h1>Contact Details</h1>
             <p><strong>Name:</strong> $contactname</p>
             <p><strong>Email:</strong> $contactemail</p>
-            <p><strong>Subject:</strong> $contactsubject</p>
+    
             <p><strong>Phone:</strong> $contactnumber</p>
-            <p><strong>Project:</strong> $contactproject</p>
+
 
             <p><strong>Message:</strong>$contactmessage</p>
         ";
 
         $mail->send();
-        echo '<script> window.alert("Message has been sent.\n\nPlease click OK."); window.location.href="contact.html";</script>';
+        echo '<script> window.alert("Message has been sent.\n\nPlease click OK."); window.location.href="index.php";</script>';
     } catch (Exception $e) {
         echo "Message could not be sent. Mailer Error: {$mail->ErrorInfo}";
     }

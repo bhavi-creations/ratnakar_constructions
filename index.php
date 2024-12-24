@@ -31,10 +31,15 @@
             <!-- Template Stylesheet -->
             <link href="css/style.css" rel="stylesheet">
 
+
+
+            
+   
             <!-- imageslider -->
 
             <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
             <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+
         </head>
 
 
@@ -73,12 +78,11 @@
 
 
         <!-- Navbar & Hero Start -->
+
+        <!-- Navbar & Hero End -->
         <div class="container-fluid sticky-top px-0">
             <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 px-4">
-
-                <a href="images/Ratnakar Constructions (1).pdf" download id="" class="navbar-brand p-0">
-                    <!-- <h1 class=" display-6"><i class="fas fa-city primary me-3"></i>Constra</h1> -->
-                    <!-- <img src="img/logo.png" alt="Logo">  -->
+                <a href="index.php" class="navbar-brand p-0">
                     <img src="img/logo.jpg" class="image" alt="" style="width:180px; height:100px">
                 </a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
@@ -89,27 +93,28 @@
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="#about" class="nav-item nav-link">About</a>
                         <a href="#service" class="nav-item nav-link">Services</a>
-                        <a href="#project" class="nav-item nav-link">Projects</a>
+                        <a href="#Gallery" class="nav-item nav-link">Gallery</a>
 
-                        <!--<a href="#" class="nav-link dropdown-toggle text-dark" data-bs-toggle="dropdown">Pages</a>
-                            <div class="dropdown-menu m-lg-0">
-                                <a href="feature.html" class="dropdown-item">Our Features</a>
-                                <a href="blog.html" class="dropdown-item">Our Blog</a>
-                                <a href="team.html" class="dropdown-item">Our Team</a>
-                                <a href="testimonial.html" class="dropdown-item">Testimonial</a>
-                                <a href="404.html" class="dropdown-item">404 Page</a>
-                            </div>
-                        </div> -->
-                        <a href="#contact" class="nav-item nav-link">Contact</a>
+                        <!-- Dropdown for Projects -->
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Projects
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
+                                <li><a class="dropdown-item" href="#Recent Completed Projects">Recent Completed Projects</a></li>
+                                <li><a class="dropdown-item" href="#Progressive Projects">Progressive Projects</a></li>
+                                <li><a class="dropdown-item" href="#Construction and Project Management">Construction and Project Management</a></li>
+                            </ul>
+                        </div>
+
+                        <a href="#contact" class="nav-item nav-link">Contact Us </a>
                     </div>
-                    <div class="d-flex align-items-center flex-nowrap pt-3  pt-lg-0 ms-lg-2">
-                        <!-- <button class="btn btn-primary py-2 px-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button> -->
-                        <a href="#make_app" class="btn  py-2 px-4 ms-3 flex-wrap flex-sm-shrink-0">Book an Appointment</a>
-                    </div>
+                    <!-- <div class="d-flex align-items-center flex-nowrap pt-3 pt-lg-0 ms-lg-2">
+                        <a href="#make_app" class="btn py-2 px-4 ms-3 flex-wrap flex-sm-shrink-0">Book an Appointment</a>
+                    </div> -->
                 </div>
             </nav>
         </div>
-        <!-- Navbar & Hero End -->
 
         <!-- Modal Search Start -->
         <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -147,7 +152,7 @@
 
             <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
 
-                <ol class="carousel-indicators fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">
+                <ol class="carousel-indicators  ">
                     <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
                     <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
                     <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
@@ -162,65 +167,65 @@
                 <div class="carousel-inner">
 
                     <div class="carousel-item">
-                        <img src="images/slide1.jpg" class="d-block w-100" alt="Slide 2">
+                        <img src="images/a.png" class="d-block w-100" alt="Slide 2">
                         <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated text-capitalize" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
-                            <h3 class="  text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
-                            <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                            <p class="text-uppercase new_text fs-1 mb-0  text-capitalize" >Ratnakar Constructions</p>
+                            <h3 class="  text-white mb-4  ">It's all about the trust</h3>
+                            <p class="mb-5 fs-5  " >We build somethings new and consistent.
                             </p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/step.jpg" class="d-block w-100" alt="Slide 3">
                         <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated text-capitalize" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
-                            <h3 class="  text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
-                            <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize">Ratnakar Constructions</p>
+                            <h3 class="  text-white mb-4  " >It's all about the trust</h3>
+                            <p class="mb-5 fs-5  " >We build somethings new and consistent.
                             </p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/ratnakart7.jpg" class="d-block w-100" alt="Slide 4">
                         <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated text-capitalize" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
-                            <h3 class="  text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
-                            <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize" >Ratnakar Constructions</p>
+                            <h3 class="  text-white mb-4  " >It's all about the trust</h3>
+                            <p class="mb-5 fs-5  ">We build somethings new and consistent.
                             </p>
                         </div>
                     </div>
                     <div class="carousel-item active">
                         <img src="images/slab.jpg" class="d-block w-100" alt="Slide 1">
                         <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated text-capitalize" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
-                            <h3 class="  text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
-                            <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize">Ratnakar Constructions</p>
+                            <h3 class="  text-white mb-4  " >It's all about the trust</h3>
+                            <p class="mb-5 fs-5  " >We build somethings new and consistent.
                             </p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/ratnakar.jpg" class="d-block w-100" alt="Slide 5">
                         <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated text-capitalize" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
-                            <h3 class="  text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
-                            <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize" >Ratnakar Constructions</p>
+                            <h3 class="  text-white mb-4  " >It's all about the trust</h3>
+                            <p class="mb-5 fs-5  " >We build somethings new and consistent.
                             </p>
                         </div>
                     </div>
                     <div class="carousel-item">
                         <img src="images/3d house.png" class="d-block w-100" alt="Slide 6">
                         <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated text-capitalize" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
-                            <h3 class="  text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
-                            <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize" >Ratnakar Constructions</p>
+                            <h3 class="  text-white mb-4  " >It's all about the trust</h3>
+                            <p class="mb-5 fs-5  " >We build somethings new and consistent.
                             </p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/2.png" class="d-block w-100" alt="Slide 6">
+                        <img src="images/b.png" class="d-block w-100" alt="Slide 6">
                         <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0 fadeInUp animate__animated text-capitalize" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">Ratnakar Constructions</p>
-                            <h3 class="  text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h3>
-                            <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize" >Ratnakar Constructions</p>
+                            <h3 class="  text-white mb-4  " >It's all about the trust</h3>
+                            <p class="mb-5 fs-5  ">We build somethings new and consistent.
                             </p>
                         </div>
                     </div>
@@ -236,6 +241,69 @@
                 </button>
             </div>
         </div>
+
+
+
+
+        <div class="container-fluid overflow-hidden px-0">
+      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+          <ol class="carousel-indicators fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">
+              <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
+              <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
+              <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
+          </ol>
+          <div class="carousel-inner" role="listbox">
+              <div class="carousel-item active">
+                  <!-- <img src="img/carousel-11.jpg" class="img-fluid w-100" alt="First slide"/> -->
+                  <img src="img/11.png" class="img-fluid w-100" alt="First slide" />
+
+                  <div class="carousel-caption">
+                      <p class="text-uppercase new_text fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;"></p>
+                      <h1 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h1>
+                      <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                      </p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <!-- <img src="img/carousel-22.jpg" class="img-fluid w-100" alt="Second slide"/> -->
+                  <img src="img/22.png" class="img-fluid w-100" alt="Second slide" />
+
+                  <div class="carousel-caption">
+                      <p class="text-uppercase new_text fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;"></p>
+                      <h1 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h1>
+                      <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                      </p>
+                  </div>
+              </div>
+              <div class="carousel-item">
+                  <!-- <img src="img/carousel-3.jpg" class="img-fluid w-100" alt="Third slide"/> -->
+                  <img src="img/.png" class="img-fluid w-100" alt="Third slide" />
+
+                  <div class="carousel-caption">
+                      <p class="text-uppercase new_text fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;"></p>
+                      <h1 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h1>
+                      <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
+                      </p>
+                  </div>
+              </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon btn-lg-square fadeInLeft animate__animated" aria-hidden="true" data-animation="fadeInLeft" data-delay="1.1s" style="animation-delay: 1.3s;"><i class="fas fa-chevron-left fa-2x"></i></span>
+              <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+              <span class="carousel-control-next-icon btn-lg-square fadeInRight animate__animated" aria-hidden="true" data-animation="fadeInRight" data-delay="1.1s" style="animation-delay: 1.3s;"><i class="fas fa-chevron-right fa-2x"></i></span>
+              <span class="visually-hidden">Next</span>
+          </button>
+      </div>
+  </div>
+
+
+
+
+
+
+
         <!-- About Start -->
         <!-- <section id="about">
             <div class="container-fluid about py-5">
@@ -337,7 +405,7 @@
                 <div class="container py-5">
                     <div class="row">
                         <div class="col-12 col-md-6">
-                            <img src="images/photo.JPG" alt="" class="img-fluid">
+                            <img src="images/owner.png" alt="" class="img-fluid">
                             <!-- <video id="video" poster="poster.jpg " class="w-100 " autoplay controls  loop>
                                 <source src="images/WhatsApp Video 2024-12-17 at 10.16.44.mp4" type="video/mp4">
 
@@ -368,7 +436,7 @@
             <div class="container">
                 <div class="pb-4 mb-4 ">
                     <div class="row g-4 ">
-                        <div class="col-lg-6 standars" >
+                        <div class="col-lg-6 standars">
                             <div class="d-flex mb-4">
                                 <div class="">
                                     <i class="fas fa-user-shield fa-3x new_icon"></i>
@@ -403,6 +471,18 @@
                                 </div>
                                 <h4 class="ms-3 contact_text">Certified engineer’s team</h4>
 
+                            </div>
+                            <div class="row gy-0 gx-4 justify-content-between pb-4">
+                                <div class="col-lg-6">
+                                    <p class="text-dark"><i class="fas fa-check text-secondary me-1"></i> 100% Satisfaction</p>
+                                    <p class="text-dark"><i class="fas fa-check text-secondary me-1"></i> Trained Workers</p>
+                                    <!-- <p class="text-dark mb-0"><i class="fas fa-check text-secondary me-1"></i> Flexible and cost effective</p> -->
+
+                                </div>
+                                <div class="col-lg-6">
+                                    <!-- <p class="text-dark"><i class="fas fa-check text-secondary me-1"></i> Annual Pass Programs</p> -->
+                                    <p class="text-dark mb-0"><i class="fas fa-check text-secondary me-1"></i> Flexible and cost effective</p>
+                                </div>
                             </div>
                         </div>
                         <div class="col-lg-6">
@@ -452,8 +532,8 @@
         <div class="container-fluid feature bg-light py-5 ">
             <div class="container py-5 ">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <p class="text-uppercase text-secondary fs-1 mb-0">WHy US</p>
-                    <h2 class="text-capitalize mb-3 contact_text">Why Choose Us</h2>
+                    <p class="text-uppercase text-secondary fs-1 mb-0">Why Choose Us</p>
+                    <!-- <h2 class=" text-uppercase mb-3 text-secondary fs-1 ontact_text"></h2> -->
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -698,111 +778,132 @@
         </section>
         <!-- Services End -->
 
+        <section>
+            <div class="container-fluid  py-5">
+                <div class="container py-5">
+                    <div class="row g-4">
+                        <h2 class="text-center fs-1 contact_text my-4 text-uppercase text-secondary">3D <span class="fs-4">v/s</span> Real</h2>
+                        <div class="col-lg-6 col-12">
+                            <img src="images/2.png" alt="" class="img-fluid">
+                        </div>
+                        <div class="col-lg-6 col-12">
+                            <img src="images/111.png" alt="" class="img-fluid">
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
         <!-- Gallery Start -->
 
-        <div class="container-fluid blog pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <p class="text-uppercase text-secondary fs-1 mb-0 pt-5 about">Gallery</p>
-                    <!-- <h2 class="display-4 text-capitalize mb-3">Our latest news post and articles?</h2> -->
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="blog-item h-100">
-                            <div class="blog-img">
-                                <img src="images/ratnakar.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
-                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
+        <section id="Gallery">
+            <div class="container-fluid blog pb-5">
+                <div class="container pb-5">
+                    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                        <p class="text-uppercase text-secondary fs-1 mb-0 pt-5 about">Gallery</p>
+                        <!-- <h2 class="display-4 text-capitalize mb-3">Our latest news post and articles?</h2> -->
+                    </div>
+                    <div class="row g-4">
+                        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
+                            <div class="blog-item h-100">
+                                <div class="blog-img">
+                                    <img src="images/ratnakar.jpg" class="img-fluid" alt="">
                                 </div>
-                                <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
+                                <div class="blog-content">
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
+                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
+                                    </div>
+                                    <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
                                 <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="blog-item h-100">
-                            <div class="blog-img">
-                                <!-- <img src="images/ratnakar38.jpeg" class="img-fluid w-100" alt=""> -->
-                                <img src="images/ratnakart7.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
-                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
+                        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="blog-item h-100">
+                                <div class="blog-img">
+                                    <!-- <img src="images/ratnakar38.jpeg" class="img-fluid w-100" alt=""> -->
+                                    <img src="images/ratnakart7.jpg" class="img-fluid" alt="">
                                 </div>
-                                <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
+                                <div class="blog-content">
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
+                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
+                                    </div>
+                                    <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
                                 <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="blog-item h-100">
-                            <div class="blog-img">
-                                <img src="images/ratnakart28.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
-                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
+                        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
+                            <div class="blog-item h-100">
+                                <div class="blog-img">
+                                    <img src="images/ratnakart28.jpg" class="img-fluid" alt="">
                                 </div>
-                                <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
+                                <div class="blog-content">
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
+                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
+                                    </div>
+                                    <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
                                 <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="blog-item h-100">
-                            <div class="blog-img">
-                                <img src="images/ratnakart25.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
-                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
+                        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="blog-item h-100">
+                                <div class="blog-img">
+                                    <img src="images/ratnakart25.jpg" class="img-fluid" alt="">
                                 </div>
-                                <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
+                                <div class="blog-content">
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
+                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
+                                    </div>
+                                    <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
                                 <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="blog-item h-100">
-                            <div class="blog-img">
-                                <img src="images/ratnakart26.jpg" class="img-fluid " alt="">
-                            </div>
-                            <div class="blog-content">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
-                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
+                        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="blog-item h-100">
+                                <div class="blog-img">
+                                    <img src="images/ratnakart26.jpg" class="img-fluid " alt="">
                                 </div>
-                                <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
+                                <div class="blog-content">
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
+                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
+                                    </div>
+                                    <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
                                 <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="blog-item h-100">
-                            <div class="blog-img">
-                                <img src="images/ratnakart27.jpg" class="img-fluid" alt="">
-                            </div>
-                            <div class="blog-content">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
-                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
+                        <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
+                            <div class="blog-item h-100">
+                                <div class="blog-img">
+                                    <img src="images/ratnakart27.jpg" class="img-fluid" alt="">
                                 </div>
-                                <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
+                                <div class="blog-content">
+                                    <div class="d-flex justify-content-between mb-3">
+                                        <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
+                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
+                                    </div>
+                                    <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
                                 <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-
+        </section>
         <!-- Gallery End-->
+
+
+
         <!-- <div class="desktop_2" unique-script-id="w-w-dm-id">
         <div class="Container">
           <div class="portfolio">
@@ -938,17 +1039,18 @@
 
 
 
+
         <!-- Fact Counter -->
         <div class="container-fluid counter py-5">
             <div class="container py-5">
                 <div class="row g-4">
-                    <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="counter-box">
-                            <div class="counter-item">
+                    <div class="col-lg-3 col-md-12 wow fadeInUp" data-wow-delay="0.2s">
+                        <div class="counter-box ">
+                            <div class="counter-item  ">
                                 <div class="counter-item-style"></div>
                                 <div class="counter-item-inner p-5">
                                     <i class="fas fa-thumbs-up fa-4x new_color"></i>
-                                    <h4 class="text-dark my-4 contact_text">Completed Projects</h4>
+                                    <h4 class="text-dark my-4 need_space contact_text">Completed Projects</h4>
                                     <div class="counter-counting">
                                         <span class="text-white fs-2 fw-bold" data-toggle="counter-up">800</span>
                                         <span class="h1 fw-bold text-white">+</span>
@@ -957,13 +1059,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
+                    <div class="col-lg-3 col-md-12 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="counter-box">
                             <div class="counter-item">
                                 <div class="counter-item-style"></div>
                                 <div class="counter-item-inner p-5">
                                     <i class="fas fa-users fa-4x new_color"></i>
-                                    <h4 class="text-dark my-4 contact_text">Happy Customers</h4>
+                                    <h4 class="text-dark my-4 need_space  contact_text">Happy Customers</h4>
                                     <div class="counter-counting">
                                         <span class="text-white fs-2 fw-bold" data-toggle="counter-up">800</span>
                                         <span class="h1 fw-bold text-white">+</span>
@@ -972,13 +1074,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
+                    <div class="col-lg-3 col-md-12 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="counter-box">
                             <div class="counter-item">
                                 <div class="counter-item-style"></div>
                                 <div class="counter-item-inner p-5">
                                     <i class="fas fa-user fa-4x new_color"></i>
-                                    <h4 class="text-dark my-4 contact_text">Qualified Engineers</h4>
+                                    <h4 class="text-dark my-4 need_space  contact_text">Qualified Engineers</h4>
                                     <div class="counter-counting">
                                         <span class="text-white fs-2 fw-bold" data-toggle="counter-up">53</span>
                                         <span class="h1 fw-bold text-white">+</span>
@@ -987,13 +1089,13 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-lg-6 col-md-6 wow fadeInUp" data-wow-delay="0.8s">
+                    <div class="col-lg-3 col-md-12 wow fadeInUp" data-wow-delay="0.8s">
                         <div class="counter-box">
                             <div class="counter-item">
                                 <div class="counter-item-style"></div>
                                 <div class="counter-item-inner p-5">
                                     <i class="fas fa-heart fa-4x new_color"></i>
-                                    <h4 class="text-dark my-4 contact_text">Years Experiance</h4>
+                                    <h4 class="text-dark my-4 need_space  contact_text">Years Experiance</h4>
                                     <div class="counter-counting">
                                         <span class="text-white fs-2 fw-bold" data-toggle="counter-up">17</span>
                                         <span class="h1 fw-bold text-white">+</span>
@@ -1107,7 +1209,53 @@
         </section> -->
         <!-- Projects End -->
 
-        <section id="project">
+        <!-- <section id="make_app">
+            <div class="container py-5">
+                <h2 class="text-center contact_text mb-5">Make an Appointment</h2>
+                <div class="row">
+                    <div class="col-6">
+                        <img src="images/app.webp" alt="" class="img-fluid h-50">
+                    </div>
+                    <div class="col-6 ">
+                        <form action="contactform.php" method="post" role="form" class="php-email-form ">
+
+                            <div class="row g-3">
+                                <div class="col-lg-12 col-xl-6">
+                                    <div class="form-floating">
+                                        <input type="text" name="contactname" class="form-control" id="name" placeholder="Your Name">
+                                        <label for="name">Your Name</label>
+                                    </div>
+                                </div>
+                                <div class="col-lg-12 col-xl-6">
+                                    <div class="form-floating">
+                                        <input type="phone" class="form-control" name="contactnumber" id="email" placeholder="Your Phone">
+                                        <label for="phone">Your Phone</label>
+                                    </div>
+                                </div>
+
+                                <div class="col-12">
+                                    <div class="form-floating ">
+                                        <input type="email" class="form-control" name="contactemail" id="subject" placeholder="email">
+                                        <label for="email">Your Email</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="form-floating ">
+                                        <textarea class="form-control" name="contactmessage" placeholder="Leave a message here" id="message" style="height: 160px"></textarea>
+                                        <label for="message">Message</label>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <button class="btn btn-primary w-100 py-3">Send Message</button>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section> -->
+
+        <section id="Recent Completed Projects" class="some">
             <div class="container-fluid project py-5">
 
                 <div class="container py-5">
@@ -1158,63 +1306,68 @@
                             </div>
                         </div>
                     </div>
+                </div>
+            </div>
+        </section>
 
-                    <div class="container py-5">
 
-                        <h2 class=" text-capitalize mb-5 contact_text text-center mt-5">Progressive Projects</h2>
+        <section id="Progressive Projects" class="gap">
+            <div class="container py-5">
 
-                        <div class="row g-4">
-                            <!-- Image Card 1 -->
-                            <div class="col-md-6 col-lg-4">
-                                <div class="card">
-                                    <img src="images/111.png" class=" " alt="Image 2" style="height:300px;">
-                                    <div class="card-body text-center">
-                                        <h5 class="contact_text">Ratnakar Constructions</h5>
-                                        <!-- <p class="card-text">Short description for Image 3.</p> -->
-                                        <i class="fas  me-2 contact_text"> 27-5-24,Buddavarapu street and Buildings,Kakinada.</i>
+                <h2 class=" text-capitalize mb-5 contact_text text-center mt-5">Progressive Projects</h2>
 
-                                        <i class="fas  me-2 contact_text    ">8999069990,9848424956</i>
-                                        <!-- <i class="fas fa-envelope me-2 contact_text">ratnakarconstructions</i> -->
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Image Card 2 -->
-                            <div class="col-md-6 col-lg-4">
-                                <div class="card">
-                                    <img src="images/222.png" class="img-fluid" alt="Image 2" style="height:300px;">
-                                    <div class="card-body text-center">
-                                        <h5 class="contact_text">Ratnakar Constructions</h5>
-                                        <!-- <p class="card-text">Short description for Image 3.</p> -->
-                                        <i class="fas me-2 contact_text"> 27-5-24,Buddavarapu street and Buildings,Kakinada.</i>
+                <div class="row g-4">
+                    <!-- Image Card 1 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="images/111.png" class=" " alt="Image 2" style="height:300px;">
+                            <div class="card-body text-center">
+                                <h5 class="contact_text">Ratnakar Constructions</h5>
+                                <!-- <p class="card-text">Short description for Image 3.</p> -->
+                                <i class="fas  me-2 contact_text"> 27-5-24,Buddavarapu street and Buildings,Kakinada.</i>
 
-                                        <i class="fas  me-2 contact_text    ">8999069990,9848424956</i>
-                                        <!-- <i class="fas fa-envelope me-2 contact_text">ratnakarconstructions</i> -->
-                                    </div>
-                                </div>
-                            </div>
-                            <!-- Image Card 3 -->
-                            <div class="col-md-6 col-lg-4">
-                                <div class="card">
-                                    <img src="images/333.png" class="img-fluid" alt="Image 3" style="height:300px">
-                                    <div class="card-body text-center ">
-                                        <h5 class="contact_text">Ratnakar Constructions</h5>
-                                        <!-- <p class="card-text">Short description for Image 3.</p> -->
-                                        <i class="fas me-2 contact_text"> 27-5-24,Buddavarapu street and Buildings,Kakinada.</i>
-
-                                        <i class="fas  me-2 contact_text    ">8999069990,9848424956</i>
-                                        <!-- <i class="fas fa-envelope me-2 contact_text">ratnakarconstructions</i> -->
-                                    </div>
-                                </div>
+                                <i class="fas  me-2 contact_text    ">8999069990,9848424956</i>
+                                <!-- <i class="fas fa-envelope me-2 contact_text">ratnakarconstructions</i> -->
                             </div>
                         </div>
+                    </div>
+                    <!-- Image Card 2 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="images/222.png" class="img-fluid" alt="Image 2" style="height:300px;">
+                            <div class="card-body text-center">
+                                <h5 class="contact_text">Ratnakar Constructions</h5>
+                                <!-- <p class="card-text">Short description for Image 3.</p> -->
+                                <i class="fas me-2 contact_text"> 27-5-24,Buddavarapu street and Buildings,Kakinada.</i>
 
+                                <i class="fas  me-2 contact_text    ">8999069990,9848424956</i>
+                                <!-- <i class="fas fa-envelope me-2 contact_text">ratnakarconstructions</i> -->
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Image Card 3 -->
+                    <div class="col-md-6 col-lg-4">
+                        <div class="card">
+                            <img src="images/333.png" class="img-fluid" alt="Image 3" style="height:300px">
+                            <div class="card-body text-center ">
+                                <h5 class="contact_text">Ratnakar Constructions</h5>
+                                <!-- <p class="card-text">Short description for Image 3.</p> -->
+                                <i class="fas me-2 contact_text"> 27-5-24,Buddavarapu street and Buildings,Kakinada</i>
 
-
-
-
-
+                                <i class="fas  me-2 contact_text    ">8999069990,9848424956</i>
+                                <!-- <i class="fas fa-envelope me-2 contact_text">ratnakarconstructions</i> -->
+                            </div>
+                        </div>
                     </div>
                 </div>
+
+
+
+
+
+
+            </div>
+
 
 
         </section>
@@ -1222,7 +1375,7 @@
 
 
 
-        <section class=ftc>
+         <section id="Construction and Project Management" class="gap">
             <div class="container">
                 <h2 class="text-capitalize text-center fs-2 mb-5 contact_text">Construction and Project Management</h2>
                 <div class="row">
@@ -1393,9 +1546,18 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </section> 
 
-    
+
+                      
+
+
+
+
+
+
+
+
 
 
         <!-- Team Start -->
@@ -1669,6 +1831,120 @@
         </div>
         <!-- Testimonial End -->
 
+
+
+
+        <section class="package">
+            <h2 class="text-center mt-5 text-uppercase text-secondary fs-3 contact_text ">Our Packages</h2>
+            <div class="container mt-5">
+                <div class="row Packages ">
+                    <div class="col-md-12 col-lg-4 text-center content">
+                        <h2 class="mb-3 contact_text">Starter</h2>
+                        <p>This minimal package gives you affordability without compromising quality which is perfect for comfortable residential construction in Kakinada.</p> <a href="#contact"> <button class=" btn card_btn  btn-primary">Enquire Now</button></a>
+                    </div>
+                    <div class="col-md-12 col-lg-4 text-center content">
+                        <h2 class="mb-3  contact_text">Professional</h2>
+                        <p> This minimal package gives you affordability without compromising quality which is perfect for comfortable residential construction in Kakinada. </p> <a href="#contact"> <button class=" btn card_btn  btn-primary">Enquire Now</button></a>
+                    </div>
+                    <div class="col-md-12 col-lg-4 text-center content">
+                        <h2 class="mb-3  contact_text">Premium</h2>
+                        <p> Our premium package brings opulence and sophistication to your residential villa that is tailored for those seeking the pinnacle of luxury.</p> <a href="#contact"> <button class=" btn card_btn btn-primary">Enquire Now</button></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="banking">
+            <div class="container-fluid py-4"></div>
+            <h2 class="text-center text_center">Our Banking Partners</h2>
+
+            <div class="container py-5">
+                <div class="row">
+                    <div class="col-12 pics">
+                        <img src="images/11.png" alt="" class="img-fluid">
+                        <img src="images/22.png" alt="" class="img-fluid">
+                        <img src="images/partner1.svg" alt="" class="img-fluid">
+                        <img src="images/partner2.svg" alt="" class="img-fluid">
+                        <img src="images/partner3.svg" alt="" class="img-fluid">
+                        <img src="images/partner5.svg" alt=""  class="img-fluid">
+
+                    </div>
+                </div>
+            </div>
+        </section> -->
+        <section>
+            <div class="container ">
+                <div class="container-fluid py-5"></div>
+                <h2 class="text-center  partner text-uppercase text-secondary fs-3  contact_text">Our Banking Partners</h2>
+                <div class="custom-slide-container swiper">
+                    <div class="custom-slide-content">
+                        <div class="custom-card-wrapper swiper-wrapper py-5 sliders">
+
+                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
+                                <img src="images/icici.jpg" alt="" class="img-fluid text-center border 2px solid ">
+                            </div>
+
+                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
+                                <img src="images/22.png" alt="" class="img-fluid">
+                            </div>
+
+                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
+                                <img src="images/partner1.svg" alt="" class="img-fluid">
+                            </div>
+
+                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
+                                <img src="images/partner2.svg" alt="" class="img-fluid">
+                            </div>
+
+                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
+                                <img src="images/partner3.svg" alt="" class="img-fluid">
+                            </div>
+
+
+
+
+                            <!-- <div class="swiper-button-next custom-swiper-navBtn"></div>
+        <div class="swiper-button-prev custom-swiper-navBtn"></div> -->
+
+
+                            <script>
+                                var swiper = new Swiper(".custom-slide-content", {
+                                    slidesPerView: 3,
+                                    spaceBetween: 25,
+                                    loop: true,
+                                    centerSlide: 'true',
+                                    fade: 'true',
+                                    grabCursor: 'true',
+                                    pagination: {
+                                        el: ".custom-swiper-pagination",
+                                        clickable: true,
+                                        dynamicBullets: true,
+                                    },
+                                    autoplay: {
+                                        delay: 3000, // Time in milliseconds between automatic slides (3 seconds here)
+                                        disableOnInteraction: false, // Keeps autoplay active even after manual swiping
+                                    },
+                                    navigation: {
+                                        nextEl: ".swiper-button-next.custom-swiper-navBtn",
+                                        prevEl: ".swiper-button-prev.custom-swiper-navBtn",
+                                    },
+
+                                    breakpoints: {
+                                        0: {
+                                            slidesPerView: 1,
+                                        },
+                                        520: {
+                                            slidesPerView: 2,
+                                        },
+                                        950: {
+                                            slidesPerView: 3,
+                                        },
+                                    },
+                                });
+                            </script>
+
+                        </div>
+        </section>
         <!---Contact Start--------->
         <section id="contact">
             <div class="container-fluid contact bg-light py-5">
@@ -1775,122 +2051,6 @@
         <!---Contact End------>
 
 
-        <section class="package">
-            <h2 class="text-center mt-5 text-uppercase text-secondary fs-3 contact_text ">Our Packages</h2>
-            <div class="container mt-5">
-                <div class="row Packages ">
-                    <div class="col-md-12 col-lg-3 text-center content">
-                        <h2 class="mb-3">Starter</h2>
-                        <p class="mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsa debitis beatae quam repudiandae assumenda distinctio quo. Provident, aliquam quam.</p>
-                        <button class=" btn card_btn  btn-primary">Enquire Now</button>
-                    </div>
-                    <div class="col-md-12 col-lg-3 text-center content">
-                        <h2 class="mb-3">Professional</h2>
-                        <p class="mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsa debitis beatae quam repudiandae assumenda distinctio quo. Provident, aliquam quam.</p>
-                        <button class=" btn card_btn  btn-primary">Enquire Now</button>
-                    </div>
-                    <div class="col-md-12 col-lg-3 text-center content">
-                        <h2 class="mb-3">Premium</h2>
-                        <p class="mb-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sapiente, ipsa debitis beatae quam repudiandae assumenda distinctio quo. Provident, aliquam quam.</p>
-                        <button class=" btn card_btn btn-primary">Enquire Now</button>
-                    </div>
-                </div>
-            </div>
-        </section>
-
-        <!-- <section class="banking">
-            <div class="container-fluid py-4"></div>
-            <h2 class="text-center text_center">Our Banking Partners</h2>
-
-            <div class="container py-5">
-                <div class="row">
-                    <div class="col-12 pics">
-                        <img src="images/11.png" alt="" class="img-fluid">
-                        <img src="images/22.png" alt="" class="img-fluid">
-                        <img src="images/partner1.svg" alt="" class="img-fluid">
-                        <img src="images/partner2.svg" alt="" class="img-fluid">
-                        <img src="images/partner3.svg" alt="" class="img-fluid">
-                        <img src="images/partner5.svg" alt=""  class="img-fluid">
-
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <section>
-            <div class="container ">
-                <div class="container-fluid py-5"></div>
-                <h2 class="text-center  partner text-uppercase text-secondary fs-3  contact_text">Our Banking Partners</h2>
-                <div class="custom-slide-container swiper">
-                    <div class="custom-slide-content">
-                        <div class="custom-card-wrapper swiper-wrapper py-5 sliders">
-
-                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
-                                <img src="images/icici.jpg" alt="" class="img-fluid text-center border 2px solid ">
-                            </div>
-
-                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
-                                <img src="images/22.png" alt="" class="img-fluid">
-                            </div>
-
-                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
-                                <img src="images/partner1.svg" alt="" class="img-fluid">
-                            </div>
-
-                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
-                                <img src="images/partner2.svg" alt="" class="img-fluid">
-                            </div>
-
-                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
-                                <img src="images/partner3.svg" alt="" class="img-fluid">
-                            </div>
-
-
-
-
-                            <!-- <div class="swiper-button-next custom-swiper-navBtn"></div>
-        <div class="swiper-button-prev custom-swiper-navBtn"></div> -->
-
-
-                            <script>
-                                var swiper = new Swiper(".custom-slide-content", {
-                                    slidesPerView: 3,
-                                    spaceBetween: 25,
-                                    loop: true,
-                                    centerSlide: 'true',
-                                    fade: 'true',
-                                    grabCursor: 'true',
-                                    pagination: {
-                                        el: ".custom-swiper-pagination",
-                                        clickable: true,
-                                        dynamicBullets: true,
-                                    },
-                                    autoplay: {
-                                        delay: 3000, // Time in milliseconds between automatic slides (3 seconds here)
-                                        disableOnInteraction: false, // Keeps autoplay active even after manual swiping
-                                    },
-                                    navigation: {
-                                        nextEl: ".swiper-button-next.custom-swiper-navBtn",
-                                        prevEl: ".swiper-button-prev.custom-swiper-navBtn",
-                                    },
-
-                                    breakpoints: {
-                                        0: {
-                                            slidesPerView: 1,
-                                        },
-                                        520: {
-                                            slidesPerView: 2,
-                                        },
-                                        950: {
-                                            slidesPerView: 3,
-                                        },
-                                    },
-                                });
-                            </script>
-
-                        </div>
-        </section>
-
-
 
 
 
@@ -1911,9 +2071,11 @@
                         <div class="footer-item d-flex flex-column">
                             <h4 class="text mb-4 contact_text">Explore</h4>
                             <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Home</a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Services</a>
                             <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> About Us</a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Latest Projects</a>
+
+                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Services</a>
+                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Gallery</a>
+                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Projects</a>
                             <!-- <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> testimonial</a> -->
                             <!-- <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Our Team</a> -->
                             <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Contact Us</a>
@@ -1985,6 +2147,11 @@
             <i class="fab fa-whatsapp"></i>
         </a>
 
+
+        <a href="images/Ratnakar Constructions (1).pdf" download id="" class="navbar-brand p-0">
+                    <img src="images/logor.png" class="whatsapp-link1" alt="" style="width:180px; height:100px">
+                </a>
+
         <!-- Back to Top -->
         <a href="#" class="btn btn-secondary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
 
@@ -2017,12 +2184,20 @@
         <!-- Template Javascript -->
         <script src="js/main.js"></script>
 
+        <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
 
 
         <!-- <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank">
         <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
     </a> -->
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script> 
+
+
 
         </body>
 

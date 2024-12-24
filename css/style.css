@@ -319,7 +319,7 @@ h1{
     height: 100vh;
 } */
 .new_text{
-    color: #e7c160;
+    color:#e9bb44;
     font-weight: 900;
 }
 /* 
@@ -1364,9 +1364,15 @@ border-radius: 20px;
     } */
 
      .new_text {
-        margin-top: -300px ;
+        margin-top: -250px ;
+        color:#e9bb44
        
     } 
+    @media(min-width:375px) and (max-width:768px){
+        .new_text {
+      margin-top: 750px;
+        }
+    }  
  
      @media(min-width:768px) and (max-width:992px){
         .new_text {

@@ -310,7 +310,7 @@
             <div class="carousel-item active">
                 <img src="images/front.png" class="d-block w-100" alt="Front View">
                 <div class="carousel-caption d-none d-md-block">
-                    <p class="text-uppercase fs-1 text-secondary new_text ">Ratnakar Constructions</p>
+                    <p class="text-uppercase fs-1  new_text ">Ratnakar Constructions</p>
                     <h3 class="text-white mb-4">It's all about the trust</h3>
                     <p class="mb-5 fs-5">We build something new and consistent.</p>
                 </div>
@@ -318,7 +318,7 @@
             <div class="carousel-item">
                 <img src="images/666.png" class="d-block w-100" alt="Second Slide">
                 <div class="carousel-caption d-none d-md-block">
-                    <p class="text-uppercase fs-1 text-secondary ">Ratnakar Constructions</p>
+                    <p class="text-uppercase fs-1  new_text">Ratnakar Constructions</p>
                     <h3 class="text-white mb-4">It's all about the trust</h3>
                     <p class="mb-5 fs-5">We build something new and consistent.</p>
                 </div>
@@ -326,7 +326,7 @@
             <div class="carousel-item">
                 <img src="images/iron.png" class="d-block w-100" alt="Iron Works">
                 <div class="carousel-caption d-none d-md-block">
-                    <p class="text-uppercase fs-1 text-secondary">Ratnakar Constructions</p>
+                    <p class="text-uppercase fs-1 new_text">Ratnakar Constructions</p>
                     <h3 class="text-white mb-4">It's all about the trust</h3>
                     <p class="mb-5 fs-5">We build something new and consistent.</p>
                 </div>
@@ -334,7 +334,7 @@
             <div class="carousel-item">
                 <img src="images/888.png" class="d-block w-100" alt="Eighth Image">
                 <div class="carousel-caption d-none d-md-block">
-                    <p class="text-uppercase fs-1 text-secondary">Ratnakar Constructions</p>
+                    <p class="text-uppercase fs-1 new_text">Ratnakar Constructions</p>
                     <h3 class="text-white mb-4">It's all about the trust</h3>
                     <p class="mb-5 fs-5">We build something new and consistent.</p>
                 </div>
@@ -342,7 +342,7 @@
             <div class="carousel-item">
                 <img src="images/777.png" class="d-block w-100" alt="Seventh Image">
                 <div class="carousel-caption d-none d-md-block">
-                    <p class="text-uppercase fs-1 text-secondary">Ratnakar Constructions</p>
+                    <p class="text-uppercase fs-1 new_text">Ratnakar Constructions</p>
                     <h3 class="text-white mb-4">It's all about the trust</h3>
                     <p class="mb-5 fs-5">We build something new and consistent.</p>
                 </div>
@@ -350,7 +350,7 @@
             <div class="carousel-item">
                 <img src="images/back.png" class="d-block w-100" alt="Back View">
                 <div class="carousel-caption d-none d-md-block">
-                    <p class="text-uppercase fs-1 text-secondary">Ratnakar Constructions</p>
+                    <p class="text-uppercase fs-1 new_text">Ratnakar Constructions</p>
                     <h3 class="text-white mb-4">It's all about the trust</h3>
                     <p class="mb-5 fs-5">We build something new and consistent.</p>
                 </div>

@@ -7,7 +7,7 @@
             <meta content="width=device-width, initial-scale=1.0" name="viewport">
             <meta content="" name="keywords">
             <meta content="" name="description">
-            <link rel="icon" type="image/png" sizes="32x32" href="img/logo.jpg">
+            <link rel="icon" type="image/png" sizes="32x32" href="images/logor.png">
 
             <!-- Google Web Fonts -->
             <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -33,8 +33,8 @@
 
 
 
-            
-   
+
+
             <!-- imageslider -->
 
             <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
@@ -92,7 +92,7 @@
                     <div class="navbar-nav ms-auto pt-2 pt-lg-0">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="#about" class="nav-item nav-link">About</a>
-                        <a href="#service" class="nav-item nav-link">Servicees</a>
+                        <a href="#service" class="nav-item nav-link">Servic</a>
                         <a href="#Gallery" class="nav-item nav-link">Gallery</a>
 
                         <!-- Dropdown for Projects -->
@@ -109,9 +109,9 @@
 
                         <a href="#contact" class="nav-item nav-link">Contact Us </a>
                     </div>
-                    <!-- <div class="d-flex align-items-center flex-nowrap pt-3 pt-lg-0 ms-lg-2">
+                    <div class="d-flex align-items-center flex-nowrap pt-3 pt-lg-0 ms-lg-2">
                         <a href="#make_app" class="btn py-2 px-4 ms-3 flex-wrap flex-sm-shrink-0">Book an Appointment</a>
-                    </div> -->
+                    </div>
                 </div>
             </nav>
         </div>
@@ -167,136 +167,84 @@
                 <div class="carousel-inner">
 
                     <div class="carousel-item">
-                        <img src="images/a.png" class="d-block w-100" alt="Slide 2">
+                        <img src="images/1.png" class="d-block w-100" alt="">
                         <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0  text-capitalize" >Ratnakar Constructions</p>
+                            <p class="text-uppercase new_text fs-1 mb-0  text-capitalize">Ratnakar Constructions</p>
                             <h3 class="  text-white mb-4  ">It's all about the trust</h3>
-                            <p class="mb-5 fs-5  " >We build somethings new and consistent.
+                            <p class="mb-5 fs-5  ">We build somethings new and consistent.
                             </p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/step.jpg" class="d-block w-100" alt="Slide 3">
+                        <img src="images/3.png" class="d-block w-100" alt="">
                         <div class="carousel-caption">
                             <p class="text-uppercase new_text fs-1 mb-0   text-capitalize">Ratnakar Constructions</p>
-                            <h3 class="  text-white mb-4  " >It's all about the trust</h3>
-                            <p class="mb-5 fs-5  " >We build somethings new and consistent.
+                            <h3 class="  text-white mb-4  ">It's all about the trust</h3>
+                            <p class="mb-5 fs-5  ">We build somethings new and consistent.
                             </p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/ratnakart7.jpg" class="d-block w-100" alt="Slide 4">
+                        <img src="images/ratnakart7.jpg" class="d-block w-100" alt="">
                         <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize" >Ratnakar Constructions</p>
-                            <h3 class="  text-white mb-4  " >It's all about the trust</h3>
+                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize">Ratnakar Constructions</p>
+                            <h3 class="  text-white mb-4  ">It's all about the trust</h3>
                             <p class="mb-5 fs-5  ">We build somethings new and consistent.
                             </p>
                         </div>
                     </div>
                     <div class="carousel-item active">
-                        <img src="images/slab.jpg" class="d-block w-100" alt="Slide 1">
+                        <img src="images/3.png" class="d-block w-100" alt="">
                         <div class="carousel-caption">
                             <p class="text-uppercase new_text fs-1 mb-0   text-capitalize">Ratnakar Constructions</p>
-                            <h3 class="  text-white mb-4  " >It's all about the trust</h3>
-                            <p class="mb-5 fs-5  " >We build somethings new and consistent.
+                            <h3 class="  text-white mb-4  ">It's all about the trust</h3>
+                            <p class="mb-5 fs-5  ">We build somethings new and consistent.
                             </p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/ratnakar.jpg" class="d-block w-100" alt="Slide 5">
+                        <img src="images/ratnakar.jpg" class="d-block w-100" alt="">
                         <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize" >Ratnakar Constructions</p>
-                            <h3 class="  text-white mb-4  " >It's all about the trust</h3>
-                            <p class="mb-5 fs-5  " >We build somethings new and consistent.
+                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize">Ratnakar Constructions</p>
+                            <h3 class="  text-white mb-4  ">It's all about the trust</h3>
+                            <p class="mb-5 fs-5  ">We build somethings new and consistent.
                             </p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/3d house.png" class="d-block w-100" alt="Slide 6">
+                        <img src="images/3d house.png" class="d-block w-100" alt="">
                         <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize" >Ratnakar Constructions</p>
-                            <h3 class="  text-white mb-4  " >It's all about the trust</h3>
-                            <p class="mb-5 fs-5  " >We build somethings new and consistent.
+                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize">Ratnakar Constructions</p>
+                            <h3 class="  text-white mb-4  ">It's all about the trust</h3>
+                            <p class="mb-5 fs-5  ">We build somethings new and consistent.
                             </p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/b.png" class="d-block w-100" alt="Slide 6">
+                        <img src="images/2.png" class="d-block w-100" alt="">
                         <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize" >Ratnakar Constructions</p>
-                            <h3 class="  text-white mb-4  " >It's all about the trust</h3>
+                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize">Ratnakar Constructions</p>
+                            <h3 class="  text-white mb-4  ">It's all about the trust</h3>
                             <p class="mb-5 fs-5  ">We build somethings new and consistent.
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon btn-lg-square fadeInLeft animate__animated" aria-hidden="true" data-animation="fadeInLeft" data-delay="1.1s" style="animation-delay: 1.3s;"><i class="fas fa-chevron-left fa-2x"></i></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
                     <span class="carousel-control-next-icon btn-lg-square fadeInRight animate__animated" aria-hidden="true" data-animation="fadeInRight" data-delay="1.1s" style="animation-delay: 1.3s;"><i class="fas fa-chevron-right fa-2x"></i></span>
                     <span class="visually-hidden">Next</span>
-                </button>
+                </button> -->
             </div>
         </div>
 
 
 
 
-        <div class="container-fluid overflow-hidden px-0">
-      <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-          <ol class="carousel-indicators fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;">
-              <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
-              <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-              <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
-          </ol>
-          <div class="carousel-inner" role="listbox">
-              <div class="carousel-item active">
-                  <!-- <img src="img/carousel-11.jpg" class="img-fluid w-100" alt="First slide"/> -->
-                  <img src="img/11.png" class="img-fluid w-100" alt="First slide" />
-
-                  <div class="carousel-caption">
-                      <p class="text-uppercase new_text fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;"></p>
-                      <h1 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h1>
-                      <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
-                      </p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <!-- <img src="img/carousel-22.jpg" class="img-fluid w-100" alt="Second slide"/> -->
-                  <img src="img/22.png" class="img-fluid w-100" alt="Second slide" />
-
-                  <div class="carousel-caption">
-                      <p class="text-uppercase new_text fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;"></p>
-                      <h1 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h1>
-                      <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
-                      </p>
-                  </div>
-              </div>
-              <div class="carousel-item">
-                  <!-- <img src="img/carousel-3.jpg" class="img-fluid w-100" alt="Third slide"/> -->
-                  <img src="img/.png" class="img-fluid w-100" alt="Third slide" />
-
-                  <div class="carousel-caption">
-                      <p class="text-uppercase new_text fs-4 mb-0 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1s" style="animation-delay: 1s;"></p>
-                      <h1 class=" text-capitalize text-white mb-4 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.3s" style="animation-delay: 1.3s;">It's all about the trust</h1>
-                      <p class="mb-5 fs-5 fadeInUp animate__animated" data-animation="fadeInUp" data-delay="1.5s" style="animation-delay: 1.5s;">We build somethings new and consistent.
-                      </p>
-                  </div>
-              </div>
-          </div>
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon btn-lg-square fadeInLeft animate__animated" aria-hidden="true" data-animation="fadeInLeft" data-delay="1.1s" style="animation-delay: 1.3s;"><i class="fas fa-chevron-left fa-2x"></i></span>
-              <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-              <span class="carousel-control-next-icon btn-lg-square fadeInRight animate__animated" aria-hidden="true" data-animation="fadeInRight" data-delay="1.1s" style="animation-delay: 1.3s;"><i class="fas fa-chevron-right fa-2x"></i></span>
-              <span class="visually-hidden">Next</span>
-          </button>
-      </div>
-  </div>
 
 
 
@@ -1375,7 +1323,7 @@
 
 
 
-         <section id="Construction and Project Management" class="gap">
+        <!-- <section id="Construction and Project Management" class="gap">
             <div class="container">
                 <h2 class="text-capitalize text-center fs-2 mb-5 contact_text">Construction and Project Management</h2>
                 <div class="row">
@@ -1546,10 +1494,199 @@
                     </div>
                 </div>
             </div>
-        </section> 
+        </section>  -->
 
 
-                      
+
+
+
+        <div class="container mt-5">
+            <h2 class="text-capitalize text-center fs-2 mb-5 contact_text">Construction and Project Management</h2>
+
+            <!-- Tabs Navigation -->
+
+<!-- 
+            <div class="d-flex justify-content-around mb-3">
+                <div class="custom-tab active col-md-3 col-12" data-target="#content-1 ">
+
+                    <div class=" text_center">
+
+
+                        3d modular of house
+
+
+                    </div>
+
+                </div>
+                <div class="custom-tab  col-md-3 col-12" data-target="#content-2">
+
+                    project managing
+                </div>
+                <div class="custom-tab  col-md-3 col-12" data-target="#content-3">
+                    construction
+                </div>
+            </div> -->
+
+
+
+
+
+
+
+            <div class="d-flex flex-column flex-md-row justify-content-around mb-3">
+    <div class="custom-tab active col-12 col-md-3 mb-2 mb-md-0" data-target="#content-1">
+        <div class="text-center">
+            3D Modular of House
+        </div>
+    </div>
+    <div class="custom-tab col-12 col-md-3 mb-2 mb-md-0" data-target="#content-2">
+        <div class="text-center">
+            Project Managing
+        </div>
+    </div>
+    <div class="custom-tab col-12 col-md-3" data-target="#content-3">
+        <div class="text-center">
+            Construction
+        </div>
+    </div>
+</div>
+
+
+            <!-- Tabs Content -->
+            <div id="content-1" class="custom-tab-content active">
+
+                <div class="row">
+                    <h3 class=" text-capitalize contact_text my-3 text-center mb-5">
+                        Experience Your Dream Home in 3D
+                    </h3>
+
+                    <div class=" col-md-6">
+
+
+                        <p>
+                            Experience Your Dream Home in 3D
+                            Step into the future of home design with our immersive 3D house view. Whether you're exploring the layout of your dream home or visualizing a renovation, our interactive 3D model brings every detail to life. Here's what you can expect:
+
+                            Full 360° Views: Rotate, zoom, and navigate through every room and corner. Experience the true scale and layout of your home from every angle.
+                            Detailed Interiors: View furniture placements, wall textures, lighting designs, and flooring options for an accurate feel of your space.
+                            Customizable Features: Experiment with different finishes, color schemes, and furniture arrangements to make the space uniquely yours.
+                            Seamless Navigation: Explore both the exterior and interior with intuitive controls that make navigation effortless.
+                        </p>
+
+                    </div>
+                    <div class="col-md-6">
+                        <section autoplay muted loop class="only_first mt-3  ">
+                            <video id="myVideo" width="100%" autoplay controls muted loop>
+                                <source src="images/3d video.mp4" type="video/mp4">
+                                Your browser does not support the video tag.
+                            </video>
+                    </div>
+                </div>
+            </div>
+
+            <div id="content-2" class="custom-tab-content">
+                <div class="container">
+
+                    <h3 class="my-5 text-center text-capitalize contact_text">
+
+
+                        Efficient Project Management Turning Plans into Reality
+                    </h3>
+                    <p>
+                        Project management is the cornerstone of achieving organizational goals and delivering success. By blending strategic planning, effective communication, and resource optimization, we ensure that every project reaches its potential. Key aspects of our approach include:
+
+                        Strategic Planning: Clear goal setting, task prioritization, and timeline development to ensure every step aligns with the project's objectives.
+                        Resource Management: Optimal allocation of personnel, tools, and budgets to maximize efficiency without compromising quality.
+                        Collaborative Leadership: Encouraging teamwork and open communication to resolve challenges swiftly and foster innovation.
+                        Risk Mitigation: Proactively identifying and addressing potential obstacles to keep projects on track.
+                        Performance Monitoring: Using key metrics and regular updates to ensure milestones are met and adjustments are made when necessary.
+                        Our project management expertise spans various domains, including construction, IT, product development, and event planning. From inception to completion, we focus on delivering projects that exceed expectations, on time, and within budget.
+
+
+                    </p>
+
+
+
+
+                </div>
+            </div>
+            <div id="content-3" class="custom-tab-content">
+                <div class="container">
+                    <div class="row  ">
+                        <h3 class="my-5 text-center text-capitalize contact_text">
+                            Building the Future with Excellence
+                        </h3>
+                        <div class="col-md-6">
+                            <img src="images/ratnakart25.jpg" alt="" class="img-fluid">
+
+
+                        </div>
+                        <div class="col-md-6">
+                            <p>
+                                The content of construction generally refers to the materials, elements, and considerations involved in the planning, design, and execution of a construction project. This concept can be broken down into several key components:
+
+                                1. Materials of Construction
+                                Structural Materials: Concrete, steel, wood, and masonry.
+                                Finishing Materials: Paints, tiles, glass, and plaster.
+                                Specialty Materials: Insulation, waterproofing, and fireproofing materials.
+                                2. Design and Planning Elements
+                                Architectural Design: Floor plans, elevations, and aesthetics.
+                                Structural Design: Load calculations, reinforcement, and stability analysis.
+                                Mechanical, Electrical, and Plumbing (MEP):
+                                HVAC systems
+                                Electrical wiring and fixtures
+                                Plumbing networks
+                                Environmental and Sustainability Considerations:
+                                Use of eco-friendly materials
+                                Energy-efficient designs (e.g., solar panels)
+                                3. Construction Techniques
+                                Traditional methods (e.g., brick-and-mortar)
+                                Modern techniques (e.g., modular construction, 3D printing, prefabrication)
+                                Specialized techniques for different environments (e.g., underwater, high-rise)
+                                4. Regulations and Standards
+                                Building codes and zoning laws.
+                                Safety standards (e.g., OSHA in the U.S.).
+                                Environmental regulations.
+                                5. Project Management Components
+                                Planning: Timeline, scheduling, and budgeting.
+                                Execution: Resource allocation, team management, and progress tracking.
+                                Quality Control: Ensuring the work meets the specified standards.
+                                Risk Management: Addressing potential issues like delays, cost overruns, and safety hazards.
+                                6. Documentation
+                                Construction drawings, blueprints, and models.
+                                Contracts, permits, and approvals.
+                                Records of inspections, tests, and certifications.</p>
+                        </div>
+
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- JavaScript Libraries -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
+
+        <!-- Custom JavaScript -->
+        <script>
+            $(document).ready(function() {
+                // Tab click event
+                $(".custom-tab").on("click", function() {
+                    // Remove active class from all tabs
+                    $(".custom-tab").removeClass("active");
+                    // Add active class to clicked tab
+                    $(this).addClass("active");
+
+                    // Hide all tab contents
+                    $(".custom-tab-content").removeClass("active");
+                    // Show the content associated with clicked tab
+                    $($(this).data("target")).addClass("active");
+                });
+            });
+        </script>
 
 
 
@@ -1718,7 +1855,8 @@
 
 
         <!-- Testimonial Start -->
-        <div class="container-fluid testimonial pb-5">
+
+        <!-- <div class="container-fluid testimonial pb-5">
             <div class="container pb-5">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <p class="text-uppercase text-secondary fs-1 mb-0">Testimonials</p>
@@ -1728,7 +1866,7 @@
                     <div class="testimonial-item bg-light p-4">
                         <div class="position-relative">
                             <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
-                            <div class="mb-4 pb-4 border-bottom border-secondary">
+                            <div class="mb-4 pb-4 border-bottom border-secondary  col-md-3 col-12">
                                 <p class="mb-0">He is a very friendly and helpful man,always cheerful and ready to understand the exact requirements of his clients whether is architectural excellence or convenience and comfort of the client about their house.I wish him the very best in all his ventures and i am sure,in future also,he will take up prestigeous projects and come out with flying colours in his profession as a sound and efficient architect.I wish him him and his family all the best and blessings of almighty.
                                 </p>
                             </div>
@@ -1740,13 +1878,8 @@
                                     <h4 class="text-dark contact_text">GROUP CAPTAIN M S BOSE</h4>
                                     <p class="m-0 pb-3">Ramanayya peta, Kakinada.</p>
 
-                                    <!-- <div class="d-flex text-secondary pe-5">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star text-muted"></i>
-                                    </div> -->
+                                     <div class="d-flex text-secondary pe-5">
+                                  
                                 </div>
                             </div>
                         </div>
@@ -1754,7 +1887,7 @@
                     <div class="testimonial-item bg-light p-4">
                         <div class="position-relative">
                             <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
-                            <div class="mb-4 pb-4 border-bottom border-secondary">
+                            <div class="mb-4 pb-4 border-bottom border-secondary col-md-3 col-12">
                                 <p class="mb-0">I wish to thank you for the great job you did on my home.The team was professional,they kept to the schedule,and the overall cost was very reasonable.Your work really made the place look more alive than ever. Thank you for putting your passion and hard work into it and giving us a very beautiful and spacious home.Your time and efforts are appreciated.
                                 </p>
                             </div>
@@ -1765,13 +1898,7 @@
                                 <div class="d-block">
                                     <h4 class="text-dark contact_text">TADIMETI SAI KUMAR</h4>
                                     <p class="m-0 pb-3">Madhavapatnam,Kakinada.</p>
-                                    <!-- <div class="d-flex text-secondary pe-5">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star text-muted"></i>
-                                        <i class="fas fa-star text-muted"></i>
-                                    </div> -->
+                               
                                 </div>
                             </div>
                         </div>
@@ -1779,7 +1906,7 @@
                     <div class="testimonial-item bg-light p-4">
                         <div class="position-relative">
                             <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
-                            <div class="mb-4 pb-4 border-bottom border-secondary">
+                            <div class="mb-4 pb-4 border-bottom border-secondary col-md-3 col-12">
                                 <p class="mb-0">Our building engineer Mr.Buddhavarapu Ratnakar has prooved himself as the best committed engineer cum friend.He built our house with utmost good care and attended the job with full dedication and his approach is quite professional and gave his best to us. He gives top priority to the satisfication of his customers.He also takes care of any shortcomings even after the construction/execution of project is over. As a customer we are totally satisfied with his work.
                                 </p>
                             </div>
@@ -1790,21 +1917,14 @@
                                 <div class="d-block">
                                     <h4 class="text-dark contact_text">ASV RAMANAMURTHY</h4>
                                     <p class="m-0 pb-3">Main Road,Kakinada.</p>
-                                    <!-- <div class="d-flex text-secondary pe-5">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star text-muted"></i>
-                                        <i class="fas fa-star text-muted"></i>
-                                    </div> -->
-                                </div>
+                                 
                             </div>
                         </div>
                     </div>
                     <div class="testimonial-item bg-light p-4">
                         <div class="position-relative">
                             <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
-                            <div class="mb-4 pb-4 border-bottom border-secondary">
+                            <div class="mb-4 pb-4 border-bottom border-secondary col-md-3 col-12">
                                 <p class="mb-0">Despite being a lorry owner who transports building Materials,I choose Ratnakar Constructions to construct my home along with my daughter's home because of their commitment towards delivering our dream house.
                                 </p>
                             </div>
@@ -1815,20 +1935,15 @@
                                 <div class="d-block">
                                     <h4 class="text-dark contact_text">VIGNESWARA RAO BODDU</h4>
                                     <p class="m-0 pb-3">Auto Nagar, Kakinada.</p>
-                                    <!-- <div class="d-flex text-secondary pe-5">
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                        <i class="fas fa-star"></i>
-                                    </div> -->
+                                   
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
+
         <!-- Testimonial End -->
 
 
@@ -2149,8 +2264,8 @@
 
 
         <a href="images/Ratnakar Constructions (1).pdf" download id="" class="navbar-brand p-0">
-                    <img src="images/logor.png" class="whatsapp-link1" alt="" style="width:180px; height:100px">
-                </a>
+            <img src="images/logor.png" class="whatsapp-link1" alt="" style="width:180px; height:100px">
+        </a>
 
         <!-- Back to Top -->
         <a href="#" class="btn btn-secondary btn-lg-square back-to-top"><i class="fa fa-arrow-up"></i></a>
@@ -2194,8 +2309,8 @@
 
 
 
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script> 
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 
 
 

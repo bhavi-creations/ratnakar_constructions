@@ -89,10 +89,10 @@
                     <span class="fa fa-bars"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto pt-2 pt-lg-0">
+                    <div class="navbar-nav ms-auto">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="#about" class="nav-item nav-link">About</a>
-                        <a href="#service" class="nav-item nav-link">Servic</a>
+                        <a href="#service" class="nav-item nav-link">Services</a>
                         <a href="#Gallery" class="nav-item nav-link">Gallery</a>
 
                         <!-- Dropdown for Projects -->
@@ -107,14 +107,12 @@
                             </ul>
                         </div>
 
-                        <a href="#contact" class="nav-item nav-link">Contact Us </a>
-                    </div>
-                    <div class="d-flex align-items-center flex-nowrap pt-3 pt-lg-0 ms-lg-2">
-                        <a href="#make_app" class="btn py-2 px-4 ms-3 flex-wrap flex-sm-shrink-0">Book an Appointment</a>
+                        <a href="#contact" class="nav-item nav-link">Contact Us</a>
                     </div>
                 </div>
             </nav>
         </div>
+
 
         <!-- Modal Search Start -->
         <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -1505,7 +1503,7 @@
 
             <!-- Tabs Navigation -->
 
-<!-- 
+            <!-- 
             <div class="d-flex justify-content-around mb-3">
                 <div class="custom-tab active col-md-3 col-12" data-target="#content-1 ">
 
@@ -1534,22 +1532,22 @@
 
 
             <div class="d-flex flex-column flex-md-row justify-content-around mb-3">
-    <div class="custom-tab active col-12 col-md-3 mb-2 mb-md-0" data-target="#content-1">
-        <div class="text-center">
-            3D Modular of House
-        </div>
-    </div>
-    <div class="custom-tab col-12 col-md-3 mb-2 mb-md-0" data-target="#content-2">
-        <div class="text-center">
-            Project Managing
-        </div>
-    </div>
-    <div class="custom-tab col-12 col-md-3" data-target="#content-3">
-        <div class="text-center">
-            Construction
-        </div>
-    </div>
-</div>
+                <div class="custom-tab active col-12 col-md-3 mb-2 mb-md-0" data-target="#content-1">
+                    <div class="text-center">
+                        3D Modular of House
+                    </div>
+                </div>
+                <div class="custom-tab col-12 col-md-3 mb-2 mb-md-0" data-target="#content-2">
+                    <div class="text-center">
+                        Project Managing
+                    </div>
+                </div>
+                <div class="custom-tab col-12 col-md-3" data-target="#content-3">
+                    <div class="text-center">
+                        Construction
+                    </div>
+                </div>
+            </div>
 
 
             <!-- Tabs Content -->
@@ -1856,93 +1854,101 @@
 
         <!-- Testimonial Start -->
 
-        <!-- <div class="container-fluid testimonial pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <p class="text-uppercase text-secondary fs-1 mb-0">Testimonials</p>
-                    <h2 class=" text-capitalize mb-3 contact_text">Our clients reviews.</h2>
-                </div>
-                <div class="owl-carousel testimonial-carousel wow fadeInUp" data-wow-delay="0.4s">
-                    <div class="testimonial-item bg-light p-4">
-                        <div class="position-relative">
-                            <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
-                            <div class="mb-4 pb-4 border-bottom border-secondary  col-md-3 col-12">
-                                <p class="mb-0">He is a very friendly and helpful man,always cheerful and ready to understand the exact requirements of his clients whether is architectural excellence or convenience and comfort of the client about their house.I wish him the very best in all his ventures and i am sure,in future also,he will take up prestigeous projects and come out with flying colours in his profession as a sound and efficient architect.I wish him him and his family all the best and blessings of almighty.
-                                </p>
-                            </div>
-                            <div class="d-flex align-items-center flex-nowrap">
-                                <div class="me-4">
-                                    <img src="img/client2.jpg" class="img-fluid w-100" style="width: 100px; height: 100px;" alt="">
-                                </div>
-                                <div class="d-block">
-                                    <h4 class="text-dark contact_text">GROUP CAPTAIN M S BOSE</h4>
-                                    <p class="m-0 pb-3">Ramanayya peta, Kakinada.</p>
+        <section>
+            <div class="container-fluid testimonial pb-5">
+                <div class="container pb-5">
+                    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
+                        <p class="text-uppercase text-secondary fs-1 mb-0">Testimonials</p>
+                        <h2 class="text-capitalize mb-3 contact_text">Our clients' reviews</h2>
+                    </div>
 
-                                     <div class="d-flex text-secondary pe-5">
-                                  
+                    <div class="owl-carousel testimonial-carousel">
+                        <!-- Testimonial 1 -->
+                        <div class="testimonial-item bg-light p-4">
+                            <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="top: 15px; right: 15px;"></i>
+                            <p class="mb-4">He is a very friendly and helpful man, always cheerful and ready to understand the exact requirements of his clients whether it's architectural excellence or convenience and comfort of the client about their house. I wish him the very best in all his ventures and I am sure, in the future also, he will take up prestigious projects and come out with flying colours in his profession as a sound and efficient architect. I wish him and his family all the best and blessings of almighty.</p>
+                            <div class="d-flex align-items-center">
+                                <img src="img/client2.jpg" class="img-fluid rounded-circle" style="width: 80px; height: 80px;" alt="">
+                                <div class="ms-3">
+                                    <h4 class="text-dark contact_text">GROUP CAPTAIN M S BOSE</h4>
+                                    <p class="m-0">Ramanayya Peta, Kakinada.</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="testimonial-item bg-light p-4">
-                        <div class="position-relative">
-                            <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
-                            <div class="mb-4 pb-4 border-bottom border-secondary col-md-3 col-12">
-                                <p class="mb-0">I wish to thank you for the great job you did on my home.The team was professional,they kept to the schedule,and the overall cost was very reasonable.Your work really made the place look more alive than ever. Thank you for putting your passion and hard work into it and giving us a very beautiful and spacious home.Your time and efforts are appreciated.
-                                </p>
-                            </div>
-                            <div class="d-flex align-items-center flex-nowrap">
-                                <div class="me-4">
-                                    <img src="img/client2.jpg" class="img-fluid w-100" style="width: 100px; height: 100px;" alt="">
-                                </div>
-                                <div class="d-block">
+
+                        <!-- Testimonial 2 -->
+                        <div class="testimonial-item bg-light p-4">
+                            <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="top: 15px; right: 15px;"></i>
+                            <p class="mb-4">I wish to thank you for the great job you did on my home. The team was professional, they kept to the schedule, and the overall cost was very reasonable. Your work really made the place look more alive than ever. Thank you for putting your passion and hard work into it and giving us a very beautiful and spacious home. Your time and efforts are appreciated.</p>
+                            <div class="d-flex align-items-center">
+                                <img src="img/client2.jpg" class="img-fluid rounded-circle" style="width: 80px; height: 80px;" alt="">
+                                <div class="ms-3">
                                     <h4 class="text-dark contact_text">TADIMETI SAI KUMAR</h4>
-                                    <p class="m-0 pb-3">Madhavapatnam,Kakinada.</p>
-                               
+                                    <p class="m-0">Madhavapatnam, Kakinada.</p>
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="testimonial-item bg-light p-4">
-                        <div class="position-relative">
-                            <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
-                            <div class="mb-4 pb-4 border-bottom border-secondary col-md-3 col-12">
-                                <p class="mb-0">Our building engineer Mr.Buddhavarapu Ratnakar has prooved himself as the best committed engineer cum friend.He built our house with utmost good care and attended the job with full dedication and his approach is quite professional and gave his best to us. He gives top priority to the satisfication of his customers.He also takes care of any shortcomings even after the construction/execution of project is over. As a customer we are totally satisfied with his work.
-                                </p>
-                            </div>
-                            <div class="d-flex align-items-center flex-nowrap">
-                                <div class="me-4">
-                                    <img src="img/client2.jpg" class="img-fluid w-100" style="width: 100px; height: 100px;" alt="">
-                                </div>
-                                <div class="d-block">
+
+                        <!-- Testimonial 3 -->
+                        <div class="testimonial-item bg-light p-4">
+                            <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="top: 15px; right: 15px;"></i>
+                            <p class="mb-4">Our building engineer Mr. Buddhavarapu Ratnakar has proved himself as the best committed engineer cum friend. He built our house with utmost good care and attended the job with full dedication and his approach is quite professional and gave his best to us. He gives top priority to the satisfaction of his customers. He also takes care of any shortcomings even after the construction/execution of the project is over. As a customer, we are totally satisfied with his work.</p>
+                            <div class="d-flex align-items-center">
+                                <img src="img/client2.jpg" class="img-fluid rounded-circle" style="width: 80px; height: 80px;" alt="">
+                                <div class="ms-3">
                                     <h4 class="text-dark contact_text">ASV RAMANAMURTHY</h4>
-                                    <p class="m-0 pb-3">Main Road,Kakinada.</p>
-                                 
+                                    <p class="m-0">Main Road, Kakinada.</p>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="testimonial-item bg-light p-4">
-                        <div class="position-relative">
-                            <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="bottom: 30px; right: 0;"></i>
-                            <div class="mb-4 pb-4 border-bottom border-secondary col-md-3 col-12">
-                                <p class="mb-0">Despite being a lorry owner who transports building Materials,I choose Ratnakar Constructions to construct my home along with my daughter's home because of their commitment towards delivering our dream house.
-                                </p>
-                            </div>
-                            <div class="d-flex align-items-center flex-nowrap">
-                                <div class="me-4">
-                                    <img src="img/client2.jpg" class="img-fluid w-100" style="width: 100px; height: 100px;" alt="">
-                                </div>
-                                <div class="d-block">
+
+                        <!-- Testimonial 4 -->
+                        <div class="testimonial-item bg-light p-4">
+                            <i class="fa fa-quote-right fa-2x text-primary position-absolute" style="top: 15px; right: 15px;"></i>
+                            <p class="mb-4">Despite being a lorry owner who transports building materials, I chose Ratnakar Constructions to construct my home along with my daughter's home because of their commitment towards delivering our dream house.</p>
+                            <div class="d-flex align-items-center">
+                                <img src="img/client2.jpg" class="img-fluid rounded-circle" style="width: 80px; height: 80px;" alt="">
+                                <div class="ms-3">
                                     <h4 class="text-dark contact_text">VIGNESWARA RAO BODDU</h4>
-                                    <p class="m-0 pb-3">Auto Nagar, Kakinada.</p>
-                                   
+                                    <p class="m-0">Auto Nagar, Kakinada.</p>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-        </div> -->
+
+            <!-- Include Owl Carousel CSS and JS -->
+            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.css">
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+
+            <script>
+                $(document).ready(function() {
+                    $(".testimonial-carousel").owlCarousel({
+                        items: 2,
+                        margin: 30,
+                        loop: true,
+                        autoplay: true,
+                        autoplayTimeout: 5000,
+                        autoplayHoverPause: true,
+                        responsive: {
+                            0: {
+                                items: 1
+                            },
+                            768: {
+                                items: 2
+                            },
+                            992: {
+                                items: 2
+                            }
+                        }
+                    });
+                });
+            </script>
+        </section>
+
+
 
         <!-- Testimonial End -->
 

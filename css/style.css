@@ -1320,13 +1320,6 @@ border-radius: 20px;
 }
 
 
-
-
-
-
-
-
-
       /* Style for tabs */
       .custom-tab {
         cursor: pointer;
@@ -1357,3 +1350,12 @@ border-radius: 20px;
     .custom-tab-content.active {
         display: block;
     }
+
+    /* @media  ( min-width:425px) and (max-width:768px) {
+        .package{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        
+    } */

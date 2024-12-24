@@ -7,7 +7,7 @@
             <meta content="width=device-width, initial-scale=1.0" name="viewport">
             <meta content="" name="keywords">
             <meta content="" name="description">
-            <link rel="icon" type="image/png" sizes="32x32" href="images/logor.png">
+            <link rel="icon"   href="images/logor.png">
 
             <!-- Google Web Fonts -->
             <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -80,53 +80,94 @@
         <!-- Navbar & Hero Start -->
 
         <!-- Navbar & Hero End -->
-     
 
 
 
 
+<!-- 
 
         <div class="container-fluid sticky-top px-0">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 px-4">
-        <a href="index.php" class="navbar-brand p-0">
-            <img src="img/logo.jpg" class="image" alt="Logo" style="width: 180px; height: 100px;">
-        </a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="fa fa-bars"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav ms-auto pt-2 pt-lg-0">
-                <li class="nav-item">
-                    <a href="index.html" class="nav-link active">Home</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#about" class="nav-link">About</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#service" class="nav-link">Service</a>
-                </li>
-                <li class="nav-item">
-                    <a href="#Gallery" class="nav-link">Gallery</a>
-                </li>
-                <li class="nav-item dropdown">
-                    <a href="#" class="nav-link dropdown-toggle" id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                        Projects
-                    </a>
-                    <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
-                        <li><a class="dropdown-item" href="#Recent Completed Projects">Recent Completed Projects</a></li>
-                        <li><a class="dropdown-item" href="#Progressive Projects">Progressive Projects</a></li>
-                        <li><a class="dropdown-item" href="#Construction and Project Management">Construction and Project Management</a></li>
+            <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 px-4">
+                <a href="index.php" class="navbar-brand p-0">
+                    <img src="img/logo.jpg" class="image" alt="Logo" style="width: 180px; height: 100px;">
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="fa fa-bars"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarCollapse">
+                    <ul class="navbar-nav ms-auto pt-2 pt-lg-0">
+                        <li class="nav-item">
+                            <a href="index.html" class="nav-link active">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#about" class="nav-link">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#service" class="nav-link">Service</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#Gallery" class="nav-link">Gallery</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle" id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                Projects
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
+                                <li><a class="dropdown-item" href="#Recent Completed Projects">Recent Completed Projects</a></li>
+                                <li><a class="dropdown-item" href="#Progressive Projects">Progressive Projects</a></li>
+                                <li><a class="dropdown-item" href="#Construction and Project Management">Construction and Project Management</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contact" class="nav-link">Contact Us</a>
+                        </li>
+                        <div class="d-flex align-items-center flex-nowrap pt-3  pt-lg-0 ms-lg-2">
+                         <button class="btn btn-primary py-2 px-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button> 
+                        <a href="#contact" class="btn  py-2 px-4 ms-3 flex-wrap flex-sm-shrink-0">9381457864</a>
+                    </div>
                     </ul>
-                </li>
-                <li class="nav-item">
-                    <a href="#contact" class="nav-link">Contact Us</a>
-                </li>
-            </ul>
-        </div>
-    </nav>
+                </div>
+            </nav>
+        </div> -->
+
+        <div class="container-fluid sticky-top px-0">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 px-4">
+            <a href="index.php" class="navbar-brand p-0">
+                <img src="img/logo.jpg" class="image" alt="" style="width:180px; height:100px">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+                <span class="fa fa-bars"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarCollapse">
+                <div class="navbar-nav ms-auto">
+                    <a href="index.html" class="nav-item nav-link active">Home</a>
+                    <a href="#about" class="nav-item nav-link">About</a>
+                    <a href="#service" class="nav-item nav-link">Services</a>
+                    <a href="#Gallery" class="nav-item nav-link">Gallery</a>
+
+                    <!-- Dropdown for Projects -->
+                    <div class="nav-item dropdown">
+                        <a href="#" class="nav-link dropdown-toggle" id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Projects
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
+                            <li><a class="dropdown-item" href="#Recent Completed Projects">Recent Completed Projects</a></li>
+                            <li><a class="dropdown-item" href="#Progressive Projects">Progressive Projects</a></li>
+                            <li><a class="dropdown-item" href="#Construction and Project Management">Construction and Project Management</a></li>
+                        </ul>
+                    </div>
+
+                    <a href="#contact" class="nav-item nav-link">Contact Us</a>
+                </div>
+                <div class="d-flex align-items-center flex-nowrap pt-3  pt-lg-0 ms-lg-2">
+                        <!-- <button class="btn btn-primary py-2 px-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button> -->
+                        <a href="#contact" class="btn  py-2 px-4 ms-3 flex-wrap flex-sm-shrink-0">9381457864</a>
+                    </div>
+            </div>
+        </nav>
+
+
 </div>
-
-
 
         <!-- Modal Search Start -->
         <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -157,9 +198,8 @@
 
 
 
-        <!-- Carousel End -->
+<!--      
 
-        <!-- Carousel -->
         <div class="container-fluid overflow-hidden px-0">
 
             <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
@@ -171,8 +211,8 @@
                     <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="fourth slide"></li>
 
                     <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="fifth slide"></li>
-                    <!-- <li data-bs-target="#carouselId" data-bs-slide-to="5" aria-label="sixth slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="6" aria-label="seventh slide"></li> -->
+                     <li data-bs-target="#carouselId" data-bs-slide-to="5" aria-label="sixth slide"></li> 
+                     <li data-bs-target="#carouselId" data-bs-slide-to="6" aria-label="seventh slide"></li>  
 
 
                 </ol>
@@ -181,16 +221,18 @@
                     <div class="carousel-item">
                         <img src="images/front.png" class="d-block w-100" alt="">
                         <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0  text-capitalize">Ratnakar Constructions</p>
+                            <p class="text-uppercase new_text fs-1 mb-0  text-capitalize text-secondary">Ratnakar Constructions</p>
                             <h3 class="  text-white mb-4  ">It's all about the trust</h3>
                             <p class="mb-5 fs-5  ">We build somethings new and consistent.
                             </p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/base.png" class="d-block w-100" alt="">
+                        
+                        <img src="images/666.png" class="d-block w-100" alt="">
+
                         <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize">Ratnakar Constructions</p>
+                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize text-secondary">Ratnakar Constructions</p>
                             <h3 class="  text-white mb-4  ">It's all about the trust</h3>
                             <p class="mb-5 fs-5  ">We build somethings new and consistent.
                             </p>
@@ -199,35 +241,35 @@
                     <div class="carousel-item">
                         <img src="images/iron.png" class="d-block w-100" alt="">
                         <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize">Ratnakar Constructions</p>
+                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize text-secondary">Ratnakar Constructions</p>
                             <h3 class="  text-white mb-4  ">It's all about the trust</h3>
                             <p class="mb-5 fs-5  ">We build somethings new and consistent.
                             </p>
                         </div>
                     </div>
                     <div class="carousel-item active">
-                        <img src="images/wall.png" class="d-block w-100" alt="">
+                        <img src="images/888.png" class="d-block w-100" alt="">
                         <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize">Ratnakar Constructions</p>
+                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize text-secondary">Ratnakar Constructions</p>
                             <h3 class="  text-white mb-4  ">It's all about the trust</h3>
                             <p class="mb-5 fs-5  ">We build somethings new and consistent.
                             </p>
                         </div>
                     </div>
-               
-                    <!-- <div class="carousel-item">
-                        <img src="images/3d house.png" class="d-block w-100" alt="">
+
+                    <div class="carousel-item">
+                        <img src="images/777.png" class="d-block w-100" alt="">
                         <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize">Ratnakar Constructions</p>
+                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize text-secondary">Ratnakar Constructions</p>
                             <h3 class="  text-white mb-4  ">It's all about the trust</h3>
                             <p class="mb-5 fs-5  ">We build somethings new and consistent.
                             </p>
                         </div>
-                    </div> -->
+                    </div>
                     <div class="carousel-item">
                         <img src="images/back.png" class="d-block w-100" alt="">
                         <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize">Ratnakar Constructions</p>
+                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize text-secondary">Ratnakar Constructions</p>
                             <h3 class="  text-white mb-4  ">It's all about the trust</h3>
                             <p class="mb-5 fs-5  ">We build somethings new and consistent.
                             </p>
@@ -235,22 +277,97 @@
                     </div>
                 </div>
 
-                <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
                     <span class="carousel-control-prev-icon btn-lg-square fadeInLeft animate__animated" aria-hidden="true" data-animation="fadeInLeft" data-delay="1.1s" style="animation-delay: 1.3s;"><i class="fas fa-chevron-left fa-2x"></i></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
                     <span class="carousel-control-next-icon btn-lg-square fadeInRight animate__animated" aria-hidden="true" data-animation="fadeInRight" data-delay="1.1s" style="animation-delay: 1.3s;"><i class="fas fa-chevron-right fa-2x"></i></span>
                     <span class="visually-hidden">Next</span>
-                </button> -->
+                </button> 
+            </div>
+        </div> -->
+
+
+   <!-- Carousel End -->
+
+
+
+   <div class="container-fluid overflow-hidden px-0">
+    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+        <!-- Carousel Indicators -->
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            <button type="button" data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Slide 5"></button>
+            <button type="button" data-bs-target="#carouselId" data-bs-slide-to="5" aria-label="Slide 6"></button>
+        </div>
+
+        <!-- Carousel Inner -->
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="images/front.png" class="d-block w-100" alt="Front View">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="text-uppercase fs-1 text-secondary new_text ">Ratnakar Constructions</p>
+                    <h3 class="text-white mb-4">It's all about the trust</h3>
+                    <p class="mb-5 fs-5">We build something new and consistent.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/666.png" class="d-block w-100" alt="Second Slide">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="text-uppercase fs-1 text-secondary ">Ratnakar Constructions</p>
+                    <h3 class="text-white mb-4">It's all about the trust</h3>
+                    <p class="mb-5 fs-5">We build something new and consistent.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/iron.png" class="d-block w-100" alt="Iron Works">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="text-uppercase fs-1 text-secondary">Ratnakar Constructions</p>
+                    <h3 class="text-white mb-4">It's all about the trust</h3>
+                    <p class="mb-5 fs-5">We build something new and consistent.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/888.png" class="d-block w-100" alt="Eighth Image">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="text-uppercase fs-1 text-secondary">Ratnakar Constructions</p>
+                    <h3 class="text-white mb-4">It's all about the trust</h3>
+                    <p class="mb-5 fs-5">We build something new and consistent.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/777.png" class="d-block w-100" alt="Seventh Image">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="text-uppercase fs-1 text-secondary">Ratnakar Constructions</p>
+                    <h3 class="text-white mb-4">It's all about the trust</h3>
+                    <p class="mb-5 fs-5">We build something new and consistent.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="images/back.png" class="d-block w-100" alt="Back View">
+                <div class="carousel-caption d-none d-md-block">
+                    <p class="text-uppercase fs-1 text-secondary">Ratnakar Constructions</p>
+                    <h3 class="text-white mb-4">It's all about the trust</h3>
+                    <p class="mb-5 fs-5">We build something new and consistent.</p>
+                </div>
             </div>
         </div>
 
-
-
-
-
-
+        <!-- Carousel Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
 
 
 
@@ -608,7 +725,7 @@
                         <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
                             <div class="service-item">
                                 <div class="service-img">
-                                    <img src="images/3d house.png" class="img-fluid w-100" alt="Image">
+                                    <img src="images/view.png" class="img-fluid w-100" alt="Image">
                                 </div>
                                 <div class="service-content text-center p-4">
                                     <div class="bg-white mx-auto" style="width: 120px; height: 120px;">
@@ -734,7 +851,7 @@
             <div class="container-fluid  py-5">
                 <div class="container py-5">
                     <div class="row g-4">
-                        <h2 class="text-center fs-1 contact_text my-4 text-uppercase text-secondary">3D <span class="fs-4">v/s</span> Real</h2>
+                        <h2 class="text-center fs-1 contact_text my-4 text-uppercase text-secondary about1">3D <span class="fs-5">v/s</span> Real</h2>
                         <div class="col-lg-6 col-12">
                             <img src="images/2.png" alt="" class="img-fluid">
                         </div>
@@ -1502,7 +1619,7 @@
 
 
 
-
+<section id="Construction and Project Management" class="gap">
 
         <div class="container mt-5">
             <h2 class="text-capitalize text-center fs-2 mb-5 contact_text">Construction and Project Management</h2>
@@ -1669,7 +1786,7 @@
                 </div>
             </div>
         </div>
-
+        </section>
         <!-- JavaScript Libraries -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -2212,14 +2329,14 @@
                         <div class="footer-item d-flex flex-column">
                             <h4 class="text mb-4 contact_text">Our Services</h4>
 
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i>Designing plans</a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Construction of Futurstic individual Houses</a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Construction of Sophisticated Duplex Houses</a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Building of Avant Garde Apartments </a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Interior and Exterior Works</a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Construction Supervision</a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> Building Contractors</a>
-                            <a href="#"><i class="fas fa-angle-right me-2 new_space"></i> 3d view of house</a>
+                            <a href="#service"><i class="fas fa-angle-right me-2 new_space"></i>Designing plans</a>
+                            <a href="#service"><i class="fas fa-angle-right me-2 new_space"></i> Construction of Futurstic individual Houses</a>
+                            <a href="#service"><i class="fas fa-angle-right me-2 new_space"></i> Construction of Sophisticated Duplex Houses</a>
+                            <a href="#service"><i class="fas fa-angle-right me-2 new_space"></i> Building of Avant Garde Apartments </a>
+                            <a href="#service"><i class="fas fa-angle-right me-2 new_space"></i> Interior and Exterior Works</a>
+                            <a href="#service"><i class="fas fa-angle-right me-2 new_space"></i> Construction Supervision</a>
+                            <a href="#service"><i class="fas fa-angle-right me-2 new_space"></i> Building Contractors</a>
+                            <a href="#service"><i class="fas fa-angle-right me-2 new_space"></i> 3d view of house</a>
 
 
                         </div>
@@ -2264,7 +2381,7 @@
                         <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
                         <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
                         Designed By
-                        <a class="" href=""> <img src="img/Bhavi_Branding_Stamp.png" class="brand" alt=""></a>
+                        <a class="" href="https://bhavicreations.com/"> <img src="img/Bhavi_Branding_Stamp.png" class="brand" alt=""></a>
                     </div>
                 </div>
             </div>

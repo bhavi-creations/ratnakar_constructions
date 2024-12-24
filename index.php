@@ -80,7 +80,14 @@
         <!-- Navbar & Hero Start -->
 
         <!-- Navbar & Hero End -->
+     
+
+
+
+
+
         <div class="container-fluid sticky-top px-0">
+<<<<<<< Updated upstream
             <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 px-4">
                 <a href="index.php" class="navbar-brand p-0">
                     <img src="img/logo.jpg" class="image" alt="" style="width:180px; height:100px">
@@ -111,7 +118,47 @@
                     </div>
                 </div>
             </nav>
+=======
+    <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 px-4">
+        <a href="index.php" class="navbar-brand p-0">
+            <img src="img/logo.jpg" class="image" alt="Logo" style="width: 180px; height: 100px;">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="fa fa-bars"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav ms-auto pt-2 pt-lg-0">
+                <li class="nav-item">
+                    <a href="index.html" class="nav-link active">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#service" class="nav-link">Service</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#Gallery" class="nav-link">Gallery</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a href="#" class="nav-link dropdown-toggle" id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Projects
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
+                        <li><a class="dropdown-item" href="#Recent Completed Projects">Recent Completed Projects</a></li>
+                        <li><a class="dropdown-item" href="#Progressive Projects">Progressive Projects</a></li>
+                        <li><a class="dropdown-item" href="#Construction and Project Management">Construction and Project Management</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact Us</a>
+                </li>
+            </ul>
+>>>>>>> Stashed changes
         </div>
+    </nav>
+</div>
+
 
 
         <!-- Modal Search Start -->
@@ -157,15 +204,15 @@
                     <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="fourth slide"></li>
 
                     <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="fifth slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="5" aria-label="sixth slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="6" aria-label="seventh slide"></li>
+                    <!-- <li data-bs-target="#carouselId" data-bs-slide-to="5" aria-label="sixth slide"></li>
+                    <li data-bs-target="#carouselId" data-bs-slide-to="6" aria-label="seventh slide"></li> -->
 
 
                 </ol>
                 <div class="carousel-inner">
 
                     <div class="carousel-item">
-                        <img src="images/1.png" class="d-block w-100" alt="">
+                        <img src="images/front.png" class="d-block w-100" alt="">
                         <div class="carousel-caption">
                             <p class="text-uppercase new_text fs-1 mb-0  text-capitalize">Ratnakar Constructions</p>
                             <h3 class="  text-white mb-4  ">It's all about the trust</h3>
@@ -174,7 +221,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/3.png" class="d-block w-100" alt="">
+                        <img src="images/base.png" class="d-block w-100" alt="">
                         <div class="carousel-caption">
                             <p class="text-uppercase new_text fs-1 mb-0   text-capitalize">Ratnakar Constructions</p>
                             <h3 class="  text-white mb-4  ">It's all about the trust</h3>
@@ -183,7 +230,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/ratnakart7.jpg" class="d-block w-100" alt="">
+                        <img src="images/iron.png" class="d-block w-100" alt="">
                         <div class="carousel-caption">
                             <p class="text-uppercase new_text fs-1 mb-0   text-capitalize">Ratnakar Constructions</p>
                             <h3 class="  text-white mb-4  ">It's all about the trust</h3>
@@ -192,7 +239,7 @@
                         </div>
                     </div>
                     <div class="carousel-item active">
-                        <img src="images/3.png" class="d-block w-100" alt="">
+                        <img src="images/wall.png" class="d-block w-100" alt="">
                         <div class="carousel-caption">
                             <p class="text-uppercase new_text fs-1 mb-0   text-capitalize">Ratnakar Constructions</p>
                             <h3 class="  text-white mb-4  ">It's all about the trust</h3>
@@ -200,16 +247,8 @@
                             </p>
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="images/ratnakar.jpg" class="d-block w-100" alt="">
-                        <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize">Ratnakar Constructions</p>
-                            <h3 class="  text-white mb-4  ">It's all about the trust</h3>
-                            <p class="mb-5 fs-5  ">We build somethings new and consistent.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
+               
+                    <!-- <div class="carousel-item">
                         <img src="images/3d house.png" class="d-block w-100" alt="">
                         <div class="carousel-caption">
                             <p class="text-uppercase new_text fs-1 mb-0   text-capitalize">Ratnakar Constructions</p>
@@ -217,9 +256,9 @@
                             <p class="mb-5 fs-5  ">We build somethings new and consistent.
                             </p>
                         </div>
-                    </div>
+                    </div> -->
                     <div class="carousel-item">
-                        <img src="images/2.png" class="d-block w-100" alt="">
+                        <img src="images/back.png" class="d-block w-100" alt="">
                         <div class="carousel-caption">
                             <p class="text-uppercase new_text fs-1 mb-0   text-capitalize">Ratnakar Constructions</p>
                             <h3 class="  text-white mb-4  ">It's all about the trust</h3>

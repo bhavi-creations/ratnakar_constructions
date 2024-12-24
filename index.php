@@ -87,38 +87,6 @@
 
 
         <div class="container-fluid sticky-top px-0">
-<<<<<<< Updated upstream
-            <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 px-4">
-                <a href="index.php" class="navbar-brand p-0">
-                    <img src="img/logo.jpg" class="image" alt="" style="width:180px; height:100px">
-                </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                    <span class="fa fa-bars"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <div class="navbar-nav ms-auto">
-                        <a href="index.html" class="nav-item nav-link active">Home</a>
-                        <a href="#about" class="nav-item nav-link">About</a>
-                        <a href="#service" class="nav-item nav-link">Services</a>
-                        <a href="#Gallery" class="nav-item nav-link">Gallery</a>
-
-                        <!-- Dropdown for Projects -->
-                        <div class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Projects
-                            </a>
-                            <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
-                                <li><a class="dropdown-item" href="#Recent Completed Projects">Recent Completed Projects</a></li>
-                                <li><a class="dropdown-item" href="#Progressive Projects">Progressive Projects</a></li>
-                                <li><a class="dropdown-item" href="#Construction and Project Management">Construction and Project Management</a></li>
-                            </ul>
-                        </div>
-
-                        <a href="#contact" class="nav-item nav-link">Contact Us</a>
-                    </div>
-                </div>
-            </nav>
-=======
     <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 px-4">
         <a href="index.php" class="navbar-brand p-0">
             <img src="img/logo.jpg" class="image" alt="Logo" style="width: 180px; height: 100px;">
@@ -154,7 +122,6 @@
                     <a href="#contact" class="nav-link">Contact Us</a>
                 </li>
             </ul>
->>>>>>> Stashed changes
         </div>
     </nav>
 </div>

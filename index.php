@@ -92,7 +92,7 @@
                     <div class="navbar-nav ms-auto pt-2 pt-lg-0">
                         <a href="index.html" class="nav-item nav-link active">Home</a>
                         <a href="#about" class="nav-item nav-link">About</a>
-                        <a href="#service" class="nav-item nav-link">Services</a>
+                        <a href="#service" class="nav-item nav-link">Servicees</a>
                         <a href="#Gallery" class="nav-item nav-link">Gallery</a>
 
                         <!-- Dropdown for Projects -->

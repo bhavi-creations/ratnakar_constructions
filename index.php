@@ -1,54 +1,54 @@
     <!DOCTYPE html>
-    <htm lang="en">
+    <html lang="en">
 
-        <head>
-            <meta charset="utf-8">
-            <title>RATNAKAR CONSTRUCTIONS</title>
-            <meta content="width=device-width, initial-scale=1.0" name="viewport">
-            <meta content="" name="keywords">
-            <meta content="" name="description">
-            <!-- <link rel="icon"   href="images/logor.png"> -->
-
-
-            
-    <link rel="icon" type="image/png" href="images/logor.png" sizes="32x32">
-    <!-- Alternative formats and sizes -->
-    <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
+    <head>
+        <meta charset="utf-8">
+        <title>RATNAKAR CONSTRUCTIONS</title>
+        <meta content="width=device-width, initial-scale=1.0" name="viewport">
+        <meta content="" name="keywords">
+        <meta content="" name="description">
+        <!-- <link rel="icon"   href="images/logor.png"> -->
 
 
-            <!-- Google Web Fonts -->
-            <link rel="preconnect" href="https://fonts.googleapis.com">
-            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-            <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
-            <!-- Icon Font Stylesheet -->
-            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
-            <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
-
-            <!-- Libraries Stylesheet -->
-            <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
-            <link href="lib/animate/animate.min.css" rel="stylesheet">
-            <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
-            <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+        <link rel="icon" type="image/png" href="images/logor.png" sizes="32x32">
 
 
-            <!-- Customized Bootstrap Stylesheet -->
-            <link href="css/bootstrap.min.css" rel="stylesheet">
+        <!-- Google Web Fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 
-            <!-- Template Stylesheet -->
-            <link href="css/style.css" rel="stylesheet">
+        <!-- Icon Font Stylesheet -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css" rel="stylesheet">
+
+        <!-- Libraries Stylesheet -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+        <link href="lib/animate/animate.min.css" rel="stylesheet">
+        <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
+        <link href="lib/lightbox/css/lightbox.min.css" rel="stylesheet">
+
+
+        <!-- Customized Bootstrap Stylesheet -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+
+        <!-- Template Stylesheet -->
+        <link href="css/style.css" rel="stylesheet">
 
 
 
 
 
-            <!-- imageslider -->
+        <!-- imageslider -->
 
-            <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-            <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
 
-        </head>
+    </head>
 
+
+    <body>
 
 
         <!-- Spinner Start -->
@@ -81,100 +81,46 @@
                 </div>
             </div>
         </div>
-        <!-- Topbar End -->
 
-
-        <!-- Navbar & Hero Start -->
-
-        <!-- Navbar & Hero End -->
-
-
-
-
-<!-- 
 
         <div class="container-fluid sticky-top px-0">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light py-3 px-4">
+            <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 px-4">
                 <a href="index.php" class="navbar-brand p-0">
-                    <img src="img/logo.jpg" class="image" alt="Logo" style="width: 180px; height: 100px;">
+                    <img src="img/logo.jpg" class="image" alt="" style="width:180px; height:100px">
                 </a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                     <span class="fa fa-bars"></span>
                 </button>
-                <div class="collapse navbar-collapse" id="navbarCollapse">
-                    <ul class="navbar-nav ms-auto pt-2 pt-lg-0">
-                        <li class="nav-item">
-                            <a href="index.html" class="nav-link active">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#about" class="nav-link">About</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#service" class="nav-link">Service</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#Gallery" class="nav-link">Gallery</a>
-                        </li>
-                        <li class="nav-item dropdown">
-                            <a href="#" class="nav-link dropdown-toggle" id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <div class="collapse navbar-collapse  " id="navbarCollapse ">
+                    <div class="navbar-nav ms-auto  ">
+                        <a href="index.html" class="nav-item nav-link active about1  ">Home</a>
+                        <a href="#about" class="nav-item nav-link about1 ">About</a>
+                        <a href="#service" class="nav-item nav-link about1 ">Services</a>
+                        <a href="#Gallery" class="nav-item nav-link about1 ">Gallery</a>
+
+                        <!-- Dropdown for Projects -->
+                        <div class="nav-item dropdown">
+                            <a href="#" class="nav-link dropdown-toggle about1 " id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                                 Projects
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
-                                <li><a class="dropdown-item" href="#Recent Completed Projects">Recent Completed Projects</a></li>
-                                <li><a class="dropdown-item" href="#Progressive Projects">Progressive Projects</a></li>
-                                <li><a class="dropdown-item" href="#Construction and Project Management">Construction and Project Management</a></li>
+                                <li><a class="dropdown-item about1 " href="#Recent Completed Projects">Recent Completed Projects</a></li>
+                                <li><a class="dropdown-item about1 " href="#Progressive Projects">Progressive Projects</a></li>
+                                <li><a class="dropdown-item about1 " href="#Construction and Project Management">Construction and Project Management</a></li>
                             </ul>
-                        </li>
-                        <li class="nav-item">
-                            <a href="#contact" class="nav-link">Contact Us</a>
-                        </li>
-                        <div class="d-flex align-items-center flex-nowrap pt-3  pt-lg-0 ms-lg-2">
-                         <button class="btn btn-primary py-2 px-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button> 
-                        <a href="#contact" class="btn  py-2 px-4 ms-3 flex-wrap flex-sm-shrink-0">9381457864</a>
+                        </div>
+
+                        <a href="#contact" class="nav-item nav-link about1 ">Contact Us</a>
                     </div>
-                    </ul>
-                </div>
-            </nav>
-        </div> -->
-
-        <div class="container-fluid sticky-top px-0">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-light py-3 px-4">
-            <a href="index.php" class="navbar-brand p-0">
-                <img src="img/logo.jpg" class="image" alt="" style="width:180px; height:100px">
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-                <span class="fa fa-bars"></span>
-            </button>
-            <div class="collapse navbar-collapse  " id="navbarCollapse ">
-                <div class="navbar-nav ms-auto  ">
-                    <a href="index.html" class="nav-item nav-link active about1  ">Home</a>
-                    <a href="#about" class="nav-item nav-link about1 ">About</a>
-                    <a href="#service" class="nav-item nav-link about1 ">Services</a>
-                    <a href="#Gallery" class="nav-item nav-link about1 ">Gallery</a>
-
-                    <!-- Dropdown for Projects -->
-                    <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle about1 " id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                            Projects
-                        </a>
-                        <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
-                            <li><a class="dropdown-item about1 " href="#Recent Completed Projects">Recent Completed Projects</a></li>
-                            <li><a class="dropdown-item about1 " href="#Progressive Projects">Progressive Projects</a></li>
-                            <li><a class="dropdown-item about1 " href="#Construction and Project Management">Construction and Project Management</a></li>
-                        </ul>
-                    </div>
-
-                    <a href="#contact" class="nav-item nav-link about1 ">Contact Us</a>
-                </div>
-                <div class="d-flex align-items-center flex-nowrap pt-3  pt-lg-0 ms-lg-2">
+                    <div class="d-flex align-items-center flex-nowrap pt-3  pt-lg-0 ms-lg-2">
                         <!-- <button class="btn btn-primary py-2 px-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button> -->
                         <a href="#contact" class="btn  py-2 px-4 ms-3 flex-wrap flex-sm-shrink-0 about1">9381457864</a>
                     </div>
-            </div>
-        </nav>
+                </div>
+            </nav>
 
 
-</div>
+        </div>
 
         <!-- Modal Search Start -->
         <div class="modal fade" id="searchModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
@@ -193,283 +139,90 @@
                 </div>
             </div>
         </div>
-        <!-- Modal Search End -->
-
-        <!-- Carousel Start -->
 
 
 
 
 
 
-
-
-
-<!--      
 
         <div class="container-fluid overflow-hidden px-0">
-
             <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
+                <!-- Carousel Indicators -->
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                    <button type="button" data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Slide 5"></button>
+                    <button type="button" data-bs-target="#carouselId" data-bs-slide-to="5" aria-label="Slide 6"></button>
+                </div>
 
-                <ol class="carousel-indicators  ">
-                    <li data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="First slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Second slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Third slide"></li>
-                    <li data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="fourth slide"></li>
-
-                    <li data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="fifth slide"></li>
-                     <li data-bs-target="#carouselId" data-bs-slide-to="5" aria-label="sixth slide"></li> 
-                     <li data-bs-target="#carouselId" data-bs-slide-to="6" aria-label="seventh slide"></li>  
-
-
-                </ol>
+                <!-- Carousel Inner -->
                 <div class="carousel-inner">
-
-                    <div class="carousel-item">
-                        <img src="images/front.png" class="d-block w-100" alt="">
-                        <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0  text-capitalize text-secondary">Ratnakar Constructions</p>
-                            <h3 class="  text-white mb-4  ">It's all about the trust</h3>
-                            <p class="mb-5 fs-5  ">We build somethings new and consistent.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        
-                        <img src="images/666.png" class="d-block w-100" alt="">
-
-                        <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize text-secondary">Ratnakar Constructions</p>
-                            <h3 class="  text-white mb-4  ">It's all about the trust</h3>
-                            <p class="mb-5 fs-5  ">We build somethings new and consistent.
-                            </p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/iron.png" class="d-block w-100" alt="">
-                        <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize text-secondary">Ratnakar Constructions</p>
-                            <h3 class="  text-white mb-4  ">It's all about the trust</h3>
-                            <p class="mb-5 fs-5  ">We build somethings new and consistent.
-                            </p>
-                        </div>
-                    </div>
                     <div class="carousel-item active">
-                        <img src="images/888.png" class="d-block w-100" alt="">
-                        <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize text-secondary">Ratnakar Constructions</p>
-                            <h3 class="  text-white mb-4  ">It's all about the trust</h3>
-                            <p class="mb-5 fs-5  ">We build somethings new and consistent.
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <img src="images/777.png" class="d-block w-100" alt="">
-                        <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize text-secondary">Ratnakar Constructions</p>
-                            <h3 class="  text-white mb-4  ">It's all about the trust</h3>
-                            <p class="mb-5 fs-5  ">We build somethings new and consistent.
-                            </p>
+                        <img src="images/front.png" class="d-block w-100" alt="Front View">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p class="text-uppercase fs-1  new_text ">Ratnakar Constructions</p>
+                            <h3 class="text-white mb-4">It's all about the trust</h3>
+                            <p class="mb-5 fs-5">We build something new and consistent.</p>
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/back.png" class="d-block w-100" alt="">
-                        <div class="carousel-caption">
-                            <p class="text-uppercase new_text fs-1 mb-0   text-capitalize text-secondary">Ratnakar Constructions</p>
-                            <h3 class="  text-white mb-4  ">It's all about the trust</h3>
-                            <p class="mb-5 fs-5  ">We build somethings new and consistent.
-                            </p>
+                        <img src="images/666.png" class="d-block w-100" alt="Second Slide">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p class="text-uppercase fs-1  new_text">Ratnakar Constructions</p>
+                            <h3 class="text-white mb-4">It's all about the trust</h3>
+                            <p class="mb-5 fs-5">We build something new and consistent.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/iron.png" class="d-block w-100" alt="Iron Works">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p class="text-uppercase fs-1 new_text">Ratnakar Constructions</p>
+                            <h3 class="text-white mb-4">It's all about the trust</h3>
+                            <p class="mb-5 fs-5">We build something new and consistent.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/888.png" class="d-block w-100" alt="Eighth Image">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p class="text-uppercase fs-1 new_text">Ratnakar Constructions</p>
+                            <h3 class="text-white mb-4">It's all about the trust</h3>
+                            <p class="mb-5 fs-5">We build something new and consistent.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/777.png" class="d-block w-100" alt="Seventh Image">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p class="text-uppercase fs-1 new_text">Ratnakar Constructions</p>
+                            <h3 class="text-white mb-4">It's all about the trust</h3>
+                            <p class="mb-5 fs-5">We build something new and consistent.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/back.png" class="d-block w-100" alt="Back View">
+                        <div class="carousel-caption d-none d-md-block">
+                            <p class="text-uppercase fs-1 new_text">Ratnakar Constructions</p>
+                            <h3 class="text-white mb-4">It's all about the trust</h3>
+                            <p class="mb-5 fs-5">We build something new and consistent.</p>
                         </div>
                     </div>
                 </div>
 
-                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon btn-lg-square fadeInLeft animate__animated" aria-hidden="true" data-animation="fadeInLeft" data-delay="1.1s" style="animation-delay: 1.3s;"><i class="fas fa-chevron-left fa-2x"></i></span>
+                <!-- Carousel Controls -->
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Previous</span>
                 </button>
                 <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-                    <span class="carousel-control-next-icon btn-lg-square fadeInRight animate__animated" aria-hidden="true" data-animation="fadeInRight" data-delay="1.1s" style="animation-delay: 1.3s;"><i class="fas fa-chevron-right fa-2x"></i></span>
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
                     <span class="visually-hidden">Next</span>
-                </button> 
-            </div>
-        </div> -->
-
-
-   <!-- Carousel End -->
-
-
-
-   <div class="container-fluid overflow-hidden px-0">
-    <div id="carouselId" class="carousel slide" data-bs-ride="carousel">
-        <!-- Carousel Indicators -->
-        <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselId" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselId" data-bs-slide-to="1" aria-label="Slide 2"></button>
-            <button type="button" data-bs-target="#carouselId" data-bs-slide-to="2" aria-label="Slide 3"></button>
-            <button type="button" data-bs-target="#carouselId" data-bs-slide-to="3" aria-label="Slide 4"></button>
-            <button type="button" data-bs-target="#carouselId" data-bs-slide-to="4" aria-label="Slide 5"></button>
-            <button type="button" data-bs-target="#carouselId" data-bs-slide-to="5" aria-label="Slide 6"></button>
-        </div>
-
-        <!-- Carousel Inner -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img src="images/front.png" class="d-block w-100" alt="Front View">
-                <div class="carousel-caption d-none d-md-block">
-                    <p class="text-uppercase fs-1  new_text ">Ratnakar Constructions</p>
-                    <h3 class="text-white mb-4">It's all about the trust</h3>
-                    <p class="mb-5 fs-5">We build something new and consistent.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="images/666.png" class="d-block w-100" alt="Second Slide">
-                <div class="carousel-caption d-none d-md-block">
-                    <p class="text-uppercase fs-1  new_text">Ratnakar Constructions</p>
-                    <h3 class="text-white mb-4">It's all about the trust</h3>
-                    <p class="mb-5 fs-5">We build something new and consistent.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="images/iron.png" class="d-block w-100" alt="Iron Works">
-                <div class="carousel-caption d-none d-md-block">
-                    <p class="text-uppercase fs-1 new_text">Ratnakar Constructions</p>
-                    <h3 class="text-white mb-4">It's all about the trust</h3>
-                    <p class="mb-5 fs-5">We build something new and consistent.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="images/888.png" class="d-block w-100" alt="Eighth Image">
-                <div class="carousel-caption d-none d-md-block">
-                    <p class="text-uppercase fs-1 new_text">Ratnakar Constructions</p>
-                    <h3 class="text-white mb-4">It's all about the trust</h3>
-                    <p class="mb-5 fs-5">We build something new and consistent.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="images/777.png" class="d-block w-100" alt="Seventh Image">
-                <div class="carousel-caption d-none d-md-block">
-                    <p class="text-uppercase fs-1 new_text">Ratnakar Constructions</p>
-                    <h3 class="text-white mb-4">It's all about the trust</h3>
-                    <p class="mb-5 fs-5">We build something new and consistent.</p>
-                </div>
-            </div>
-            <div class="carousel-item">
-                <img src="images/back.png" class="d-block w-100" alt="Back View">
-                <div class="carousel-caption d-none d-md-block">
-                    <p class="text-uppercase fs-1 new_text">Ratnakar Constructions</p>
-                    <h3 class="text-white mb-4">It's all about the trust</h3>
-                    <p class="mb-5 fs-5">We build something new and consistent.</p>
-                </div>
+                </button>
             </div>
         </div>
 
-        <!-- Carousel Controls -->
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselId" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselId" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-</div>
 
-
-
-
-
-        <!-- About Start -->
-        <!-- <section id="about">
-            <div class="container-fluid about py-5">
-
-                <p class="text-uppercase text-secondary fs-5 text-center ">About us</p>
-                <div class="container py-5">
-                    <div class="row g-5 align-items-center">
-                        <div class="col-xl-6 wow fadeInLeft" data-wow-delay="0.1s">
-                            <div class="about-item-image d-flex">
-                                 <img src="images/ratnakart9.jpg" class="img-1 img-fluid w-50" alt=""> 
-                                 <img src="images/ratnakart7.jpg" class="img-2 img-fluid w-50" alt=""> 
-                              
-                                <div class="about-item-image-content">
-                                    <img src="img/about-1.png" class="img-fluid w-100 h-100" style="object-fit: cover;" alt=""> 
-                                  
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-xl-6 wow fadeInRight" data-wow-delay="0.1s" id="index">
-                            <div class="about-item-content">
-
-                                <p class="text-uppercase text-secondary fs-5 mb-0">WE ARE CONSTRUCTION COMPANY</p>
-                                <h2 class="display-4 text-capitalize mb-3">Making your vision come true at the basics.</h2>
-                                <p class="mb-4 fs-5">We specialize in the Effective Planning, Management and Delivery of Commercial and Residential Builiding Projects. in particular, We have developed Over the years to become the specialist partner of choice for individual and Duplex Houses. But No matter the project, we work meticulously from concept through the completion of delivering a comprehensive forward thinking service.
-                                </p>
-                                <div class="pb-4 mb-4 border-bottom">
-                                    <div class="row g-4">
-                                        <div class="col-lg-4">
-                                            <div class="about-item-content-img">
-                                                <img src="img/about-2.jpg" class="img-fluid w-100" alt=""> 
-                                                <img src="images/ratnakart3.jpg" class="img-fluid w-100" alt="">
-                                               
-
-                                            </div>
-                                        </div>
-                                        <div class="col-lg-8">
-                                            <div class="d-flex mb-4">
-                                                <div class="">
-                                                    <i class="fas fa-user-shield fa-3x new_icon"></i>
-                                                </div>
-                                                <h4 class="ms-3 contact_text">Building quality standards</h4>
-                                            </div>
-                                            <div class="d-flex mb-4">
-                                                <div class="">
-                                                    <i class="fas fa-users-cog fa-3x new_icon"></i>
-                                                </div>
-                                                <h4 class="ms-3 contact_text">Vasthu Plan</h4>
-
-                                            </div>
-                                            <div class="d-flex mb-4">
-                                                <div class="">
-                                                    <i class="fas fa-users-cog fa-3x new_icon"></i>
-                                                </div>
-                                                <h4 class="ms-3 contact_text">Transparency</h4>
-                                            </div>
-                                            <div class="d-flex mb-4">
-                                                <div class="">
-                                                    <i class="fas fa-users-cog fa-3x new_icon"></i>
-                                                </div>
-                                                <h4 class="ms-3 contact_text">Trustworthy</h4>
-                                            </div>
-                                            <div class="d-flex mb-4">
-                                                <div class="">
-                                                    <i class="fas fa-users-cog fa-3x new_icon"></i>
-                                                </div>
-                                                <h4 class="ms-3 contact_text">Certified engineer’s team</h4>
-
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                 <div class="row gy-0 gx-4 justify-content-between pb-4">
-                                    <div class="col-lg-6`">
-                                        <p class="text-dark"><i class="fas fa-check  me-1"></i> 100% Satisfaction</p>
-                                        <p class="text-dark"><i class="fas fa-check  me-1"></i> Trained Emploies</p>
-                                    </div>
-                                    <div class="col-lg-6">
-                                        <p class="text-dark"><i class="fas fa-check  me-1"></i> Annual Pass Programs</p>
-                                        <p class="text-dark mb-0"><i class="fas fa-check  me-1"></i> Flexible and cost effective</p>
-                                    </div>
-                                </div> 
-                                 < <a class="btn btn-secondary d-inline-block py-3 px-5 me-2 flex-shrink-0 wow fadeInUp" data-wow-delay="0.1s" href="#">Discover More</a> 
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>-->
 
 
 
@@ -482,28 +235,16 @@
                     <div class="row">
                         <div class="col-12 col-md-6">
                             <img src="images/owner.png" alt="" class="img-fluid">
-                            <!-- <video id="video" poster="poster.jpg " class="w-100 " autoplay controls  loop>
-                                <source src="images/WhatsApp Video 2024-12-17 at 10.16.44.mp4" type="video/mp4">
-
-                            </video> -->
-                            <!-- <section autoplay muted loop class="only_first mt-3  ">
-                                <video id="myVideo" width="100%" autoplay controls muted loop>
-                                    <source src="images/WhatsApp Video 2024-12-17 at 10.16.44.mp4" type="video/mp4">
-                                    Your browser does not support the video tag.
-                                </video>
-                                <p class="text-uppercase  fs-5 walk">Building Walk through video of House.</p> -->
-
-
                         </div>
                         <div class="col-12 col-md-6 company">
                             <p class="text-uppercase text-secondary fs-5 mb-0">WE ARE CONSTRUCTION COMPANY</p>
-                            <!-- <h2 class="display-4 text-capitalize mb-3">Making your vision come true at the basics.</h2> -->
                             <p class="mb-4 fs-5">
                                 We specialize in the Effective Planning, Management and Delivery of Commercial and Residential Builiding Projects. in particular, We have developed Over the years to become the specialist partner of choice for individual and Duplex Houses. But No matter the project, we work meticulously from concept through the completion of delivering a comprehensive forward thinking service.
                             </p>
-
-
                         </div>
+                    </div>
+                </div>
+            </div>
 
         </section>
         <!-- About End -->
@@ -609,7 +350,6 @@
             <div class="container py-5 ">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
                     <p class="text-uppercase text-secondary fs-1 mb-0 about">Why Choose Us</p>
-                    <!-- <h2 class=" text-uppercase mb-3 text-secondary fs-1 ontact_text"></h2> -->
                 </div>
                 <div class="row g-4">
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
@@ -621,15 +361,7 @@
                             <p class="mb-0">Expert Engineers is a fast-growing, professionally managed engineering company engaged in the manufacturing of custom-built low-voltage Electrical Control Panels, switchboards, and control panels catering to the needs of the building, water, power, and industrial sectors through its products, aiming to empower and ...</p>
                         </div>
                     </div>
-                    <!-- <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="feature-item text-center border p-5">
-                            <div class="feature-img  d-inline-flex p-4">
-                                <i class="fas fa-funnel-dollar new_icon fa-5x"></i>
-                            </div>
-                            <a href="#" class="h4 d-block my-4 contact_text">Free Estimates</a>
-                            <p class="mb-0"> Estimating is the process of assessing all the costs of a construction project during the preconstruction phase. These costs include direct costs, indirect costs, overhead costs and a profit margin for the general contractor.1</p>
-                        </div>
-                    </div> -->
+
                     <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="feature-item text-center border p-5">
                             <div class="feature-img  d-inline-flex p-4">
@@ -657,12 +389,7 @@
                         <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
                             <div class="service-item">
                                 <div class="service-img">
-                                    <!-- <img src="img/service-1.jpg" class="img-fluid w-100" alt="Image"> -->
-                                    <!-- <img src="images/ratnakart25.jpg" class="img-fluid w-100" alt="Image"> -->
                                     <img src="images/ratnakar38.jpeg" class="img-fluid w-100" alt="Image">
-
-
-
 
                                 </div>
                                 <div class="service-content text-center p-4 ">
@@ -845,9 +572,7 @@
                                 </div>
                             </div>
                         </div>
-                        <!-- <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
-                        <a class="btn btn-secondary py-3 px-5 mt-4" href="#">More Services</a>
-                    </div> -->
+
                     </div>
                 </div>
             </div>
@@ -865,7 +590,6 @@
                         <div class="col-lg-6 col-12">
                             <img src="images/111.png" alt="" class="img-fluid">
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -888,11 +612,8 @@
                                 </div>
                                 <div class="blog-content">
                                     <div class="d-flex justify-content-between mb-3">
-                                        <!-- <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
-                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p> -->
                                     </div>
-                                    <!-- <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
-                                <a class="btn btn-secondary py-2 px-4" href="#">Read More</a> -->
+
                                 </div>
                             </div>
                         </div>
@@ -980,138 +701,6 @@
 
 
 
-        <!-- <div class="desktop_2" unique-script-id="w-w-dm-id">
-        <div class="Container">
-          <div class="portfolio">
-            <div class="above">
-              <div class="project project-first">
-                <img alt="" class="bigImg image-block" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d11.png">
-                <div class="overlay">
-                  <div class="overlay-inner">
-                    <button class="close">
-                      Close X
-                    </button>
-                    <div class="hdImgs">
-                      <img alt="" class="againImg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d11.png">
-                    </div>
-                  </div>
-                </div>
-                <div class="btn-box">
-                  <button class="btn">
-                    View
-                  </button>
-                </div>
-              </div>
-              <div class="side">
-                <div class="project">
-                  <img alt="" class="project-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d22.png">
-                  <div class="overlay">
-                    <div class="overlay-inner">
-                      <button class="close">
-                        Close X
-                      </button>
-                      <div class="hdImgs">
-                        <img alt="" class="againImg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d22.png">
-                      </div>
-                    </div>
-                  </div>
-                  <div class="btn-box">
-                    <button class="btn">
-                      View
-                    </button>
-                  </div>
-                </div>
-                <div class="project">
-                  <img alt="" class="project-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d14.png">
-                  <div class="hdImg">
-                    <img alt="" class="againImg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d14.png">
-                  </div>
-                  <div class="btn-box">
-                    <button class="btn">
-                      View
-                    </button>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="bottom">
-              <div class="project">
-                <img alt="" class="project-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d25.png">
-                <div class="overlay">
-                  <div class="overlay-inner">
-                    <button class="close">
-                      Close X
-                    </button>
-                    <div class="hdImgs">
-                      <img alt="" class="againImg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d25.png">
-                    </div>
-                  </div>
-                </div>
-                <div class="btn-box">
-                  <button class="btn">
-                    View
-                  </button>
-                </div>
-              </div>
-              <div class="project">
-                <img alt="" class="project-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d26.png">
-                <div class="overlay">
-                  <div class="overlay-inner">
-                    <button class="close">
-                      Close X
-                    </button>
-                    <div class="hdImgs">
-                      <img alt="" class="againImg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d26.png">
-                    </div>
-                  </div>
-                </div>
-                <div class="btn-box">
-                  <button class="btn">
-                    View
-                  </button>
-                </div>
-              </div>
-              <div class="project">
-                <img alt="" class="project-image" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d27.png">
-                <div class="overlay">
-                  <div class="overlay-inner">
-                    <button class="close">
-                      Close X
-                    </button>
-                    <div class="hdImgs">
-                      <img alt="" class="againImg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d27.png">
-                    </div>
-                  </div>
-                </div>
-                <div class="btn-box">
-                  <button class="btn">
-                    View
-                  </button>
-                </div>
-              </div>
-              <div class="project">
-                <img alt="" class="project-image last" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d23.png">
-                <div class="overlay">
-                  <div class="overlay-inner">
-                    <button class="close">
-                      Close X
-                    </button>
-                    <div class="hdImgs">
-                      <img alt="" class="againImg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/d23.png">
-                    </div>
-                  </div>
-                </div>
-                <div class="btn-box">
-                  <button class="btn">
-                    View
-                  </button>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> -->
-
 
 
 
@@ -1180,156 +769,11 @@
                             </div>
                         </div>
                     </div>
-                    <!-- <div class="col-12 text-center pt-4 wow fadeInUp" data-wow-delay="0.9s">
-                        <a class="counter-btn btn btn-secondary py-3 px-5" href="#">Join With Us</a>
-                    </div> -->
+
                 </div>
             </div>
         </div>
-        <!-- Fact Counter -->
 
-        <!-- Projects Start -->
-        <!-- <section id="project">
-            <div class="container-fluid project py-5">
-                <div class="container py-5">
-                    <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                        <p class="text-uppercase text-secondary fs-5 mb-0">Our Projects</p>
-                        <h2 class=" text-capitalize mb-3 contact_text">Recent Completed Projects</h2>
-                    </div>
-                    <div class="row g-5">
-                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="project-item">
-                                <div class="row g-4">
-                                    <div class="col-md-4">
-                                        <div class="project-img">
-                                            <img src="images/ratnakart3.jpg" class="img-fluid w-100 pt-3 ps-3" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="project-content mb-4">
-                                            <p class="fs-5 text-secondary mb-2">Architecture</p>
-
-                                            <p class="mb-0 mt-3">
-
-                                                Architecture is the art and technique of designing and building, as distinguished from the skills associated with construction. It is both the process and the product of sketching, conceiving, planning, designing, and constructing buildings or other structures.</p>
-                                        </div>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a> 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="project-item">
-                                <div class="row g-4">
-                                    <div class="col-md-4">
-                                        <div class="project-img">
-                                            <img src="images/ratnakart3.jpg" class="img-fluid w-100 pt-3 ps-3" alt=""> 
-                                            <img src="images/interior1.jpeg" class="img-fluid w-100 pt-3 ps-3" alt="">
-
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="project-content mb-4">
-                                            <p class="fs-5 text-secondary mb-2">Interior Design</p>
-                                            <p class="mb-0 mt-3">Interior design plays a crucial role in the construction of any space, whether it's a home, an office, or a commercial establishment. It goes beyond mere aesthetics as it aims to create functional and appealing environments that cater to the needs and preferences of the occupants.</p>
-                                        </div>
-                                     <a class="btn btn-primary py-2 px-4" href="#">Read More</a>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.2s">
-                            <div class="project-item">
-                                <div class="row g-4">
-                                    <div class="col-md-4">
-                                        <div class="project-img">
-                                            <img src="images/house and exterior.jpeg" class="img-fluid w-100 pt-3 ps-3" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="project-content mb-4">
-                                            <p class="fs-5 text-secondary mb-2">House & Exterior</p>
-                                            <p class="mb-0 mt-3">The exterior home design plays a crucial role in making guests and neighbours stop in their tracks and gawk in awe. Hence, planning the exterior design of a home is a daunting process of colour choices, materials and balancing shape.</p>
-                                        </div>
-                                         <a class="btn btn-primary py-2 px-4" href="#">Read More</a> 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 wow fadeInUp" data-wow-delay="0.4s">
-                            <div class="project-item">
-                                <div class="row g-4">
-                                    <div class="col-md-4">
-                                        <div class="project-img">
-                                            <img src="images/granade.jpeg" class="img-fluid w-100 pt-3 ps-3" alt="">
-                                        </div>
-                                    </div>
-                                    <div class="col-md-8">
-                                        <div class="project-content mb-4">
-                                            <p class="fs-5 text-secondary mb-2">Granite and Tile works</p>
-                                            <p class="mb-0 mt-3">Granite is a natural stone that's used to make tiles, and tiles can be made from a variety of materials, including ceramic, porcelain, and vitrified substances. Here are some things to consider when comparing granite and tiles:
-                                                Composition
-                                                Granite is an igneous rock that's formed when magma from deep within the Earth cools on the surface. Tiles can be made from a variety of materials, including ceramic, porcelain, and vitrified substances. </p>
-                                        </div>
-                                        <a class="btn btn-primary py-2 px-4" href="#">Read More</a> 
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                         <div class="col-12 text-center wow fadeInUp" data-wow-delay="0.2s">
-                        <a class="btn btn-secondary py-3 px-5" href="#">More Projects</a>
-                    </div> 
-                    </div>
-                </div>
-            </div>
-        </section> -->
-        <!-- Projects End -->
-
-        <!-- <section id="make_app">
-            <div class="container py-5">
-                <h2 class="text-center contact_text mb-5">Make an Appointment</h2>
-                <div class="row">
-                    <div class="col-6">
-                        <img src="images/app.webp" alt="" class="img-fluid h-50">
-                    </div>
-                    <div class="col-6 ">
-                        <form action="contactform.php" method="post" role="form" class="php-email-form ">
-
-                            <div class="row g-3">
-                                <div class="col-lg-12 col-xl-6">
-                                    <div class="form-floating">
-                                        <input type="text" name="contactname" class="form-control" id="name" placeholder="Your Name">
-                                        <label for="name">Your Name</label>
-                                    </div>
-                                </div>
-                                <div class="col-lg-12 col-xl-6">
-                                    <div class="form-floating">
-                                        <input type="phone" class="form-control" name="contactnumber" id="email" placeholder="Your Phone">
-                                        <label for="phone">Your Phone</label>
-                                    </div>
-                                </div>
-
-                                <div class="col-12">
-                                    <div class="form-floating ">
-                                        <input type="email" class="form-control" name="contactemail" id="subject" placeholder="email">
-                                        <label for="email">Your Email</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <div class="form-floating ">
-                                        <textarea class="form-control" name="contactmessage" placeholder="Leave a message here" id="message" style="height: 160px"></textarea>
-                                        <label for="message">Message</label>
-                                    </div>
-                                </div>
-                                <div class="col-12">
-                                    <button class="btn btn-primary w-100 py-3">Send Message</button>
-                                </div>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section> -->
 
         <section id="Recent Completed Projects" class="some">
             <div class="container-fluid project py-5">
@@ -1438,10 +882,6 @@
                 </div>
 
 
-
-
-
-
             </div>
 
 
@@ -1451,348 +891,145 @@
 
 
 
-        <!-- <section id="Construction and Project Management" class="gap">
-            <div class="container">
+
+
+        <section id="Construction and Project Management" class="gap">
+
+            <div class="container mt-5">
                 <h2 class="text-capitalize text-center fs-2 mb-5 contact_text">Construction and Project Management</h2>
-                <div class="row">
-                    <div class="ftco-departments">
-                        <div class="col-md-12  "
-                            style="background-color: rgb(236, 234, 234); padding-top: 10px; padding-bottom: 10px; border-radius: 8px; margin-bottom: 50px;">
-                            <div class="nav d-flex justify-content-between nav-pills" id="v-pills-tab" role="tablist"
-                                aria-orientation="horizontal">
-                                <div class="col-md-3 col-12  text_center">
 
-                                    <a class="    nav-link ftco-animate active " id="v-pills-a-tab" data-bs-toggle="pill"
-                                        href="#v-pills-a1" role="tab" aria-controls="v-pills-1" aria-selected="true">
-                                        3d modular of house
-                                    </a>
-
-                                </div>
-
-                                <div class="col-md-3 col-12 text_center">
-
-                                    <a class=" box_text_color nav-link ftco-animate" id="v-pills-b-tab" data-bs-toggle="pill"
-                                        href="#v-pills-b1" role="tab" aria-controls="v-pills-b" aria-selected="false">
-                                        project managing
-                                    </a>
-                                </div>
-
-                                <div class="col-md-3 col-12  text_center">
-
-                                    <a class=" box_text_color nav-link ftco-animate" id="v-pills-c-tab" data-bs-toggle="pill"
-                                        href="#v-pills-c1" role="tab" aria-controls="v-pills-c" aria-selected="false">
-                                        construction
-                                    </a>
-                                </div>
-
-                            </div>
+                <div class="d-flex flex-column flex-md-row justify-content-around mb-3">
+                    <div class="custom-tab active col-12 col-md-3 mb-2 mb-md-0" data-target="#content-1">
+                        <div class="text-center">
+                            3D Modular of House
                         </div>
-
-
-                        <div class=" tab-wrap">
-                            <div class="tab-content ftco-animate" id="v-pills-tabContent">
-
-                                <div class="tab-pane fade show active" id="v-pills-a1" role="tabpanel" aria-labelledby="v-pills-a-tab">
-
-                                    <div class="row">
-                                        <h3 class=" text-capitalize contact_text my-3 text-center mb-5">
-                                            Experience Your Dream Home in 3D
-                                        </h3>
-
-                                        <div class=" col-md-6">
-
-
-                                            <p>
-                                                Experience Your Dream Home in 3D
-                                                Step into the future of home design with our immersive 3D house view. Whether you're exploring the layout of your dream home or visualizing a renovation, our interactive 3D model brings every detail to life. Here's what you can expect:
-
-                                                Full 360° Views: Rotate, zoom, and navigate through every room and corner. Experience the true scale and layout of your home from every angle.
-                                                Detailed Interiors: View furniture placements, wall textures, lighting designs, and flooring options for an accurate feel of your space.
-                                                Customizable Features: Experiment with different finishes, color schemes, and furniture arrangements to make the space uniquely yours.
-                                                Seamless Navigation: Explore both the exterior and interior with intuitive controls that make navigation effortless.
-                                            </p>
-
-                                        </div>
-                                        <div class="col-md-6">
-                                            <section autoplay muted loop class="only_first mt-3  ">
-                                                <video id="myVideo" width="100%" autoplay controls muted loop>
-                                                    <source src="images/3d video.mp4" type="video/mp4">
-                                                    Your browser does not support the video tag.
-                                                </video>
-                                        </div>
-                                    </div>
-                                </div>
-
-
-
-
-
-
-
-
-                                <div class="tab-pane fade  " id="v-pills-b1" role="tabpanel" aria-labelledby="v-pills-a-tab">
-                                    <div class="row col-lg-12">
-
-
-                                        <div class="container">
-
-                                            <h3 class="my-5 text-center text-capitalize contact_text">
-
-
-                                                Efficient Project Management Turning Plans into Reality
-                                            </h3>
-                                            <p>
-                                                Project management is the cornerstone of achieving organizational goals and delivering success. By blending strategic planning, effective communication, and resource optimization, we ensure that every project reaches its potential. Key aspects of our approach include:
-
-                                                Strategic Planning: Clear goal setting, task prioritization, and timeline development to ensure every step aligns with the project's objectives.
-                                                Resource Management: Optimal allocation of personnel, tools, and budgets to maximize efficiency without compromising quality.
-                                                Collaborative Leadership: Encouraging teamwork and open communication to resolve challenges swiftly and foster innovation.
-                                                Risk Mitigation: Proactively identifying and addressing potential obstacles to keep projects on track.
-                                                Performance Monitoring: Using key metrics and regular updates to ensure milestones are met and adjustments are made when necessary.
-                                                Our project management expertise spans various domains, including construction, IT, product development, and event planning. From inception to completion, we focus on delivering projects that exceed expectations, on time, and within budget.
-
-
-                                            </p>
-
-
-
-
-                                        </div>
-                                    </div>
-                                </div>
-
-
-                                <div class="tab-pane fade " id="v-pills-c1" role="tabpanel" aria-labelledby="v-pills-a-tab">
-                                    <div class="container">
-                                        <div class="row  ">
-                                            <h3 class="my-5 text-center text-capitalize contact_text">
-                                                Building the Future with Excellence
-                                            </h3>
-                                            <div class="col-md-6">
-                                                <img src="images/ratnakart25.jpg" alt="" class="img-fluid">
-
-
-                                            </div>
-                                            <div class="col-md-6">
-                                                <p>
-                                                    The content of construction generally refers to the materials, elements, and considerations involved in the planning, design, and execution of a construction project. This concept can be broken down into several key components:
-
-                                                    1. Materials of Construction
-                                                    Structural Materials: Concrete, steel, wood, and masonry.
-                                                    Finishing Materials: Paints, tiles, glass, and plaster.
-                                                    Specialty Materials: Insulation, waterproofing, and fireproofing materials.
-                                                    2. Design and Planning Elements
-                                                    Architectural Design: Floor plans, elevations, and aesthetics.
-                                                    Structural Design: Load calculations, reinforcement, and stability analysis.
-                                                    Mechanical, Electrical, and Plumbing (MEP):
-                                                    HVAC systems
-                                                    Electrical wiring and fixtures
-                                                    Plumbing networks
-                                                    Environmental and Sustainability Considerations:
-                                                    Use of eco-friendly materials
-                                                    Energy-efficient designs (e.g., solar panels)
-                                                    3. Construction Techniques
-                                                    Traditional methods (e.g., brick-and-mortar)
-                                                    Modern techniques (e.g., modular construction, 3D printing, prefabrication)
-                                                    Specialized techniques for different environments (e.g., underwater, high-rise)
-                                                    4. Regulations and Standards
-                                                    Building codes and zoning laws.
-                                                    Safety standards (e.g., OSHA in the U.S.).
-                                                    Environmental regulations.
-                                                    5. Project Management Components
-                                                    Planning: Timeline, scheduling, and budgeting.
-                                                    Execution: Resource allocation, team management, and progress tracking.
-                                                    Quality Control: Ensuring the work meets the specified standards.
-                                                    Risk Management: Addressing potential issues like delays, cost overruns, and safety hazards.
-                                                    6. Documentation
-                                                    Construction drawings, blueprints, and models.
-                                                    Contracts, permits, and approvals.
-                                                    Records of inspections, tests, and certifications.</p>
-                                            </div>
-
-
-
-
-                                        </div>
-                                    </div>
-                                </div>
-
-                            </div>
+                    </div>
+                    <div class="custom-tab col-12 col-md-3 mb-2 mb-md-0" data-target="#content-2">
+                        <div class="text-center">
+                            Project Managing
+                        </div>
+                    </div>
+                    <div class="custom-tab col-12 col-md-3" data-target="#content-3">
+                        <div class="text-center">
+                            Construction
                         </div>
                     </div>
                 </div>
-            </div>
-        </section>  -->
 
 
+                <!-- Tabs Content -->
+                <div id="content-1" class="custom-tab-content active">
 
-<section id="Construction and Project Management" class="gap">
-
-        <div class="container mt-5">
-            <h2 class="text-capitalize text-center fs-2 mb-5 contact_text">Construction and Project Management</h2>
-
-            <!-- Tabs Navigation -->
-
-            <!-- 
-            <div class="d-flex justify-content-around mb-3">
-                <div class="custom-tab active col-md-3 col-12" data-target="#content-1 ">
-
-                    <div class=" text_center">
-
-
-                        3d modular of house
-
-
-                    </div>
-
-                </div>
-                <div class="custom-tab  col-md-3 col-12" data-target="#content-2">
-
-                    project managing
-                </div>
-                <div class="custom-tab  col-md-3 col-12" data-target="#content-3">
-                    construction
-                </div>
-            </div> -->
-
-
-
-
-
-
-
-            <div class="d-flex flex-column flex-md-row justify-content-around mb-3">
-                <div class="custom-tab active col-12 col-md-3 mb-2 mb-md-0" data-target="#content-1">
-                    <div class="text-center">
-                        3D Modular of House
-                    </div>
-                </div>
-                <div class="custom-tab col-12 col-md-3 mb-2 mb-md-0" data-target="#content-2">
-                    <div class="text-center">
-                        Project Managing
-                    </div>
-                </div>
-                <div class="custom-tab col-12 col-md-3" data-target="#content-3">
-                    <div class="text-center">
-                        Construction
-                    </div>
-                </div>
-            </div>
-
-
-            <!-- Tabs Content -->
-            <div id="content-1" class="custom-tab-content active">
-
-                <div class="row">
-                    <h3 class=" text-capitalize contact_text my-3 text-center mb-5">
-                        Experience Your Dream Home in 3D
-                    </h3>
-
-                    <div class=" col-md-6">
-
-
-                        <p>
+                    <div class="row">
+                        <h3 class=" text-capitalize contact_text my-3 text-center mb-5">
                             Experience Your Dream Home in 3D
-                            Step into the future of home design with our immersive 3D house view. Whether you're exploring the layout of your dream home or visualizing a renovation, our interactive 3D model brings every detail to life. Here's what you can expect:
+                        </h3>
 
-                            Full 360° Views: Rotate, zoom, and navigate through every room and corner. Experience the true scale and layout of your home from every angle.
-                            Detailed Interiors: View furniture placements, wall textures, lighting designs, and flooring options for an accurate feel of your space.
-                            Customizable Features: Experiment with different finishes, color schemes, and furniture arrangements to make the space uniquely yours.
-                            Seamless Navigation: Explore both the exterior and interior with intuitive controls that make navigation effortless.
+                        <div class=" col-md-6">
+
+
+                            <p>
+                                Experience Your Dream Home in 3D
+                                Step into the future of home design with our immersive 3D house view. Whether you're exploring the layout of your dream home or visualizing a renovation, our interactive 3D model brings every detail to life. Here's what you can expect:
+
+                                Full 360° Views: Rotate, zoom, and navigate through every room and corner. Experience the true scale and layout of your home from every angle.
+                                Detailed Interiors: View furniture placements, wall textures, lighting designs, and flooring options for an accurate feel of your space.
+                                Customizable Features: Experiment with different finishes, color schemes, and furniture arrangements to make the space uniquely yours.
+                                Seamless Navigation: Explore both the exterior and interior with intuitive controls that make navigation effortless.
+                            </p>
+
+                        </div>
+                        <div class="col-md-6">
+                            <section autoplay muted loop class="only_first mt-3  ">
+                                <video id="myVideo" width="100%" autoplay controls muted loop>
+                                    <source src="images/3d video.mp4" type="video/mp4">
+                                    Your browser does not support the video tag.
+                                </video>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="content-2" class="custom-tab-content">
+                    <div class="container">
+
+                        <h3 class="my-5 text-center text-capitalize contact_text">
+
+
+                            Efficient Project Management Turning Plans into Reality
+                        </h3>
+                        <p>
+                            Project management is the cornerstone of achieving organizational goals and delivering success. By blending strategic planning, effective communication, and resource optimization, we ensure that every project reaches its potential. Key aspects of our approach include:
+
+                            Strategic Planning: Clear goal setting, task prioritization, and timeline development to ensure every step aligns with the project's objectives.
+                            Resource Management: Optimal allocation of personnel, tools, and budgets to maximize efficiency without compromising quality.
+                            Collaborative Leadership: Encouraging teamwork and open communication to resolve challenges swiftly and foster innovation.
+                            Risk Mitigation: Proactively identifying and addressing potential obstacles to keep projects on track.
+                            Performance Monitoring: Using key metrics and regular updates to ensure milestones are met and adjustments are made when necessary.
+                            Our project management expertise spans various domains, including construction, IT, product development, and event planning. From inception to completion, we focus on delivering projects that exceed expectations, on time, and within budget.
+
+
                         </p>
 
-                    </div>
-                    <div class="col-md-6">
-                        <section autoplay muted loop class="only_first mt-3  ">
-                            <video id="myVideo" width="100%" autoplay controls muted loop>
-                                <source src="images/3d video.mp4" type="video/mp4">
-                                Your browser does not support the video tag.
-                            </video>
+
+
+
                     </div>
                 </div>
-            </div>
-
-            <div id="content-2" class="custom-tab-content">
-                <div class="container">
-
-                    <h3 class="my-5 text-center text-capitalize contact_text">
-
-
-                        Efficient Project Management Turning Plans into Reality
-                    </h3>
-                    <p>
-                        Project management is the cornerstone of achieving organizational goals and delivering success. By blending strategic planning, effective communication, and resource optimization, we ensure that every project reaches its potential. Key aspects of our approach include:
-
-                        Strategic Planning: Clear goal setting, task prioritization, and timeline development to ensure every step aligns with the project's objectives.
-                        Resource Management: Optimal allocation of personnel, tools, and budgets to maximize efficiency without compromising quality.
-                        Collaborative Leadership: Encouraging teamwork and open communication to resolve challenges swiftly and foster innovation.
-                        Risk Mitigation: Proactively identifying and addressing potential obstacles to keep projects on track.
-                        Performance Monitoring: Using key metrics and regular updates to ensure milestones are met and adjustments are made when necessary.
-                        Our project management expertise spans various domains, including construction, IT, product development, and event planning. From inception to completion, we focus on delivering projects that exceed expectations, on time, and within budget.
+                <div id="content-3" class="custom-tab-content">
+                    <div class="container">
+                        <div class="row  ">
+                            <h3 class="my-5 text-center text-capitalize contact_text">
+                                Building the Future with Excellence
+                            </h3>
+                            <div class="col-md-6">
+                                <img src="images/ratnakart25.jpg" alt="" class="img-fluid">
 
 
-                    </p>
+                            </div>
+                            <div class="col-md-6">
+                                <p>
+                                    The content of construction generally refers to the materials, elements, and considerations involved in the planning, design, and execution of a construction project. This concept can be broken down into several key components:
+
+                                    1. Materials of Construction
+                                    Structural Materials: Concrete, steel, wood, and masonry.
+                                    Finishing Materials: Paints, tiles, glass, and plaster.
+                                    Specialty Materials: Insulation, waterproofing, and fireproofing materials.
+                                    2. Design and Planning Elements
+                                    Architectural Design: Floor plans, elevations, and aesthetics.
+                                    Structural Design: Load calculations, reinforcement, and stability analysis.
+                                    Mechanical, Electrical, and Plumbing (MEP):
+                                    HVAC systems
+                                    Electrical wiring and fixtures
+                                    Plumbing networks
+                                    Environmental and Sustainability Considerations:
+                                    Use of eco-friendly materials
+                                    Energy-efficient designs (e.g., solar panels)
+                                    3. Construction Techniques
+                                    Traditional methods (e.g., brick-and-mortar)
+                                    Modern techniques (e.g., modular construction, 3D printing, prefabrication)
+                                    Specialized techniques for different environments (e.g., underwater, high-rise)
+                                    4. Regulations and Standards
+                                    Building codes and zoning laws.
+                                    Safety standards (e.g., OSHA in the U.S.).
+                                    Environmental regulations.
+                                    5. Project Management Components
+                                    Planning: Timeline, scheduling, and budgeting.
+                                    Execution: Resource allocation, team management, and progress tracking.
+                                    Quality Control: Ensuring the work meets the specified standards.
+                                    Risk Management: Addressing potential issues like delays, cost overruns, and safety hazards.
+                                    6. Documentation
+                                    Construction drawings, blueprints, and models.
+                                    Contracts, permits, and approvals.
+                                    Records of inspections, tests, and certifications.</p>
+                            </div>
 
 
-
-
-                </div>
-            </div>
-            <div id="content-3" class="custom-tab-content">
-                <div class="container">
-                    <div class="row  ">
-                        <h3 class="my-5 text-center text-capitalize contact_text">
-                            Building the Future with Excellence
-                        </h3>
-                        <div class="col-md-6">
-                            <img src="images/ratnakart25.jpg" alt="" class="img-fluid">
 
 
                         </div>
-                        <div class="col-md-6">
-                            <p>
-                                The content of construction generally refers to the materials, elements, and considerations involved in the planning, design, and execution of a construction project. This concept can be broken down into several key components:
-
-                                1. Materials of Construction
-                                Structural Materials: Concrete, steel, wood, and masonry.
-                                Finishing Materials: Paints, tiles, glass, and plaster.
-                                Specialty Materials: Insulation, waterproofing, and fireproofing materials.
-                                2. Design and Planning Elements
-                                Architectural Design: Floor plans, elevations, and aesthetics.
-                                Structural Design: Load calculations, reinforcement, and stability analysis.
-                                Mechanical, Electrical, and Plumbing (MEP):
-                                HVAC systems
-                                Electrical wiring and fixtures
-                                Plumbing networks
-                                Environmental and Sustainability Considerations:
-                                Use of eco-friendly materials
-                                Energy-efficient designs (e.g., solar panels)
-                                3. Construction Techniques
-                                Traditional methods (e.g., brick-and-mortar)
-                                Modern techniques (e.g., modular construction, 3D printing, prefabrication)
-                                Specialized techniques for different environments (e.g., underwater, high-rise)
-                                4. Regulations and Standards
-                                Building codes and zoning laws.
-                                Safety standards (e.g., OSHA in the U.S.).
-                                Environmental regulations.
-                                5. Project Management Components
-                                Planning: Timeline, scheduling, and budgeting.
-                                Execution: Resource allocation, team management, and progress tracking.
-                                Quality Control: Ensuring the work meets the specified standards.
-                                Risk Management: Addressing potential issues like delays, cost overruns, and safety hazards.
-                                6. Documentation
-                                Construction drawings, blueprints, and models.
-                                Contracts, permits, and approvals.
-                                Records of inspections, tests, and certifications.</p>
-                        </div>
-
-
-
-
                     </div>
                 </div>
             </div>
-        </div>
         </section>
         <!-- JavaScript Libraries -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -1825,164 +1062,9 @@
 
 
 
-        <!-- Team Start -->
-        <!-- 
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <p class="text-uppercase text-secondary fs-5 mb-0">Our Team</p>
-                    <h2 class="display-4 text-capitalize mb-3">Expert team members.</h2>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="team-item border border-primary p-1">
-                            <div class="team-border-style-1"></div>
-                            <div class="team-border-style-2"></div>
-                            <div class="team-border-style-3"></div>
-                            <div class="team-border-style-4"></div>
-                            <div class="team-img">
-                                <img src="img/team-1.jpg" class="img-fluid w-100" alt="">
-                                <div class="team-icon d-flex justify-content-around">
-                                    <a class="btn btn-secondary btn-md-square text-white mx-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center border border-top-0 bg-white py-3">
-                                <h4 class="mb-0">Masud Maria</h4>
-                                <p class="mb-0">Foreman</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="team-item border border-primary p-1">
-                            <div class="team-border-style-1"></div>
-                            <div class="team-border-style-2"></div>
-                            <div class="team-border-style-3"></div>
-                            <div class="team-border-style-4"></div>
-                            <div class="team-img">
-                                <img src="img/team-2.jpg" class="img-fluid w-100" alt="">
-                                <div class="team-icon d-flex justify-content-around">
-                                    <a class="btn btn-secondary btn-md-square text-white mx-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center border border-top-0 bg-white py-3">
-                                <h4 class="mb-0">Masud Maria</h4>
-                                <p class="mb-0">Foreman</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="team-item border border-primary p-1">
-                            <div class="team-border-style-1"></div>
-                            <div class="team-border-style-2"></div>
-                            <div class="team-border-style-3"></div>
-                            <div class="team-border-style-4"></div>
-                            <div class="team-img">
-                                <img src="img/team-3.jpg" class="img-fluid w-100" alt="">
-                                <div class="team-icon d-flex justify-content-around">
-                                    <a class="btn btn-secondary btn-md-square text-white mx-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center border border-top-0 bg-white py-3">
-                                <h4 class="mb-0">Masud Maria</h4>
-                                <p class="mb-0">Foreman</p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-3 wow fadeInUp" data-wow-delay="0.8s">
-                        <div class="team-item border border-primary p-1">
-                            <div class="team-border-style-1"></div>
-                            <div class="team-border-style-2"></div>
-                            <div class="team-border-style-3"></div>
-                            <div class="team-border-style-4"></div>
-                            <div class="team-img">
-                                <img src="img/team-4.jpg" class="img-fluid w-100" alt="">
-                                <div class="team-icon d-flex justify-content-around">
-                                    <a class="btn btn-secondary btn-md-square text-white mx-3" href=""><i class="fab fa-facebook-f"></i></a>
-                                    <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i class="fab fa-twitter"></i></a>
-                                    <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i class="fab fa-linkedin-in"></i></a>
-                                    <a class="btn btn-secondary btn-md-square text-white me-3" href=""><i class="fab fa-instagram"></i></a>
-                                </div>
-                            </div>
-                            <div class="text-center border border-top-0 bg-white py-3">
-                                <h4 class="mb-0">Masud Maria</h4>
-                                <p class="mb-0">Foreman</p>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div> -->
-        </div>
-        <!-- Team End -->
-
-        <!-- Blog Start -->
-        <!-- <div class="container-fluid blog pb-5">
-            <div class="container pb-5">
-                <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <p class="text-uppercase text-secondary fs-5 mb-0">News & Blog</p>
-                    <h2 class="display-4 text-capitalize mb-3">Our latest news post and articles?</h2>
-                </div>
-                <div class="row g-4">
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.2s">
-                        <div class="blog-item h-100">
-                            <div class="blog-img">
-                                <img src="img/blog-1.jpg" class="img-fluid w-100" alt="">
-                            </div>
-                            <div class="blog-content p-4">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
-                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p>
-                                </div>
-                                <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
-                                <a class="btn btn-secondary py-2 px-4" href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.4s">
-                        <div class="blog-item h-100">
-                            <div class="blog-img">
-                                <img src="img/blog-2.jpg" class="img-fluid w-100" alt="">
-                            </div>
-                            <div class="blog-content p-4">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
-                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p>
-                                </div>
-                                <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
-                                <a class="btn btn-secondary py-2 px-4" href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-lg-4 wow fadeInUp" data-wow-delay="0.6s">
-                        <div class="blog-item h-100">
-                            <div class="blog-img">
-                                <img src="img/blog-3.jpg" class="img-fluid w-100" alt="">
-                            </div>
-                            <div class="blog-content p-4">
-                                <div class="d-flex justify-content-between mb-3">
-                                    <p class="mb-0"><i class="fa fa-calendar-check text-secondary me-1"></i> 26 April 2025</p>
-                                    <p class="mb-0"><i class="fa fa-user text-secondary me-1"></i> Admin</p>
-                                </div>
-                                <a href="#" class="h4 d-block mb-4">Emerging Tech Trends What to in the Next Decade</a>
-                                <a class="btn btn-secondary py-2 px-4" href="#">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>  -->
-        <!-- Blog End -->
 
 
 
-        <!-- Testimonial Start -->
 
         <section>
             <div class="container-fluid testimonial pb-5">
@@ -2105,24 +1187,7 @@
             </div>
         </section>
 
-        <!-- <section class="banking">
-            <div class="container-fluid py-4"></div>
-            <h2 class="text-center text_center">Our Banking Partners</h2>
 
-            <div class="container py-5">
-                <div class="row">
-                    <div class="col-12 pics">
-                        <img src="images/11.png" alt="" class="img-fluid">
-                        <img src="images/22.png" alt="" class="img-fluid">
-                        <img src="images/partner1.svg" alt="" class="img-fluid">
-                        <img src="images/partner2.svg" alt="" class="img-fluid">
-                        <img src="images/partner3.svg" alt="" class="img-fluid">
-                        <img src="images/partner5.svg" alt=""  class="img-fluid">
-
-                    </div>
-                </div>
-            </div>
-        </section> -->
         <section>
             <div class="container ">
                 <div class="container-fluid py-5"></div>
@@ -2150,12 +1215,6 @@
                             <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
                                 <img src="images/partner3.svg" alt="" class="img-fluid">
                             </div>
-
-
-
-
-       
-
 
                             <script>
                                 var swiper = new Swiper(".custom-slide-content", {
@@ -2194,6 +1253,10 @@
                             </script>
 
                         </div>
+                    </div>
+                </div>
+            </div>
+
         </section>
         <!---Contact Start--------->
         <section id="contact">
@@ -2202,10 +1265,7 @@
                     <div class="row g-5 mb-5">
                         <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
                             <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-                            <p class="contact_text fs-3 mb-0 text-uppercase about color ">Contact Us</p>
-                                <!-- <p class="text-uppercase  fs-3 mb-0">Contact us</p> -->
-                                <!-- <h2 class="display-4 text-capitalize mb-3">Send Your Message</h2> -->
-                                <!-- <p class="mb-0">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
+                                <p class="contact_text fs-3 mb-0 text-uppercase about color ">Contact Us</p>
                             </div>
                             <form action="contactform.php" method="post" role="form" class="php-email-form">
 
@@ -2254,9 +1314,7 @@
                         </div>
                         <div class="col-lg-6 wow fadeInRight" data-wow-delay="0.4s">
                             <div class="contact-map h-100 w-100 my-5">
-                                <!-- <iframe class="h-100 w-100" 
-                                style="height: 500px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d387191.33750346623!2d-73.97968099999999!3d40.6974881!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c24fa5d33f083b%3A0xc80b8f06e177fe62!2sNew%20York%2C%20NY%2C%20USA!5e0!3m2!1sen!2sbd!4v1694259649153!5m2!1sen!2sbd" 
-                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> -->
+
                                 <iframe src="https://www.google.com/maps/embed?pb=!1m23!1m12!1m3!1d61063.794535250905!2d82.19210405663631!3d16.950571173303814!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!4m8!3e6!4m0!4m5!1s0x3a3827716b4dde65%3A0x67d7e63524de062b!2sRatnakar%20Constructions%2C%20Kakinada.!3m2!1d16.9504932!2d82.23330399999999!5e0!3m2!1sen!2sin!4v1732260331482!5m2!1sen!2sin"
                                     width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                             </div>
@@ -2299,7 +1357,6 @@
             </div>
         </section>
 
-        <!---Contact End------>
 
 
 
@@ -2384,9 +1441,6 @@
                         <span class="text-body"><a href="terms.html" class=" text-white">Terms & conditions :</a><a href="privacy.html" class=" text-white"> Privacy & Policy</a></span>
                     </div>
                     <div class="col-md-6 text-center text-white text-md-end ">
-                        <!--/*** This template is free as long as you keep the below author’s credit link/attribution link/backlink. ***/-->
-                        <!--/*** If you'd like to use the template without the below author’s credit link/attribution link/backlink, ***/-->
-                        <!--/*** you can purchase the Credit Removal License from "https://htmlcodex.com/credit-removal". ***/-->
                         Designed By
                         <a class="" href="https://bhavicreations.com/"> <img src="img/Bhavi_Branding_Stamp.png" class="brand" alt=""></a>
                     </div>
@@ -2394,7 +1448,7 @@
             </div>
         </div>
 
-                            
+
         <!-- Copyright End -->
         <a href="https://api.whatsapp.com/send?phone=9848424956" style="color: #fff;" class="whatsapp-link" target="_blank">
             <i class="fab fa-whatsapp"></i>
@@ -2441,17 +1495,11 @@
 
 
 
-        <!-- <a href="https://wa.me/1234567890" class="whatsapp-float" target="_blank">
-        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
-    </a> -->
-
-
-
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
 
 
 
-        </body>
+    </body>
 
-        </html>
+    </html>

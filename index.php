@@ -7,7 +7,14 @@
             <meta content="width=device-width, initial-scale=1.0" name="viewport">
             <meta content="" name="keywords">
             <meta content="" name="description">
-            <link rel="icon"   href="images/logor.png">
+            <!-- <link rel="icon"   href="images/logor.png"> -->
+
+
+            
+    <link rel="icon" type="image/png" href="images/logor.png" sizes="32x32">
+    <!-- Alternative formats and sizes -->
+    <!-- <link rel="icon" type="image/x-icon" href="favicon.ico"> -->
+
 
             <!-- Google Web Fonts -->
             <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -138,30 +145,30 @@
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
                 <span class="fa fa-bars"></span>
             </button>
-            <div class="collapse navbar-collapse" id="navbarCollapse">
-                <div class="navbar-nav ms-auto">
-                    <a href="index.html" class="nav-item nav-link active">Home</a>
-                    <a href="#about" class="nav-item nav-link">About</a>
-                    <a href="#service" class="nav-item nav-link">Services</a>
-                    <a href="#Gallery" class="nav-item nav-link">Gallery</a>
+            <div class="collapse navbar-collapse  " id="navbarCollapse ">
+                <div class="navbar-nav ms-auto  ">
+                    <a href="index.html" class="nav-item nav-link active about1  ">Home</a>
+                    <a href="#about" class="nav-item nav-link about1 ">About</a>
+                    <a href="#service" class="nav-item nav-link about1 ">Services</a>
+                    <a href="#Gallery" class="nav-item nav-link about1 ">Gallery</a>
 
                     <!-- Dropdown for Projects -->
                     <div class="nav-item dropdown">
-                        <a href="#" class="nav-link dropdown-toggle" id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <a href="#" class="nav-link dropdown-toggle about1 " id="projectsDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                             Projects
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="projectsDropdown">
-                            <li><a class="dropdown-item" href="#Recent Completed Projects">Recent Completed Projects</a></li>
-                            <li><a class="dropdown-item" href="#Progressive Projects">Progressive Projects</a></li>
-                            <li><a class="dropdown-item" href="#Construction and Project Management">Construction and Project Management</a></li>
+                            <li><a class="dropdown-item about1 " href="#Recent Completed Projects">Recent Completed Projects</a></li>
+                            <li><a class="dropdown-item about1 " href="#Progressive Projects">Progressive Projects</a></li>
+                            <li><a class="dropdown-item about1 " href="#Construction and Project Management">Construction and Project Management</a></li>
                         </ul>
                     </div>
 
-                    <a href="#contact" class="nav-item nav-link">Contact Us</a>
+                    <a href="#contact" class="nav-item nav-link about1 ">Contact Us</a>
                 </div>
                 <div class="d-flex align-items-center flex-nowrap pt-3  pt-lg-0 ms-lg-2">
                         <!-- <button class="btn btn-primary py-2 px-3" data-bs-toggle="modal" data-bs-target="#searchModal"><i class="fas fa-search"></i></button> -->
-                        <a href="#contact" class="btn  py-2 px-4 ms-3 flex-wrap flex-sm-shrink-0">9381457864</a>
+                        <a href="#contact" class="btn  py-2 px-4 ms-3 flex-wrap flex-sm-shrink-0 about1">9381457864</a>
                     </div>
             </div>
         </nav>
@@ -601,7 +608,7 @@
         <div class="container-fluid feature bg-light py-5 ">
             <div class="container py-5 ">
                 <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                    <p class="text-uppercase text-secondary fs-1 mb-0">Why Choose Us</p>
+                    <p class="text-uppercase text-secondary fs-1 mb-0 about">Why Choose Us</p>
                     <!-- <h2 class=" text-uppercase mb-3 text-secondary fs-1 ontact_text"></h2> -->
                 </div>
                 <div class="row g-4">
@@ -643,7 +650,7 @@
             <div class="container-fluid service bg-light pb-5">
                 <div class="container pb-5">
                     <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                        <p class="text-uppercase text-secondary  fs-1 mb-0">Our Services</p>
+                        <p class="text-uppercase text-secondary  fs-1 mb-0 about">Our Services</p>
                         <h2 class=" text-capitalize mb-3 contact_text">our service is creative, & decent</h2>
                     </div>
                     <div class="row g-4">
@@ -851,7 +858,7 @@
             <div class="container-fluid  py-5">
                 <div class="container py-5">
                     <div class="row g-4">
-                        <h2 class="text-center fs-1 contact_text my-4 text-uppercase text-secondary about1">3D <span class="fs-5">v/s</span> Real</h2>
+                        <h2 class="text-center fs-1 contact_text my-4 text-uppercase text-secondary about">3D <span class="fs-5">v/s</span> Real</h2>
                         <div class="col-lg-6 col-12">
                             <img src="images/2.png" alt="" class="img-fluid">
                         </div>
@@ -1328,7 +1335,7 @@
             <div class="container-fluid project py-5">
 
                 <div class="container py-5">
-                    <p class="text-uppercase text-secondary fs-1 mb-0 text-center">Our Projects</p>
+                    <p class="text-uppercase text-secondary fs-1 mb-0 text-center about">Our Projects</p>
                     <h2 class=" text-capitalize mb-5 contact_text text-center">Recent Completed Projects</h2>
 
                     <div class="row g-4">
@@ -1981,7 +1988,7 @@
             <div class="container-fluid testimonial pb-5">
                 <div class="container pb-5">
                     <div class="text-center mx-auto pb-5 wow fadeInUp" data-wow-delay="0.2s" style="max-width: 800px;">
-                        <p class="text-uppercase text-secondary fs-1 mb-0">Testimonials</p>
+                        <p class="text-uppercase text-secondary fs-1 mb-0 about">Testimonials</p>
                         <h2 class="text-capitalize mb-3 contact_text">Our clients' reviews</h2>
                     </div>
 
@@ -2079,7 +2086,7 @@
 
 
         <section class="package">
-            <h2 class="text-center mt-5 text-uppercase text-secondary fs-3 contact_text ">Our Packages</h2>
+            <h2 class="text-center mt-5 text-uppercase text-secondary fs-1 contact_text about ">Our Packages</h2>
             <div class="container mt-5">
                 <div class="row Packages ">
                     <div class="col-md-12 col-lg-4 text-center content">
@@ -2119,7 +2126,7 @@
         <section>
             <div class="container ">
                 <div class="container-fluid py-5"></div>
-                <h2 class="text-center  partner text-uppercase text-secondary fs-3  contact_text">Our Banking Partners</h2>
+                <h2 class="text-center  partner text-uppercase text-secondary fs-1 about  contact_text">Our Banking Partners</h2>
                 <div class="custom-slide-container swiper">
                     <div class="custom-slide-content">
                         <div class="custom-card-wrapper swiper-wrapper py-5 sliders">
@@ -2147,8 +2154,7 @@
 
 
 
-                            <!-- <div class="swiper-button-next custom-swiper-navBtn"></div>
-        <div class="swiper-button-prev custom-swiper-navBtn"></div> -->
+       
 
 
                             <script>
@@ -2196,7 +2202,8 @@
                     <div class="row g-5 mb-5">
                         <div class="col-lg-6 wow fadeInLeft" data-wow-delay="0.2s">
                             <div class="text-center mx-auto pb-5" style="max-width: 800px;">
-                                <p class="text-uppercase text-secondary fs-3 mb-0">Contact us</p>
+                            <p class="contact_text fs-3 mb-0 text-uppercase about color ">Contact Us</p>
+                                <!-- <p class="text-uppercase  fs-3 mb-0">Contact us</p> -->
                                 <!-- <h2 class="display-4 text-capitalize mb-3">Send Your Message</h2> -->
                                 <!-- <p class="mb-0">The contact form is currently inactive. Get a functional and working contact form with Ajax & PHP in a few minutes. Just copy and paste the files, add a little code and you're done. <a class="text-primary fw-bold" href="https://htmlcodex.com/contact-form">Download Now</a>.</p> -->
                             </div>
@@ -2386,6 +2393,8 @@
                 </div>
             </div>
         </div>
+
+                            
         <!-- Copyright End -->
         <a href="https://api.whatsapp.com/send?phone=9848424956" style="color: #fff;" class="whatsapp-link" target="_blank">
             <i class="fab fa-whatsapp"></i>

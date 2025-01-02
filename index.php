@@ -44,7 +44,7 @@
 
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
-            <!-- imageslider -->
+        <!-- imageslider -->
 
     </head>
 
@@ -1192,71 +1192,71 @@
         <section>
             <div class="container ">
                 <div class="container-fluid py-5">
-                <h2 class="text-center  partner text-uppercase text-secondary fs-1 about  contact_text">Our Banking Partners</h2>
-                <div class="custom-slide-container swiper">
-                    <div class="custom-slide-content">
-                        <div class="custom-card-wrapper swiper-wrapper py-5 sliders">
+                    <h2 class="text-center  partner text-uppercase text-secondary fs-1 about  contact_text">Our Banking Partners</h2>
+                    <div class="custom-slide-container swiper">
+                        <div class="custom-slide-content">
+                            <div class="custom-card-wrapper swiper-wrapper py-5 sliders">
 
-                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
-                                <img src="images/icici.jpg" alt="" class="img-fluid text-center border 2px solid ">
-                            </div>
+                                <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
+                                    <img src="images/icici.jpg" alt="" class="img-fluid text-center border 2px solid ">
+                                </div>
 
-                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
-                                <img src="images/22.png" alt="" class="img-fluid">
-                            </div>
+                                <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
+                                    <img src="images/22.png" alt="" class="img-fluid">
+                                </div>
 
-                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
-                                <img src="images/partner1.svg" alt="" class="img-fluid">
-                            </div>
+                                <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
+                                    <img src="images/partner1.svg" alt="" class="img-fluid">
+                                </div>
 
-                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
-                                <img src="images/partner2.svg" alt="" class="img-fluid">
-                            </div>
+                                <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
+                                    <img src="images/partner2.svg" alt="" class="img-fluid">
+                                </div>
 
-                            <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
-                                <img src="images/partner3.svg" alt="" class="img-fluid">
-                            </div>
+                                <div class="custom-card custom_card_bg_two swiper-slide col-12 col-md-6 col-lg-4">
+                                    <img src="images/partner3.svg" alt="" class="img-fluid">
+                                </div>
 
-                            <script>
-                                var swiper = new Swiper(".custom-slide-content", {
-                                    slidesPerView: 3,
-                                    spaceBetween: 25,
-                                    loop: true,
-                                    centerSlide: 'true',
-                                    fade: 'true',
-                                    grabCursor: 'true',
-                                    pagination: {
-                                        el: ".custom-swiper-pagination",
-                                        clickable: true,
-                                        dynamicBullets: true,
-                                    },
-                                    autoplay: {
-                                        delay: 3000, // Time in milliseconds between automatic slides (3 seconds here)
-                                        disableOnInteraction: false, // Keeps autoplay active even after manual swiping
-                                    },
-                                    navigation: {
-                                        nextEl: ".swiper-button-next.custom-swiper-navBtn",
-                                        prevEl: ".swiper-button-prev.custom-swiper-navBtn",
-                                    },
-
-                                    breakpoints: {
-                                        0: {
-                                            slidesPerView: 1,
+                                <script>
+                                    var swiper = new Swiper(".custom-slide-content", {
+                                        slidesPerView: 3,
+                                        spaceBetween: 25,
+                                        loop: true,
+                                        centerSlide: 'true',
+                                        fade: 'true',
+                                        grabCursor: 'true',
+                                        pagination: {
+                                            el: ".custom-swiper-pagination",
+                                            clickable: true,
+                                            dynamicBullets: true,
                                         },
-                                        520: {
-                                            slidesPerView: 2,
+                                        autoplay: {
+                                            delay: 3000, // Time in milliseconds between automatic slides (3 seconds here)
+                                            disableOnInteraction: false, // Keeps autoplay active even after manual swiping
                                         },
-                                        950: {
-                                            slidesPerView: 3,
+                                        navigation: {
+                                            nextEl: ".swiper-button-next.custom-swiper-navBtn",
+                                            prevEl: ".swiper-button-prev.custom-swiper-navBtn",
                                         },
-                                    },
-                                });
-                            </script>
 
+                                        breakpoints: {
+                                            0: {
+                                                slidesPerView: 1,
+                                            },
+                                            520: {
+                                                slidesPerView: 2,
+                                            },
+                                            950: {
+                                                slidesPerView: 3,
+                                            },
+                                        },
+                                    });
+                                </script>
+
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
 
         </section>
         <!---Contact Start--------->
@@ -1435,22 +1435,22 @@
 
 
         <!-- Copyright Start -->
-<section class="copy">
-     
-        <div class="container-fluid copyright py-2">
-            <div class="container">
-                <div class="row g-4 align-items-center">
-                    <div class="col-md-6 text-center text-md-start mb-md-0">
-                        <span class="text-body"><a href="terms.html" class=" text-white">Terms & conditions :</a><a href="privacy.html" class=" text-white"> Privacy & Policy</a></span>
-                    </div>
-                    <div class="col-md-6 text-center text-white text-md-end ">
-                        Designed By
-                        <a class="" href="https://bhavicreations.com/"> <img src="img/Bhavi_Branding_Stamp.png" class="brand" alt=""></a>
+        <section class="copy">
+
+            <div class="container-fluid copyright py-2">
+                <div class="container">
+                    <div class="row g-4 align-items-center">
+                        <div class="col-md-6 text-center text-md-start mb-md-0">
+                            <span class="text-body"><a href="terms.html" class=" text-white">Terms & conditions :</a><a href="privacy.html" class=" text-white"> Privacy & Policy</a></span>
+                        </div>
+                        <div class="col-md-6 text-center text-white text-md-end ">
+                            Designed By
+                            <a class="" href="https://bhavicreations.com/"> <img src="img/Bhavi_Branding_Stamp.png" class="brand" alt=""></a>
+                        </div>
                     </div>
                 </div>
             </div>
-        </div>
-        
+
         </section>
         <!-- Copyright End -->
         <a href="https://api.whatsapp.com/send?phone=9848424956" style="color: #fff;" class="whatsapp-link" target="_blank">
@@ -1492,7 +1492,7 @@
 
 
         <!-- Template Javascript -->
-         <script src="js/main.js"></script>
+        <script src="js/main.js"></script>
 
         <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -1500,8 +1500,8 @@
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
- 
-        
+
+
 
     </body>
 

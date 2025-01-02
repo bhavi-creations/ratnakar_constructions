@@ -2,8 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 body{
     font-family: 'poppins',sans-serif;
-    background: ('');
+   
+    margin: 0px;
+    padding: 0px;
 }
+
+ 
 /*** Spinner Start ***/
 /*** Spinner ***/
 #spinner {
@@ -1082,11 +1086,7 @@ h1{
     background-repeat: no-repeat;
     background-size: cover;
 }   
-/* .footer-item img{
-    width: 200px;
-    height: 200px;
-    
-} */
+
 .footer-item .img-fluid{
 border-radius: 20px;
 
@@ -1111,7 +1111,7 @@ border-radius: 20px;
 }
 
 .footer .footer-item a:hover {
-    letter-spacing: 1px;
+     letter-spacing: 1px;
      color: var(--bs-secondary); 
 }
 
@@ -1176,13 +1176,7 @@ border-radius: 20px;
 }
 
 
- /* .Packages{
-  
-    display: flex;
-    flex-direction: row;
- 
-    justify-content: center;
-}   */
+
 
 .custom-slide-container {
     max-width: 1120px;
@@ -1197,7 +1191,7 @@ border-radius: 20px;
     height: 200px;
   }
   .partner{
-    /* font-weight: 900px; */
+  
     font-size: 40px;
   }
   .about{
@@ -1309,12 +1303,6 @@ border-radius: 20px;
 
 
 
-.nav-pills {
-    --bs-nav-pills-border-radius: var(--bs-border-radius);
-    --bs-nav-pills-link-active-color: #fff;
-    --bs-nav-pills-link-active-bg: #0d6efd;
-}
-
 .table{
     display: flex;
     justify-content: center;
@@ -1387,3 +1375,6 @@ border-radius: 20px;
     .color{
         color: #375356;
     }
+    .copy {
+        margin-bottom: -1000px;
+       } 

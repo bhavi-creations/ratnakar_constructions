@@ -44,6 +44,7 @@
 
         <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/freeps2/a7rarpress@main/swiper-bundle.min.css">
+            <!-- imageslider -->
 
     </head>
 
@@ -1190,7 +1191,7 @@
 
         <section>
             <div class="container ">
-                <div class="container-fluid py-5"></div>
+                <div class="container-fluid py-5">
                 <h2 class="text-center  partner text-uppercase text-secondary fs-1 about  contact_text">Our Banking Partners</h2>
                 <div class="custom-slide-container swiper">
                     <div class="custom-slide-content">
@@ -1434,6 +1435,8 @@
 
 
         <!-- Copyright Start -->
+<section class="copy">
+     
         <div class="container-fluid copyright py-2">
             <div class="container">
                 <div class="row g-4 align-items-center">
@@ -1447,8 +1450,8 @@
                 </div>
             </div>
         </div>
-
-
+        
+        </section>
         <!-- Copyright End -->
         <a href="https://api.whatsapp.com/send?phone=9848424956" style="color: #fff;" class="whatsapp-link" target="_blank">
             <i class="fab fa-whatsapp"></i>
@@ -1489,7 +1492,7 @@
 
 
         <!-- Template Javascript -->
-        <script src="js/main.js"></script>
+         <script src="js/main.js"></script>
 
         <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
@@ -1497,8 +1500,8 @@
 
         <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
-
-
+ 
+        
 
     </body>
 
